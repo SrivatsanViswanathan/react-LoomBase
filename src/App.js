@@ -78,25 +78,43 @@ function App() {
   const fetchData = async () => {
     if (genre === "veils of shadow") {
       try {
-        const response = await axios.get("/.netlify/functions/getData");
-        let { genres, loomians, moves, abilities, items, types } =
-          response.data;
-        moves = [...moves].sort((a, b) => {
+        // const response = await axios.get("/.netlify/functions/getData");
+        // let { genres, loomians, moves, abilities, items, types } =
+        //   response.data;
+
+        let [genres, loomians, moves, abilities, items, types] =
+          await Promise.all([
+            axios.get("https://loombase.netlify.app/genres.json"),
+            axios.get("https://loombase.netlify.app/loomians.json"),
+            axios.get("https://loombase.netlify.app/moves.json"),
+            axios.get("https://loombase.netlify.app/abilities.json"),
+            axios.get("https://loombase.netlify.app/items.json"),
+            axios.get("https://loombase.netlify.app/types.json"),
+          ]);
+
+        moves = [...moves.data].sort((a, b) => {
           const nameA = a.name.toLowerCase();
           const nameB = b.name.toLowerCase();
           return nameA.localeCompare(nameB);
         });
 
-        dispatch(setGenres(genres));
-        dispatch(setLoomians(loomians));
-        dispatch(setBackupLoomians(loomians));
-        dispatch(setMoves(moves));
-        dispatch(setBackupMoves(moves));
-        dispatch(setAbilities(abilities));
-        dispatch(setItems(items));
-        dispatch(setTypes(types));
+        dispatch(setGenres(genres.data));
+        dispatch(setLoomians(loomians.data));
+        dispatch(setBackupLoomians(loomians.data));
+        dispatch(setMoves(moves.data));
+        dispatch(setBackupMoves(moves.data));
+        dispatch(setAbilities(abilities.data));
+        dispatch(setItems(items.data));
+        dispatch(setTypes(types.data));
 
-        createHashmaps(loomians, abilities, moves, types, items, dispatch);
+        createHashmaps(
+          loomians.data,
+          abilities.data,
+          moves.data,
+          types.data,
+          items.data,
+          dispatch
+        );
 
         createSets(dispatch);
 
