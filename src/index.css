@@ -14,7 +14,7 @@
 
 html {
   font-size: 100%;
-} 
+}
 
 :root {
   /* colors */
@@ -76,7 +76,8 @@ html {
   --abilityColor: var(--primary-400);
   --moveColor: var(--primary-100);
   --statHighlight: var(--primary-200);
-  --darkModeTransition: color 0.3s ease-in-out, background-color: 0.3s ease-in-out
+  --darkModeTransition: color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
 .dark-theme {
@@ -87,7 +88,7 @@ html {
 }
 
 ::selection {
-  background-color:#60a5fa;
+  background-color: #60a5fa;
 }
 
 body {
@@ -116,7 +117,7 @@ h5 {
 }
 
 h1 {
-  font-size: clamp(3rem, 5vw, 5rem); 
+  font-size: clamp(3rem, 5vw, 5rem);
 }
 
 h2 {
@@ -124,15 +125,15 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(2rem, 2.5vw, 3rem); 
+  font-size: clamp(2rem, 2.5vw, 3rem);
 }
 
 h4 {
-  font-size: clamp(2rem, 2vw, 2.5rem); 
+  font-size: clamp(2rem, 2vw, 2.5rem);
 }
 
 h5 {
-  font-size: clamp(2rem, 1.5vw, 2rem); 
+  font-size: clamp(2rem, 1.5vw, 2rem);
 }
 
 .text {
@@ -204,7 +205,6 @@ ul {
   background: var(--green-light);
 }
 
-
 .form {
   width: 90vw;
   max-width: var(--fixed-width);
@@ -263,7 +263,6 @@ ul {
   margin: 0 auto;
 }
 
-
 .title {
   text-align: center;
 }
@@ -313,10 +312,10 @@ ul {
   background-color: #6b7280;
 }
 .ancient {
-   background-color: #a855f7;
+  background-color: #a855f7;
 }
 .spirit {
-   background-color: #4c1d95;
+  background-color: #4c1d95;
 }
 .brawler {
   background-color: #a52a2a;
