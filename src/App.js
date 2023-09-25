@@ -39,6 +39,7 @@ const router = createBrowserRouter([
     element: <HomePage></HomePage>,
     children: [
       { index: true, path: "/", element: <Loomians></Loomians> },
+      { path: "loomians", element: <Loomians></Loomians> },
       { path: "loomians/:id", element: <SingleLoomian></SingleLoomian> },
       { path: "abilities", element: <Abilities></Abilities> },
       { path: "abilities/:id", element: <SingleAbility></SingleAbility> },
