@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Embit",
+    "types": ["Fire"],
+    "abilities": ["Awakening"],
+    "sAbility": ["Terrifying"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/1/1c/Embit-model.png/revision/latest?cb=20190718023057",
+    "stats": {
+      " hp": 57,
+      "energy": 51,
+      "attack": 60,
+      "defense": 67,
+      "attackR": 36,
+      "defenseR": 50,
+      "speed": 40
+    },
+    "weight": 20,
+    "line": ["Embit", "Rabburn", "SearKnight"],
+    "moveset": [
+      "Pounce",
+      "Growl",
+      "Singe",
+      "Burrow",
+      "Ear Slap",
+      "Hop Kick",
+      "Fire Slam",
+      "Power Focus",
+      "Flaming Kick",
+      "Chase Down",
+      "Fire Breath",
+      "Slap Down"
+    ]
+  }
+]

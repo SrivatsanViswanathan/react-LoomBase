@@ -1,0 +1,20 @@
+{
+  "name": "avitross",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Setup sweeper",
+      "abilities": ["Rev Up"],
+      "items": ["Air Essence"],
+      "personalities": ["Very Brawny, Clumsy, Foolish"],
+      "tps": ["192 HP", "4 En", "200 M Atk", "104 Sp"],
+      "ups": "",
+      "moves": ["Nosedive", "Thunder Crash", "Brawn Boost", "Perch"],
+      "detail": "192 HP maximizes HP while keeping it odd for less icicle traps damage \n 200 Melee Attack maximizes damage output \n 104 Speed creeps nimble Zepholen, Very Brawny Garlash and Smart Nymaurae before Rev Up boost and Very Brawny boots lash after Rev Up boost \n 4 Energy is for an extra Energy stat",
+      "otherOptions": "Driving Force \n Body Slam \n 136 Speed to creep Very brawny boots Tahtab after a Rev Up boost ",
+      "teamOptions": "",
+      "author": "Saur"
+    }
+  ]
+}
