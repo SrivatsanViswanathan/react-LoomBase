@@ -27,6 +27,3 @@ yarn-error.log*
 
 # Environment variables
 .env
-
-# Netlify functions
-/functions

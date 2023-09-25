@@ -82,7 +82,24 @@ function App() {
         // let { genres, loomians, moves, abilities, items, types } =
         //   response.data;
 
-        let [genres, loomians, moves, abilities, items, types] =
+        // moves = [...moves].sort((a, b) => {
+        //   const nameA = a.name.toLowerCase();
+        //   const nameB = b.name.toLowerCase();
+        //   return nameA.localeCompare(nameB);
+        // }); loomians, abilities, moves, types, items, dispatch;
+
+        // dispatch(setGenres(genres));
+        // dispatch(setLoomians(loomians));
+        // dispatch(setBackupLoomians(loomians));
+        // dispatch(setMoves(moves));
+        // dispatch(setBackupMoves(moves));
+        // dispatch(setAbilities(abilities));
+        // dispatch(setItems(items));
+        // dispatch(setTypes(types));
+
+        // createHashmaps(loomians, abilities, moves, types, items, dispatch);
+
+        const [genres, loomians, moves, abilities, items, types] =
           await Promise.all([
             axios.get("https://loombase.netlify.app/genres.json"),
             axios.get("https://loombase.netlify.app/loomians.json"),
@@ -111,8 +128,8 @@ function App() {
           loomians.data,
           abilities.data,
           moves.data,
-          items.data,
           types.data,
+          items.data,
           dispatch
         );
 
