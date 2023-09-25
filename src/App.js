@@ -92,7 +92,7 @@ function App() {
             axios.get("https://loombase.netlify.app/types.json"),
           ]);
 
-        moves = [...moves.data].sort((a, b) => {
+        moves.data = [...moves.data].sort((a, b) => {
           const nameA = a.name.toLowerCase();
           const nameB = b.name.toLowerCase();
           return nameA.localeCompare(nameB);
@@ -111,8 +111,8 @@ function App() {
           loomians.data,
           abilities.data,
           moves.data,
-          types.data,
           items.data,
+          types.data,
           dispatch
         );
 
