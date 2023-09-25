@@ -1,0 +1,3202 @@
+[
+  {
+    "name": "Accelerate",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Sharply increase your speed."
+  },
+  {
+    "name": "Aim",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 10,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Take a moment to focus your aim on the target. Your next move will not miss them."
+  },
+  {
+    "name": "Bait",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 30,
+    "accuracy": "",
+    "priority": 2,
+    "description": "Trick your opponents into using their moves on you, if able, instead of their original target."
+  },
+  {
+    "name": "Barter",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Convince the target to trade items with you."
+  },
+  {
+    "name": "Battle Horn",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Raise your Melee Attack and Melee Defense. The first time you use it, it will cure the status aliments of all Loomians on the field."
+  },
+  {
+    "name": "Bequeath",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": -6,
+    "description": "Accept your fate, and instantly faint, bestowing upon your replacement all of your stat changes. This move tends to go last."
+  },
+  {
+    "name": "Body Slam",
+    "strength": 90,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Crash into your opponent with a full-body tackle."
+  },
+  {
+    "name": "Brace",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 15,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Stiffen all the muscles in your body to raise your Melee Defense."
+  },
+  {
+    "name": "Chase Down",
+    "strength": 40,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 15,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Follow your target and perform an attack. If they attempt to retreat this turn, you will strike first with 1.5x the strength."
+  },
+  {
+    "name": "Dawdle",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 15,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Play around bashfully, causing your opponent(s) to let their guard down and lower their Melee Defense."
+  },
+  {
+    "name": "Daydream",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 0,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Get lost in thought. This move does nothing to help with the battle."
+  },
+  {
+    "name": "Dissonant Chord",
+    "strength": 80,
+    "type": "Typeless",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Play a loud, harsh sound that damages the foe and prevents them from falling asleep."
+  },
+  {
+    "name": "Dodge",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 20,
+    "accuracy": "",
+    "priority": 2,
+    "description": "Prepare to dodge any attacks that come at you this turn. May fail if used consecutively."
+  },
+  {
+    "name": "Drudge",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Push yourself to perform better, boosting your Melee Attack and Speed."
+  },
+  {
+    "name": "Ear Slap",
+    "strength": 15,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 18,
+    "accuracy": 0.85,
+    "priority": 0,
+    "description": "With large ears, slap the target back and forth two to five times in a row."
+  },
+  {
+    "name": "Eerie Stare",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Spook the foe with a stare that lowers their Melee Defense and Speed."
+  },
+  {
+    "name": "Eerie Stare",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Spook the foe with a stare that lowers their Melee Defense and Speed."
+  },
+  {
+    "name": "Examine",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 15,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Watch your opponent to discover their weak point. Your next move is guaranteed to be critical."
+  },
+  {
+    "name": "Give Up",
+    "strength": 1,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 0,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "The user deals damage, then faints."
+  },
+  {
+    "name": "Gnaw",
+    "strength": 40,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 15,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Bite the target with a small amount of force."
+  },
+  {
+    "name": "Growl",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 10,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Declare your hostility to your opponent(s) with an angry growl, lowering their Melee Attack."
+  },
+  {
+    "name": "Harmonious Chord",
+    "strength": 60,
+    "type": "Typeless",
+    "category": "Ranged",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Play a delightful tone that damages the foe a little, and may put them to sleep."
+  },
+  {
+    "name": "Headbutt",
+    "strength": 60,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Charge into the opponent. May also lower their speed."
+  },
+  {
+    "name": "Hight-Pitch Screech",
+    "strength": 80,
+    "type": "Typeless",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "May leave the opponent dazed."
+  },
+  {
+    "name": "Ill Will",
+    "strength": 60,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Spitefully strike the opponent. Power is doubled when you are inflicted with a status ailment."
+  },
+  {
+    "name": "Nab",
+    "strength": 75,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "A close-up attack. If the target is equipped with an edible item, take it and consume it."
+  },
+  {
+    "name": "Pounce",
+    "strength": 40,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 15,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Unexpectedly dash into the target."
+  },
+  {
+    "name": "Power Focus",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Focus on your strengths, boosting your Melee Attack and Ranged Attack."
+  },
+  {
+    "name": "Quick Pounce",
+    "strength": 40,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 1,
+    "description": "Lunge into the foe before they are ready to move."
+  },
+  {
+    "name": "Raging Howl",
+    "strength": 120,
+    "type": "Typeless",
+    "category": "Ranged",
+    "energyCost": 62,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Roar furiously to deal massive damage to the opponent, but also damages yourself."
+  },
+  {
+    "name": "Raging Tackle",
+    "strength": 120,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 62,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Recklessly slam into the opponent, damaging yourself some in the process."
+  },
+  {
+    "name": "Rainbow Blast",
+    "strength": 100,
+    "type": "Typeless",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Fire a rainbow beam at the opponent."
+  },
+  {
+    "name": "Recycle",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Pick up an equipped item that you previously used during this battle and re-equip it."
+  },
+  {
+    "name": "Rejuvenate",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 72,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Focus your energy on your own well-being to restore half of your Health."
+  },
+  {
+    "name": "Repeating Tune",
+    "strength": 25,
+    "type": "Typeless",
+    "category": "Ranged",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Repeat the same musical notes, damaging the target two to three times."
+  },
+  {
+    "name": "Resonate",
+    "strength": 90,
+    "type": "Typeless",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Produce an amplified sound that damages the target, and may boost your Ranged Attack."
+  },
+  {
+    "name": "Scapegoat",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 0,
+    "accuracy": "",
+    "priority": 0,
+    "description": "At the cost of one quarter of your Health, throw out a decoy that the opponent must attack instead of you."
+  },
+  {
+    "name": "Slash",
+    "strength": 75,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 36,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Hack at the opponent with sharp claws. Lands critical hits more often."
+  },
+  {
+    "name": "Slumber",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Sleep for 3 turns. Each turn, recover 1/3 Health and 1/4 Energy."
+  },
+  {
+    "name": "Spare",
+    "strength": 40,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 15,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the foe, but leave them with at least one Health Point."
+  },
+  {
+    "name": "Spit",
+    "strength": 50,
+    "type": "Typeless",
+    "category": "Ranged",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "A damaging move that also lowers the target's Ranged Defense."
+  },
+  {
+    "name": "Spit Out",
+    "strength": 90,
+    "type": "Typeless",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Chew up your equipped item and spit it at the foe. Certain item may change the type of this move."
+  },
+  {
+    "name": "Sqawk",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 10,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Screech at the foe, lowering their Melee Defense."
+  },
+  {
+    "name": "Stampede",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Gather your remaining allies and trample the foe. This move's Strength is based on the sum of your team's Base Melee Attack stats."
+  },
+  {
+    "name": "Stare",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 10,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Stare intimidatingly at the opponent(s), lowering their Melee Defense."
+  },
+  {
+    "name": "Stretch",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 15,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Stretch your muscles to be better prepared to move."
+  },
+  {
+    "name": "Strike",
+    "strength": 40,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 15,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Hit the target with tail, paw, wing etc."
+  },
+  {
+    "name": "Summon",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Use a random one of your allies' moves."
+  },
+  {
+    "name": "Swipe",
+    "strength": 60,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 22,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "The user swipes the target with its sharp claws."
+  },
+  {
+    "name": "Tail Slap",
+    "strength": 40,
+    "type": "Typeless",
+    "category": "Melee",
+    "energyCost": 10,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Slap the target with your tail."
+  },
+  {
+    "name": "Tear Down",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 45,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Dismantle obstacles and enchantments from both sides of the field."
+  },
+  {
+    "name": "Tone Barrier",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 20,
+    "accuracy": "",
+    "priority": 2,
+    "description": "Protect yourself with a wall of inaudible sound waves. Ranged moves targeting you will cause a reverberation, damaging their user. May fail if used consecutively."
+  },
+  {
+    "name": "Tribute",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Sacrifice your remaining Health to harshly lower the target's Melee Attack and Ranged Attack."
+  },
+  {
+    "name": "Blaze Chomp",
+    "strength": 70,
+    "type": "Fire",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Bite the foe with fiery fangs. The target may flinch or be left with a burn."
+  },
+  {
+    "name": "Blaze Punch",
+    "strength": 70,
+    "type": "Fire",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Punch the foe with fiery fists. The target may become dazed or be left with a burn."
+  },
+  {
+    "name": "Burn Up",
+    "strength": 0,
+    "type": "Fire",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Kindle your flames to raise your Ranged Attack and burn traps placed on your side of the field."
+  },
+  {
+    "name": "Fiery Fondant",
+    "strength": 90,
+    "type": "Fire",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Coat yourself in a layer of fondant and recklessly charge into the opponent. This will also boost your Melee Defense and damage yourself some in the process."
+  },
+  {
+    "name": "Fire Breath",
+    "strength": 90,
+    "type": "Fire",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Breath fire on your foe. This may also burn them."
+  },
+  {
+    "name": "Fire Slam",
+    "strength": 65,
+    "type": "Fire",
+    "category": "Melee",
+    "energyCost": 26,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Shroud yourself in fire and charge into the target. May also burn the target."
+  },
+  {
+    "name": "Flaming Kick",
+    "strength": 80,
+    "type": "Fire",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Launch yourself toward your opponent with a fiery kick. Lands critical hits more often. May also burn the target."
+  },
+  {
+    "name": "Heat Wave",
+    "strength": 0,
+    "type": "Fire",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Summon a smoldering heat wave that lasts a few turns."
+  },
+  {
+    "name": "Kindled Rage",
+    "strength": 70,
+    "type": "Fire",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "This move's Strength is doubled if you have already taken damage from another Loomian's move within the same turn."
+  },
+  {
+    "name": "Lava Smash",
+    "strength": 70,
+    "type": "Fire",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Hack at the opponent with sharp claws. Lands critical hits more often. May leave the target with a burn."
+  },
+  {
+    "name": "Magma Block",
+    "strength": 0,
+    "type": "Fire",
+    "category": "Support",
+    "energyCost": 30,
+    "accuracy": "",
+    "priority": 2,
+    "description": "Protect yourself by creating a wall of magma that will hurt any Loomians who attempt to make contact with you this turn. May fail if used consecutively."
+  },
+  {
+    "name": "Phoenix Flame",
+    "strength": 0,
+    "type": "Fire",
+    "category": "Support",
+    "energyCost": 0,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Deplete all your remaining energy, and restore that much health. If ≥ 25% Energy was used, stat drops are cleared. If ≥ 50% Energy was used, status ailments are cleared."
+  },
+  {
+    "name": "Pyrokinesis",
+    "strength": 65,
+    "type": "Fire",
+    "category": "Ranged",
+    "energyCost": 38,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Scorch the foe with flames created by your mind alone. This may burn them."
+  },
+  {
+    "name": "Raging Flame",
+    "strength": 0,
+    "type": "Fire",
+    "category": "Support",
+    "energyCost": 35,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Burn the target with a blazing hot ball of fire."
+  },
+  {
+    "name": "Rapid Fire",
+    "strength": 20,
+    "type": "Fire",
+    "category": "Ranged",
+    "energyCost": 32,
+    "accuracy": 0.95,
+    "priority": 0,
+    "description": "Launch three fireballs at the target, each having a small chance to burn them."
+  },
+  {
+    "name": "Singe",
+    "strength": 40,
+    "type": "Fire",
+    "category": "Ranged",
+    "energyCost": 20,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Fires small flames at the target, possibly leaving it with a burn."
+  },
+  {
+    "name": "Aqua Jaws",
+    "strength": 65,
+    "type": "Water",
+    "category": "Melee",
+    "energyCost": 38,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Bite down hard on the foe. This also lowers their Melee Defense."
+  },
+  {
+    "name": "Douse",
+    "strength": 90,
+    "type": "Water",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Splash the target with a deluge of water. If targeting a foe, a harsh torrent will hurt them; if targeting an ally, cleansing water will soothe and heal them."
+  },
+  {
+    "name": "Downpour",
+    "strength": 0,
+    "type": "Water",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Drench the battlefield with heavy rainfall for a few turns."
+  },
+  {
+    "name": "Geyser",
+    "strength": 75,
+    "type": "Water",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Unleash a blast of hot water and steam that has a chance to burn your target."
+  },
+  {
+    "name": "Hydro Slash",
+    "strength": 75,
+    "type": "Water",
+    "category": "Melee",
+    "energyCost": 36,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Hack at the opponent with sharp claws. Lands critical hits more often."
+  },
+  {
+    "name": "Maroon",
+    "strength": 70,
+    "type": "Water",
+    "category": "Ranged",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Wash the opponent away with an overwhelming amount of water. Drains a small amount of their Energy."
+  },
+  {
+    "name": "Marsh Wave",
+    "strength": 75,
+    "type": "Water",
+    "category": "Ranged",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Send a wave of swamp water crashing into nearby opponents. This also lowers their Ranged Defense."
+  },
+  {
+    "name": "Piercing Drive",
+    "strength": 75,
+    "type": "Water",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Ram head on into the foe with a sharp horn, bypassing their fortifications."
+  },
+  {
+    "name": "Plunge",
+    "strength": 90,
+    "type": "Water",
+    "category": "Melee",
+    "energyCost": 44,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Dive deep below the surface and hide for a turn. Strike the target on the second turn."
+  },
+  {
+    "name": "Soft Water",
+    "strength": 0,
+    "type": "Water",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Begin cleansing yourself of impurities, recovering one eighth of your Health at the end of each turn."
+  },
+  {
+    "name": "Spray",
+    "strength": 0,
+    "type": "Water",
+    "category": "Ranged",
+    "energyCost": 20,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Shoot a stream of water at the target."
+  },
+  {
+    "name": "Submerge",
+    "strength": 75,
+    "type": "Water",
+    "category": "Melee",
+    "energyCost": 38,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Dive below the surface and hide there for a turn. Strike the target on the second turn, bypassing their fortifications."
+  },
+  {
+    "name": "Tsunami",
+    "strength": 90,
+    "type": "Water",
+    "category": "Ranged",
+    "energyCost": 60,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Attack all surrounding Loomians by crashing a large wave in the battlefield."
+  },
+  {
+    "name": "Vicious Snap",
+    "strength": 75,
+    "type": "Water",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Attack the target with a cruel bite, and cause their next move to cost 25% more energy."
+  },
+  {
+    "name": "Water Bomb",
+    "strength": 60,
+    "type": "Water",
+    "category": "Ranged",
+    "energyCost": 26,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Hurl a ball of water that explodes on contact. May leave the target dazed."
+  },
+  {
+    "name": "Wave Wrecker",
+    "strength": 90,
+    "type": "Water",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Thrash the opponent with a heavy sea wave. May leave them dazed."
+  },
+  {
+    "name": "Briar Block",
+    "strength": 0,
+    "type": "Plant",
+    "category": "Support",
+    "energyCost": 30,
+    "accuracy": "",
+    "priority": 2,
+    "description": "Protect yourself by growing a thorny barrier that also hurts Loomians whose moves attempt to touch you this turn. May fail if used consecutively."
+  },
+  {
+    "name": "Bush Whack",
+    "strength": 65,
+    "type": "Plant",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Surprise the opponent by ambushing them with uprooted shrubbery. This may cause them to flinch."
+  },
+  {
+    "name": "Coconut Bomb",
+    "strength": 90,
+    "type": "Plant",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Recklessly dunk on the opponent with an explosive coconut, damaging yourself some in the process. This may leave the opponent with a burn."
+  },
+  {
+    "name": "Fungus Curse",
+    "strength": 0,
+    "type": "Plant",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Cast a spell that temporarily swaps the effectiveness of Light- and Dark-type moves against all Plant-type Loomians in battle."
+  },
+  {
+    "name": "Harvest",
+    "strength": 0,
+    "type": "Plant",
+    "category": "Support",
+    "energyCost": 72,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Feed the target to help them recover health."
+  },
+  {
+    "name": "Leaf Barrage",
+    "strength": 65,
+    "type": "Plant",
+    "category": "Ranged",
+    "energyCost": 30,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Blast the target with sharp leaves. May lower the target's Melee Defense."
+  },
+  {
+    "name": "Life Drain",
+    "strength": 75,
+    "type": "Plant",
+    "category": "Ranged",
+    "energyCost": 48,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Drain the target's Health, and restore half of that to yourself."
+  },
+  {
+    "name": "Nature's Force",
+    "strength": 90,
+    "type": "Plant",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Draw power from nature and fire it at the target. May also lower the target's Ranged Defense."
+  },
+  {
+    "name": "Nature's Rage",
+    "strength": 70,
+    "type": "Plant",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Recklessly unleash your fury on an opponent for a few turns. When finished, you will become dazed."
+  },
+  {
+    "name": "Petal Pummel",
+    "strength": 40,
+    "type": "Plant",
+    "category": "Melee",
+    "energyCost": 20,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Pelt the target with flower petals."
+  },
+  {
+    "name": "Photosynthesis",
+    "strength": 0,
+    "type": "Plant",
+    "category": "Support",
+    "energyCost": 72,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Convert sunlight into nutrients to restore your Health."
+  },
+  {
+    "name": "Pine Shot",
+    "strength": 25,
+    "type": "Plant",
+    "category": "Ranged",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Shoot pine needles at the foe two to five times in a row."
+  },
+  {
+    "name": "Sap Plant",
+    "strength": 0,
+    "type": "Plant",
+    "category": "Support",
+    "energyCost": 35,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Plant a special flower that slowly saps the foe's Health and restores it to you."
+  },
+  {
+    "name": "Snore Spores",
+    "strength": 0,
+    "type": "Plant",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 0.75,
+    "priority": 0,
+    "description": "Put the foe to sleep with a cloud of sleep-inducing spores."
+  },
+  {
+    "name": "Static Spores",
+    "strength": 0,
+    "type": "Plant",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 0.75,
+    "priority": 0,
+    "description": "Paralyze the foe with a cloud of statically charged spores."
+  },
+  {
+    "name": "Take Root",
+    "strength": 0,
+    "type": "Plant",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Implant your roots in the ground to slowly regain Health each turn. This prevents you from leaving the fight."
+  },
+  {
+    "name": "Thistle Slash",
+    "strength": 70,
+    "type": "Plant",
+    "category": "Melee",
+    "energyCost": 36,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Hack at the target with prickly claws. Lands critical hits more often."
+  },
+  {
+    "name": "Thorn Slam",
+    "strength": 110,
+    "type": "Plant",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "A hard hitting attack that lowers your Melee Attack after use."
+  },
+  {
+    "name": "Timber Thrash",
+    "strength": 120,
+    "type": "Plant",
+    "category": "Melee",
+    "energyCost": 60,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Recklessly clobber the opponent, damaging yourself some in the process."
+  },
+  {
+    "name": "Trip Root",
+    "strength": 0,
+    "type": "Plant",
+    "category": "Ranged",
+    "energyCost": 30,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Set a trip wire made from tree root and trip the foe. More powerful against heavier targets."
+  },
+  {
+    "name": "Wonder Herb",
+    "strength": 0,
+    "type": "Plant",
+    "category": "Support",
+    "energyCost": 45,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Administer a special herb to your allied Loomians, both on and off the field, which cleanses them of their status ailments."
+  },
+  {
+    "name": "Blindspot Batter",
+    "strength": 75,
+    "type": "Light",
+    "category": "Melee",
+    "energyCost": 38,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Blind the target and attack from behind, bypassing their fortifications."
+  },
+  {
+    "name": "Dazzling Barrage",
+    "strength": 25,
+    "type": "Light",
+    "category": "Melee",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the foe two to five times."
+  },
+  {
+    "name": "Disperse",
+    "strength": 0,
+    "type": "Light",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Split light into multiple beams to boost your Ranged Attack and Accuracy."
+  },
+  {
+    "name": "Energy Surge",
+    "strength": 70,
+    "type": "Light",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Radiate a huge wave of energy that damages opponents and fills your allies with Energy."
+  },
+  {
+    "name": "Flash",
+    "strength": 0,
+    "type": "Light",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Daze the foe with a quick flash of blinding light."
+  },
+  {
+    "name": "Flash 'n Flee",
+    "strength": 70,
+    "type": "Light",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Blast the opponent with blinding light, and then retreat from battle to allow an ally to take your place."
+  },
+  {
+    "name": "Flash Pulse",
+    "strength": 85,
+    "type": "Light",
+    "category": "Ranged",
+    "energyCost": 42,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Create a pulsing wave of light that hurts your opponent(s) and may leave them dazed."
+  },
+  {
+    "name": "Gamma Pulse",
+    "strength": 80,
+    "type": "Light",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Emit a pulse of harsh light rays from beyond the visible spectrum that damage your opponents."
+  },
+  {
+    "name": "Light Dash",
+    "strength": 40,
+    "type": "Light",
+    "category": "Melee",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 1,
+    "description": "Tackle the foe at nearly the speed of light. This move always goes first."
+  },
+  {
+    "name": "Lightspeed Ray",
+    "strength": 40,
+    "type": "Light",
+    "category": "Ranged",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 1,
+    "description": "Swiftly cast an attack on the foe. This move tends to go first."
+  },
+  {
+    "name": "Luminous Roar",
+    "strength": 75,
+    "type": "Light",
+    "category": "Ranged",
+    "energyCost": 36,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Blast the foe with blinding light from your mouth that also prevents them from using Dark-type moves for two turns."
+  },
+  {
+    "name": "Luster Root",
+    "strength": 50,
+    "type": "Light",
+    "category": "Ranged",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Steal light from the opponent's soul, draining their Health and restoring some to yourself."
+  },
+  {
+    "name": "Magnify",
+    "strength": 0,
+    "type": "Light",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Intensify your power and focus to greatly boost your Ranged Attack."
+  },
+  {
+    "name": "Nova Blast",
+    "strength": 95,
+    "type": "Light",
+    "category": "Ranged",
+    "energyCost": 52,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Bring the bursting light of a nearby star crashing down onto your opponent. May reduce their Ranged Attack."
+  },
+  {
+    "name": "Radiant Forecast",
+    "strength": 110,
+    "type": "Light",
+    "category": "Ranged",
+    "energyCost": 44,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Foresee bright, intense sunlight that showers the opponent two turns later."
+  },
+  {
+    "name": "Shine",
+    "strength": 40,
+    "type": "Light",
+    "category": "Ranged",
+    "energyCost": 20,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Damage the foe with bright light."
+  },
+  {
+    "name": "Baffle",
+    "strength": 0,
+    "type": "Dark",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Surprise the foe with an unexpected gesture, reducing their Speed, then retreat to allow an ally to take your place."
+  },
+  {
+    "name": "Bag of Tricks",
+    "strength": 0,
+    "type": "Dark",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Use a random move."
+  },
+  {
+    "name": "Bamboozle",
+    "strength": 60,
+    "type": "Dark",
+    "category": "Melee",
+    "energyCost": 26,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Tricks your opponent into letting their guard down, then attack when they least expect it. This attack almost never misses."
+  },
+  {
+    "name": "Blood Drain",
+    "strength": 20,
+    "type": "Dark",
+    "category": "Melee",
+    "energyCost": 34,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Bite down on the foe and begin to slowly leech away their life each turn."
+  },
+  {
+    "name": "Charade",
+    "strength": 0,
+    "type": "Dark",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Fool your opponent into thinking you are in distress, harshly lowering their Ranged Defense."
+  },
+  {
+    "name": "Chomp",
+    "strength": 45,
+    "type": "Dark",
+    "category": "Melee",
+    "energyCost": 20,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Bite the opponent with sharp fangs. May also make them flinch."
+  },
+  {
+    "name": "Dark Surge",
+    "strength": 80,
+    "type": "Dark",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Emanate a dark, cruel wave of despair that damages your opponent and may cause them to flinch."
+  },
+  {
+    "name": "Dive Bomb",
+    "strength": 60,
+    "type": "Dark",
+    "category": "Melee",
+    "energyCost": 26,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Strike the foe from above. May also knock their item off."
+  },
+  {
+    "name": "Egg Lob",
+    "strength": 100,
+    "type": "Dark",
+    "category": "Ranged",
+    "energyCost": 46,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Throw a loaded egg into the air. After a few turns, the egg will land on the foe and explode. This will damage them and lower one of their stats randomly."
+  },
+  {
+    "name": "Egg Storm",
+    "strength": 90,
+    "type": "Dark",
+    "category": "Ranged",
+    "energyCost": 52,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Bombard your foes with a shower of exploding eggs. This may leave them dazed."
+  },
+  {
+    "name": "Gain Drain",
+    "strength": 0,
+    "type": "Dark",
+    "category": "Support",
+    "energyCost": 45,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Absorb the target's raised and lowered stats as Health. Absorbing more lowered stats than raised will instead hurt you."
+  },
+  {
+    "name": "Gloom Fangs",
+    "strength": 75,
+    "type": "Dark",
+    "category": "Melee",
+    "energyCost": 36,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Bite down on the foe and swallow all the light in their soul. They cannot use Light-type moves for two turns."
+  },
+  {
+    "name": "Gnarly Gash",
+    "strength": 90,
+    "type": "Dark",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Slash the opponent with sharp claws. May lower the target's Melee Defense."
+  },
+  {
+    "name": "Mega Chomp",
+    "strength": 80,
+    "type": "Dark",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Bite the opponent with a powerful jaw and sharp fangs. May also make them flinch."
+  },
+  {
+    "name": "Pilfer",
+    "strength": 60,
+    "type": "Dark",
+    "category": "Melee",
+    "energyCost": 32,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the foe and, if not holding anything yourself, steal their item."
+  },
+  {
+    "name": "Provoke",
+    "strength": 0,
+    "type": "Dark",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Aggravate the opponent. They will become too angry to use Support Moves for three turns."
+  },
+  {
+    "name": "Rant",
+    "strength": 55,
+    "type": "Dark",
+    "category": "Ranged",
+    "energyCost": 32,
+    "accuracy": 0.95,
+    "priority": 0,
+    "description": "Shout in anger, damaging your opponents and reducing their Ranged Attack."
+  },
+  {
+    "name": "Sharpen",
+    "strength": 0,
+    "type": "Dark",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Sharpen your claws to boost your Melee Attack and Accuracy."
+  },
+  {
+    "name": "Slap Down",
+    "strength": 65,
+    "type": "Dark",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Hit the opponent. If they are holding an item, slap it to the ground. The item can no longer be used."
+  },
+  {
+    "name": "Soul Drain",
+    "strength": 85,
+    "type": "Dark",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Stare into the target's soul, draining their Health by extracting their happy thoughts and memories, and restore half of the stolen health to yourself."
+  },
+  {
+    "name": "Spite",
+    "strength": 0,
+    "type": "Dark",
+    "category": "Support",
+    "energyCost": 40,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "When hit by this cruel curse, the target will instantly lose half of their current Health."
+  },
+  {
+    "name": "Square One",
+    "strength": 0,
+    "type": "Dark",
+    "category": "Support",
+    "energyCost": 40,
+    "accuracy": "",
+    "priority": 0,
+    "description": "All Loomians in battle reset their stat buffs and debuffs."
+  },
+  {
+    "name": "Talent Trade",
+    "strength": 0,
+    "type": "Dark",
+    "category": "Support",
+    "energyCost": 40,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Swap Abilities with the target."
+  },
+  {
+    "name": "Tricky Tactics",
+    "strength": 95,
+    "type": "Dark",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "A skilled attack which uses the foe's own Melee Attack stat against them."
+  },
+  {
+    "name": "Tease",
+    "strength": 0,
+    "type": "Dark",
+    "category": "Support",
+    "energyCost": 20,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Makes the opponent feel self-conscious about the moves they use, preventing them from using the same move two turns in a row."
+  },
+  {
+    "name": "Brain Freeze",
+    "strength": 80,
+    "type": "Ice",
+    "category": "Ranged",
+    "energyCost": 44,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Scourge the opponent with a painfully cold stimulus. This move is super effective on Mind-type Loomians."
+  },
+  {
+    "name": "Chilly Chomp",
+    "strength": 70,
+    "type": "Ice",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Bite the foe with ice-cold fangs. The target may flinch or begin freezing."
+  },
+  {
+    "name": "Deep Freeze",
+    "strength": 75,
+    "type": "Ice",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "An extremely frigid attack that is super-effective on Water-type Loomians."
+  },
+  {
+    "name": "Flurry",
+    "strength": 40,
+    "type": "Ice",
+    "category": "Ranged",
+    "energyCost": 22,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Drop a flurry of snow on your opponents. This may cause them to begin freezing."
+  },
+  {
+    "name": "Frost Beam",
+    "strength": 90,
+    "type": "Ice",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Shoot the foe with frozen shards. This may cause them to begin freezing."
+  },
+  {
+    "name": "Frost Punch",
+    "strength": 70,
+    "type": "Ice",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Punch the foe with an ice-cold fist. The target may become dazed or begin freezing."
+  },
+  {
+    "name": "Ice Hammer",
+    "strength": 95,
+    "type": "Ice",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Clobber the foe with a larger hammer made from ice."
+  },
+  {
+    "name": "Icicle Trap",
+    "strength": 0,
+    "type": "Ice",
+    "category": "Support",
+    "energyCost": 45,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Suspend sharp icicles in the air on the opponents' side of the battlefield. When your opponent switches Loomians into battle, they will be damaged by the trap."
+  },
+  {
+    "name": "Out of Order",
+    "strength": 150,
+    "type": "Ice",
+    "category": "Ranged",
+    "energyCost": 60,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Blast the foe with a sticky, chilled (but disappointingly, not frozen) goop. Cannot be used two turns in a row."
+  },
+  {
+    "name": "Peppermint Breath",
+    "strength": 75,
+    "type": "Ice",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Exhale a gust of minty, ice-cold breath on the foe that may cause them to begin freezing or leave them with a burn."
+  },
+  {
+    "name": "Sleet Shot",
+    "strength": 55,
+    "type": "Ice",
+    "category": "Ranged",
+    "energyCost": 28,
+    "accuracy": 0.95,
+    "priority": 0,
+    "description": "Shoot shivering sleet at the opponent. May lower their Speed."
+  },
+  {
+    "name": "Snot Shot",
+    "strength": 60,
+    "type": "Ice",
+    "category": "Ranged",
+    "energyCost": 30,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Fire freezing phlegm, facing the foe. Freezes infrequently."
+  },
+  {
+    "name": "Snowdozer",
+    "strength": 30,
+    "type": "Ice",
+    "category": "Melee",
+    "energyCost": 24,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Pack yourself into a ball of snow and roll over the opponent five turns in a row. Pick up more snow each time, increasing damage."
+  },
+  {
+    "name": "Winter's Fury",
+    "strength": 30,
+    "type": "Ice",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Unleash two to three punches on the foe. A small amount of the damage you deal is returned to you as Energy."
+  },
+  {
+    "name": "Electroburst",
+    "strength": 85,
+    "type": "Electric",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 0.95,
+    "priority": 0,
+    "description": "Blast the foe with high voltage. This may leave them paralyzed or with an electrical burn."
+  },
+  {
+    "name": "Electro Punch",
+    "strength": 70,
+    "type": "Electric",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Punch the foe with an electrified fist. The target may become dazed or paralyzed."
+  },
+  {
+    "name": "Energize",
+    "strength": 0,
+    "type": "Electric",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Build up electric charge to boost your Ranged Attack and Ranged Defense."
+  },
+  {
+    "name": "Jolt",
+    "strength": 40,
+    "type": "Electric",
+    "category": "Ranged",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 1,
+    "description": "Give the opponent a quick shock before they are able to move."
+  },
+  {
+    "name": "Jump Start",
+    "strength": 0,
+    "type": "Electric",
+    "category": "Support",
+    "energyCost": 40,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Give you and your allies a jolt of electricity that greatly boosts each of your Ranged Attack at the cost of 1/4 of your max Health."
+  },
+  {
+    "name": "Power Draw",
+    "strength": 80,
+    "type": "Electric",
+    "category": "Ranged",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "20% of the damage dealt to the foe is restored to you as Energy."
+  },
+  {
+    "name": "Power Siphon",
+    "strength": 20,
+    "type": "Electric",
+    "category": "Melee",
+    "energyCost": 32,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Attack the foe and begin draining a little of their Energy each turn."
+  },
+  {
+    "name": "Precision Bolt",
+    "strength": 60,
+    "type": "Electric",
+    "category": "Ranged",
+    "energyCost": 26,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Zap the opponent with perfect accuracy. This attack almost never misses."
+  },
+  {
+    "name": "Static Shock",
+    "strength": 40,
+    "type": "Electric",
+    "category": "Ranged",
+    "energyCost": 20,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Shock the opponent with a small voltage, sometimes leaving them paralyzed."
+  },
+  {
+    "name": "Storm Summon",
+    "strength": 50,
+    "type": "Electric",
+    "category": "Ranged",
+    "energyCost": 46,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Summons a great storm which hits everything around you. This move also has a good chance of paralyzing whatever it hits."
+  },
+  {
+    "name": "Tase",
+    "strength": 20,
+    "type": "Electric",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Stun the enemy with a small jolt that always leaves them with paralysis."
+  },
+  {
+    "name": "Thunder Chomp",
+    "strength": 70,
+    "type": "Electric",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Bite the opponent with high voltage fangs. This may cause them to flinch or become paralyzed."
+  },
+  {
+    "name": "Thunder Clap",
+    "strength": 80,
+    "type": "Electric",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Bite the opponent with high voltage fangs. This may cause them to flinch or become paralyzed."
+  },
+  {
+    "name": "Thunder Crash",
+    "strength": 90,
+    "type": "Electric",
+    "category": "Melee",
+    "energyCost": 38,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Electrify yourself and recklessly charge into your foe. You are damaged some in return."
+  },
+  {
+    "name": "Thunder Slam",
+    "strength": 65,
+    "type": "Electric",
+    "category": "Melee",
+    "energyCost": 26,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "While electrified, hurl yourself into your opponent. This may paralyze them."
+  },
+  {
+    "name": "Thunderstrike",
+    "strength": 90,
+    "type": "Electric",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Blast the target with a powerful bolt of electricity. This may paralyze them."
+  },
+  {
+    "name": "Zip-Zap",
+    "strength": 70,
+    "type": "Electric",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Zap the opponent, and then retreat from battle to allow an ally to take your place."
+  },
+  {
+    "name": "Air Blade",
+    "strength": 70,
+    "type": "Air",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Slash your opponent with a rapid air current. Lands critical hits more often."
+  },
+  {
+    "name": "Air Whip",
+    "strength": 60,
+    "type": "Air",
+    "category": "Ranged",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Whiplash your foes as you fly past them at high speed. Lands critical hits more often."
+  },
+  {
+    "name": "Cyclone Slam",
+    "strength": 60,
+    "type": "Air",
+    "category": "Melee",
+    "energyCost": 26,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Ride a storm and crash into the opponent. Almost never misses."
+  },
+  {
+    "name": "Gale Force",
+    "strength": 0,
+    "type": "Air",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Whip up strong gusts of wind that sweep the battlefield for a few turns."
+  },
+  {
+    "name": "Gust",
+    "strength": 0,
+    "type": "Air",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Kick up a burst of wind to boost your Speed and clear obstacles which the foe has placed on your side of the arena."
+  },
+  {
+    "name": "Jet Stream",
+    "strength": 90,
+    "type": "Air",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Batter the foe with turbulent gusts. This may also lower their speed."
+  },
+  {
+    "name": "Nosedive",
+    "strength": 95,
+    "type": "Air",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Plummet straight down from high above the target and crash into them, taking some damage yourself."
+  },
+  {
+    "name": "Peck",
+    "strength": 35,
+    "type": "Air",
+    "category": "Melee",
+    "energyCost": 15,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Swoop through the air and strike the target with a sharp beak."
+  },
+  {
+    "name": "Perch",
+    "strength": 0,
+    "type": "Air",
+    "category": "Support",
+    "energyCost": 72,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Land and rest, restoring half of your maximum Health."
+  },
+  {
+    "name": "Scavenge",
+    "strength": 60,
+    "type": "Air",
+    "category": "Melee",
+    "energyCost": 32,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Swoop down and strike the foe. May steal their item."
+  },
+  {
+    "name": "Second Wind",
+    "strength": 0,
+    "type": "Air",
+    "category": "Support",
+    "energyCost": 0,
+    "accuracy": "",
+    "priority": 0,
+    "description": "If your Energy is at or below 10 points, fully restores Energy."
+  },
+  {
+    "name": "Tempest",
+    "strength": 0,
+    "type": "Air",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "This move's Strength is based on how much faster you are than your opponent."
+  },
+  {
+    "name": "Wing Slap",
+    "strength": 60,
+    "type": "Air",
+    "category": "Melee",
+    "energyCost": 26,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Slap the foe with your wing."
+  },
+  {
+    "name": "Battering Ram",
+    "strength": 90,
+    "type": "Bug",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Use your armor to slam into the foe. Damage is based on your Melee Defense rather than Attack. May lower the foe's Melee Defense."
+  },
+  {
+    "name": "Bug Bite",
+    "strength": 30,
+    "type": "Bug",
+    "category": "Melee",
+    "energyCost": 20,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Restore half of the Health that you drain from the target."
+  },
+  {
+    "name": "Clamp Claw",
+    "strength": 85,
+    "type": "Bug",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Clamp down on the opponent, drain their Health, and convert it into Energy for yourself."
+  },
+  {
+    "name": "Double String",
+    "strength": 25,
+    "type": "Bug",
+    "category": "Melee",
+    "energyCost": 28,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Sting the target twice consecutively, possibly infecting it with poison."
+  },
+  {
+    "name": "Molt",
+    "strength": 0,
+    "type": "Bug",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Shed a layer of skin to sharply increase your Speed."
+  },
+  {
+    "name": "Mystic Breeze",
+    "strength": 60,
+    "type": "Bug",
+    "category": "Ranged",
+    "energyCost": 30,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Kicks up a strange wind that batters the opponent. This may also boost your Speed."
+  },
+  {
+    "name": "Parasitize",
+    "strength": 80,
+    "type": "Bug",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Leech away the target's Health, and restore half to yourself."
+  },
+  {
+    "name": "Pester",
+    "strength": 50,
+    "type": "Bug",
+    "category": "Ranged",
+    "energyCost": 32,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Swarm your opponents, inflicting damage and lowering their Ranged Attack."
+  },
+  {
+    "name": "Pestilence",
+    "strength": 60,
+    "type": "Bug",
+    "category": "Ranged",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Swarm the target, damaging them for four to five turns and preventing them from escaping the fight."
+  },
+  {
+    "name": "Pheroblast",
+    "strength": 90,
+    "type": "Bug",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Launch a cloud of pheromones at the target. If targeting the foe, harsh chemicals will be used. If an ally, helpful chemicals will heal them."
+  },
+  {
+    "name": "Twirly Whirl",
+    "strength": 75,
+    "type": "Bug",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Perform a mesmerizing dance before attacking the foe. This may cause them to become dazed."
+  },
+  {
+    "name": "Web Shot",
+    "strength": 0,
+    "type": "Bug",
+    "category": "Support",
+    "energyCost": 10,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Shoot web at the opponent to bind them up and lower their Speed."
+  },
+  {
+    "name": "Boulder Blast",
+    "strength": 25,
+    "type": "Earth",
+    "category": "Ranged",
+    "energyCost": 25,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Hurl boulders at the foe two to five times in a row."
+  },
+  {
+    "name": "Burrow",
+    "strength": 0,
+    "type": "Earth",
+    "category": "Support",
+    "energyCost": 15,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Dig slightly into the ground to raise your defense."
+  },
+  {
+    "name": "Clay Slap",
+    "strength": 60,
+    "type": "Earth",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Whack the target with a sticky limb. This also lowers their Speed."
+  },
+  {
+    "name": "Earthquake",
+    "strength": 90,
+    "type": "Earth",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the ground with seismic force, causing a local earthquake that clobbers all surrounding Loomians in battle."
+  },
+  {
+    "name": "Landslide",
+    "strength": 90,
+    "type": "Earth",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Hits all Loomians surrounding the user."
+  },
+  {
+    "name": "Muck Buck",
+    "strength": 85,
+    "type": "Earth",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 0.95,
+    "priority": 0,
+    "description": "Roll in mud, then run around in a rampage, crashing into all adjacent Loomians while also dealing a small amount of damage to yourself."
+  },
+  {
+    "name": "Mud Splatter",
+    "strength": 55,
+    "type": "Earth",
+    "category": "Ranged",
+    "energyCost": 30,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Fling thick mud at the foe, damaging them and lowering their speed."
+  },
+  {
+    "name": "Mudslide",
+    "strength": 70,
+    "type": "Earth",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Swamp the target with a mudflow, which also clears obstacles from your side of the arena along its way."
+  },
+  {
+    "name": "Quicksand",
+    "strength": 60,
+    "type": "Earth",
+    "category": "Ranged",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Trap the foe in quicksand, preventing them from retreating from battle and hurting them slowly over time."
+  },
+  {
+    "name": "Tamp",
+    "strength": 60,
+    "type": "Earth",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Pack your body in more tightly to increase your defenses."
+  },
+  {
+    "name": "Yeti's Wrath",
+    "strength": 120,
+    "type": "Earth",
+    "category": "Melee",
+    "energyCost": 90,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Recklessly unleash your fury on an opponent for a few turns. When finished, you will become dazed."
+  },
+  {
+    "name": "Baneful Bash",
+    "strength": 85,
+    "type": "Toxic",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Whack the opponent, possibly infecting them with poison."
+  },
+  {
+    "name": "Canister Burst",
+    "strength": 25,
+    "type": "Toxic",
+    "category": "Ranged",
+    "energyCost": 35,
+    "accuracy": 0.95,
+    "priority": 0,
+    "description": "Launch 2-3 paint canisters at the target."
+  },
+  {
+    "name": "Corrode",
+    "strength": 40,
+    "type": "Toxic",
+    "category": "Ranged",
+    "energyCost": 24,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Drop a corrosive substance on your opponents. This may also lower their Ranged Defense."
+  },
+  {
+    "name": "Gobble Goop",
+    "strength": 60,
+    "type": "Toxic",
+    "category": "Ranged",
+    "energyCost": 36,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Attack the foe with biohazardous waste. May leave them infected with poison. Drains some of their Energy."
+  },
+  {
+    "name": "Graffiti",
+    "strength": 70,
+    "type": "Toxic",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Spray toxic paint all over the opponents. This may poison them."
+  },
+  {
+    "name": "Muck Blast",
+    "strength": 90,
+    "type": "Toxic",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Launch a ball of filthy debris at the opponent. This may poison them."
+  },
+  {
+    "name": "Oil Leak",
+    "strength": 0,
+    "type": "Toxic",
+    "category": "Support",
+    "energyCost": 10,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Spill some oil on the opponent to lower their speed."
+  },
+  {
+    "name": "Paint Shower",
+    "strength": 100,
+    "type": "Toxic",
+    "category": "Ranged",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Blast your foes with colorful paint. Your Ranged Attack drops after using this move."
+  },
+  {
+    "name": "Poison",
+    "strength": 0,
+    "type": "Toxic",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Inflict the target with a toxicant that becomes more potent over time."
+  },
+  {
+    "name": "Poison Barbs",
+    "strength": 0,
+    "type": "Toxic",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Scatter poisonous barbs at the feet of your foes. Loomians entering battle on their side will become poisoned."
+  },
+  {
+    "name": "Slime",
+    "strength": 65,
+    "type": "Toxic",
+    "category": "Ranged",
+    "energyCost": 28,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Launch slime at the foe. This may poison them."
+  },
+  {
+    "name": "Sting",
+    "strength": 15,
+    "type": "Toxic",
+    "category": "Melee",
+    "energyCost": 10,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the foe with a stinger, possibly infecting them with poison."
+  },
+  {
+    "name": "Toxiblast",
+    "strength": 75,
+    "type": "Toxic",
+    "category": "Ranged",
+    "energyCost": 36,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "An explosive move that may leave the foe poisoned."
+  },
+  {
+    "name": "Toxic Spores",
+    "strength": 0,
+    "type": "Toxic",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 0.75,
+    "priority": 0,
+    "description": "Poison the foe with a cloud of toxic spores."
+  },
+  {
+    "name": "Toxic Tail",
+    "strength": 50,
+    "type": "Toxic",
+    "category": "Melee",
+    "energyCost": 30,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the target with your tail, possibly poisoning them. Land critical hits more often."
+  },
+  {
+    "name": "Venom Chomp",
+    "strength": 70,
+    "type": "Toxic",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Bite the foe with venomous fangs. May cause them to flinch or infect them with a toxicant that gets more potent with time."
+  },
+  {
+    "name": "Armor Down",
+    "strength": 0,
+    "type": "Metal",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Remove your Metal typing to greatly increase your Speed."
+  },
+  {
+    "name": "Barbs",
+    "strength": 0,
+    "type": "Metal",
+    "category": "Support",
+    "energyCost": 20,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Spread sharp obstacles on the opponent's side of the field which cause damage to them as they enter battle."
+  },
+  {
+    "name": "Bash",
+    "strength": 50,
+    "type": "Metal",
+    "category": "Melee",
+    "energyCost": 20,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Tackle the foe."
+  },
+  {
+    "name": "Clamp",
+    "strength": 45,
+    "type": "Metal",
+    "category": "Melee",
+    "energyCost": 22,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Pinch the foe."
+  },
+  {
+    "name": "Complete Demolition",
+    "strength": 150,
+    "type": "Metal",
+    "category": "Melee",
+    "energyCost": 60,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Attempt to completely destroy the foe. On your next turn, you will be too exhausted to move."
+  },
+  {
+    "name": "Dart Burst",
+    "strength": 35,
+    "type": "Metal",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Fire 2-3 darts at the opponent. This may leave them dazed."
+  },
+  {
+    "name": "Double Whack",
+    "strength": 35,
+    "type": "Metal",
+    "category": "Melee",
+    "energyCost": 34,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the opponent using a tool in each hand. Lands critical hits more often."
+  },
+  {
+    "name": "Heavy Bash",
+    "strength": 70,
+    "type": "Metal",
+    "category": "Melee",
+    "energyCost": 36,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Ram full-force into the opponent."
+  },
+  {
+    "name": "Holy Slash",
+    "strength": 75,
+    "type": "Metal",
+    "category": "Melee",
+    "energyCost": 32,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Slash the target with a sword imbued with light. Super effective against Dark-type opponents."
+  },
+  {
+    "name": "Metal Blast",
+    "strength": 85,
+    "type": "Metal",
+    "category": "Ranged",
+    "energyCost": 42,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Launch a large chunk of metal at the opponent."
+  },
+  {
+    "name": "Metal Shriek",
+    "strength": 0,
+    "type": "Metal",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Produce an awful, high pitched sound by rubbing pieces of metal against each other, lowering the opponent's Melee and Ranged defenses."
+  },
+  {
+    "name": "Metal Swipes",
+    "strength": 20,
+    "type": "Metal",
+    "category": "Melee",
+    "energyCost": 20,
+    "accuracy": 0.95,
+    "priority": 0,
+    "description": "Swipe at the foe with metal claws. Hits twice."
+  },
+  {
+    "name": "Reflection Burst",
+    "strength": 60,
+    "type": "Metal",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "If you have already been hit by an opponent move this turn, this move's Strength is doubled."
+  },
+  {
+    "name": "Searing Steel",
+    "strength": 85,
+    "type": "Metal",
+    "category": "Melee",
+    "energyCost": 48,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the target with a hot plate of steel. Ignores Water's resistance to Metal. May burn the target."
+  },
+  {
+    "name": "Steel Crusher",
+    "strength": 90,
+    "type": "Metal",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Crush the target with incredible force. May also boost your Melee Attack."
+  },
+  {
+    "name": "Steel Trap",
+    "strength": 0,
+    "type": "Metal",
+    "category": "Support",
+    "energyCost": 35,
+    "accuracy": 0.95,
+    "priority": 0,
+    "description": "Trap your opponent on the field, preventing them from retreating from the fight."
+  },
+  {
+    "name": "Tune-up",
+    "strength": 0,
+    "type": "Metal",
+    "category": "Support",
+    "energyCost": 15,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Recalibrate your sensors to increase your Ranged Defense."
+  },
+  {
+    "name": "Ancient Instinct",
+    "strength": 0,
+    "type": "Ancient",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Randomly boost either Melee Attack or Speed by two stages."
+  },
+  {
+    "name": "Ancient Roar",
+    "strength": 0,
+    "type": "Ancient",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Threaten the foe with a fierce roar that lowers their Melee and Ranged Attack, then retreat to allow another Loomian on your team to take your place."
+  },
+  {
+    "name": "Bane of Haste",
+    "strength": 0,
+    "type": "Ancient",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": -7,
+    "description": "Cast an ancient spell to cause the slowest to move first, and the quickest to move last. Lasts 5 turns."
+  },
+  {
+    "name": "Beast's Slumber",
+    "strength": 0,
+    "type": "Ancient",
+    "category": "Support",
+    "energyCost": 65,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Sleep for 3 turns. Each turn, recover 1/3 Health and 1/4 Energy. Defenses are boosted until you wake up."
+  },
+  {
+    "name": "Confound",
+    "strength": 40,
+    "type": "Ancient",
+    "category": "Ranged",
+    "energyCost": 18,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Launch a small object targeted at the foe's head that does some damage, and may leave them dazed."
+  },
+  {
+    "name": "Dino Claws",
+    "strength": 45,
+    "type": "Ancient",
+    "category": "Melee",
+    "energyCost": 24,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Swipe at the foe with sharp claws. May also make them flinch."
+  },
+  {
+    "name": "Draco Beam",
+    "strength": 130,
+    "type": "Ancient",
+    "category": "Ranged",
+    "energyCost": 60,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Bombard the opponent with a burst of ancient energy using all your might. This will harshly lower your Ranged Attack."
+  },
+  {
+    "name": "Elemental Burst",
+    "strength": 80,
+    "type": "Ancient",
+    "category": "Ranged",
+    "energyCost": 48,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Blast the foe with the basic elements. They may become burned, paralyzed, or begin freezing."
+  },
+  {
+    "name": "Meteor Crash",
+    "strength": 90,
+    "type": "Ancient",
+    "category": "Ranged",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Crash meteors down upon your opponents."
+  },
+  {
+    "name": "Meteor Smash",
+    "strength": 90,
+    "type": "Ancient",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike down on your opponents with meteors."
+  },
+  {
+    "name": "Outburst",
+    "strength": 125,
+    "type": "Ancient",
+    "category": "Melee",
+    "energyCost": 60,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "The Strength of this move scales based on how much Energy the user has. 20% of the damage dealt by this attack is recovered as Energy."
+  },
+  {
+    "name": "Primal Slash",
+    "strength": 80,
+    "type": "Ancient",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Swipe at the target with claws. Lands critical hits more often."
+  },
+  {
+    "name": "Savage Greed",
+    "strength": 95,
+    "type": "Ancient",
+    "category": "Melee",
+    "energyCost": 52,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "A savage attack. If used on an ally, you will completely knock them out in order to boost your own Melee Attack. The more Health they had, the better the boost."
+  },
+  {
+    "name": "Shrewd Blast",
+    "strength": 70,
+    "type": "Ancient",
+    "category": "Ranged",
+    "energyCost": 42,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Predicting your target's next movements, launch a blast that almost never misses. Lands critical hits more often."
+  },
+  {
+    "name": "Apparition",
+    "strength": 90,
+    "type": "Spirit",
+    "category": "Ranged",
+    "energyCost": 42,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Disappear without a trace. On the next turn, reappear suddenly and strike the foe with explosive light orbs. Super effective against Dark-type opponents."
+  },
+  {
+    "name": "Emulate",
+    "strength": 0,
+    "type": "Spirit",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Turn yourself into a copy of your opponent."
+  },
+  {
+    "name": "Fade Away",
+    "strength": 70,
+    "type": "Spirit",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the opponent and then disappear, allowing an ally to take your place."
+  },
+  {
+    "name": "Fade Away",
+    "strength": 70,
+    "type": "Spirit",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the opponent and then disappear, allowing an ally to take your place."
+  },
+  {
+    "name": "Final Ruse",
+    "strength": 0,
+    "type": "Spirit",
+    "category": "Support",
+    "energyCost": 40,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Prepare for the worst, readying yourself to take your opponent down if you are knocked out before your next turn."
+  },
+  {
+    "name": "Ghostly Howl",
+    "strength": 75,
+    "type": "Spirit",
+    "category": "Ranged",
+    "energyCost": 38,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Release a spine-chilling howl that damages the opponent, bypassing their fortifications and potentially leaving them dazed."
+  },
+  {
+    "name": "Hazy Shroud",
+    "strength": 0,
+    "type": "Spirit",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Engulf the battlefield in a thick fog for a few turns."
+  },
+  {
+    "name": "Impersonate",
+    "strength": 0,
+    "type": "Spirit",
+    "category": "Support",
+    "energyCost": 45,
+    "accuracy": "",
+    "priority": 2,
+    "description": "Impersonate the target. If they are about to use a damaging move, use that same move on them. This move tends to go first."
+  },
+  {
+    "name": "Oppress",
+    "strength": 65,
+    "type": "Spirit",
+    "category": "Ranged",
+    "energyCost": 44,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Relentlessly pester the foe. Deals more damage if the target is afflicted with a status ailment."
+  },
+  {
+    "name": "Phantom Slash",
+    "strength": 70,
+    "type": "Spirit",
+    "category": "Melee",
+    "energyCost": 36,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Relentlessly pester the foe. Deals more damage if the target is afflicted with a status ailment.Swipe at the target with spectral claws. Lands critical hits more often."
+  },
+  {
+    "name": "Revival",
+    "strength": 0,
+    "type": "Spirit",
+    "category": "Support",
+    "energyCost": 72,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Recover half of your Health and temporarily void your Spirit typing."
+  },
+  {
+    "name": "Shadow Sprint",
+    "strength": 40,
+    "type": "Spirit",
+    "category": "Melee",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 1,
+    "description": "Dart at the target through the shadows and attack unexpectedly. This move goes first."
+  },
+  {
+    "name": "Soul Harvest",
+    "strength": 50,
+    "type": "Spirit",
+    "category": "Melee",
+    "energyCost": 30,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Get a sharp Melee Attack boost when you knock out another Loomian using this move."
+  },
+  {
+    "name": "Soul Storm",
+    "strength": 80,
+    "type": "Spirit",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Raid the opponent with a barrage of spectral strikes. Knocks down protective enchantments."
+  },
+  {
+    "name": "Spectral Burst",
+    "strength": 80,
+    "type": "Spirit",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Launch a beam of ghostly energy at the target. May lower the foe's Ranged Defense."
+  },
+  {
+    "name": "Startle",
+    "strength": 30,
+    "type": "Spirit",
+    "category": "Melee",
+    "energyCost": 15,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the opponent when they don't expect it. May cause them to flinch."
+  },
+  {
+    "name": "Stupefy",
+    "strength": 30,
+    "type": "Spirit",
+    "category": "Ranged",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Scare the foe, potentially inducing paralysis."
+  },
+  {
+    "name": "Bludgeon",
+    "strength": 65,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 36,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Whack your opponent with a blunt object. This may also lower their Melee Defense."
+  },
+  {
+    "name": "Body Crash",
+    "strength": 80,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Hurl your entire body at the foe. Damage is based on your Melee Defense rather than Attack."
+  },
+  {
+    "name": "Boom Bash",
+    "strength": 80,
+    "type": "Brawler",
+    "category": "Ranged",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "From a distance, punch or kick hard to direct a shock wave at the foe. This may leave them dazed."
+  },
+  {
+    "name": "Brawn Boost",
+    "strength": 0,
+    "type": "Brawler",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Sharply boost your Melee Attack."
+  },
+  {
+    "name": "Buck Up",
+    "strength": 0,
+    "type": "Brawler",
+    "category": "Support",
+    "energyCost": 20,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Get hyped up for the fight. Increases your critical hit rate."
+  },
+  {
+    "name": "Bulk Up",
+    "strength": 0,
+    "type": "Brawler",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Bulk up to boost your Melee Attack and Melee Defense."
+  },
+  {
+    "name": "Chop",
+    "strength": 60,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 30,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Chop the opponent. This may cause them to flinch."
+  },
+  {
+    "name": "Clawber",
+    "strength": 100,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Recklessly clobber your foe with a rugged claw, hurting yourself a bit in the process."
+  },
+  {
+    "name": "Counter Stance",
+    "strength": 70,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 1,
+    "description": "Counter the opponent's attack before they are able to strike. This move fails if the opponent is not preparing to attack you this turn."
+  },
+  {
+    "name": "Driving Force",
+    "strength": 50,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": -6,
+    "description": "Slam into the opponent and push them back, forcing them to retreat if able."
+  },
+  {
+    "name": "Heart Break",
+    "strength": 50,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the opponent in the heart. There is a good chance this will leave them dazed."
+  },
+  {
+    "name": "Hop Kick",
+    "strength": 60,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 30,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Hop into the air and land with a kick on the target. Lands critical hits more often."
+  },
+  {
+    "name": "Horn-Dashi",
+    "strength": 60,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": -6,
+    "description": "Use your horn to push the opponent backwards, potentially forcing them out of the battle."
+  },
+  {
+    "name": "Junglejutsu",
+    "strength": 90,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Pulverize the opponent with a calculated blow. Lands critical hits more often."
+  },
+  {
+    "name": "Mega Kick",
+    "strength": 90,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Launch yourself forward towards your opponent with a powerful kick. Lands critical hits more often."
+  },
+  {
+    "name": "Mega Punch",
+    "strength": 80,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Hit the target hard with a fist. This may leave them dazed."
+  },
+  {
+    "name": "Pep Jab",
+    "strength": 80,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Punch the foe with a special technique which allows 20% of the damage you deal to the foe to be restored to you as Energy."
+  },
+  {
+    "name": "Punch",
+    "strength": 45,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 20,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Whack the target with a closed fist. This may leave them dazed."
+  },
+  {
+    "name": "Quick Punch",
+    "strength": 40,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": 1,
+    "description": "Throws a punch faster than your opponent can react. This move tends to go first."
+  },
+  {
+    "name": "Rogue Assault",
+    "strength": 120,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 60,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Engage in risky, close-up conflict with the foe. This deals a great amount of damage but also lowers your defenses."
+  },
+  {
+    "name": "Rough Up",
+    "strength": 70,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Seize the foe and shake them violently. This move's strength is slightly boosted if the foe is shorter than you."
+  },
+  {
+    "name": "Swat",
+    "strength": 45,
+    "type": "Brawler",
+    "category": "Melee",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Smack the foe."
+  },
+  {
+    "name": "Brainwash",
+    "strength": 50,
+    "type": "Mind",
+    "category": "Ranged",
+    "energyCost": 24,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Fill the target's mind with disorienting imagery. May leave the target dazed."
+  },
+  {
+    "name": "Cerebral Slash",
+    "strength": 70,
+    "type": "Mind",
+    "category": "Melee",
+    "energyCost": 36,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Swipe at the target with metaphysical claws. Lands critical hits more often."
+  },
+  {
+    "name": "Deja Vu",
+    "strength": 0,
+    "type": "Mind",
+    "category": "Support",
+    "energyCost": 30,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Force the target into a mental loop, repeating the last move they used several times."
+  },
+  {
+    "name": "Empathize",
+    "strength": 0,
+    "type": "Mind",
+    "category": "Support",
+    "energyCost": 40,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Share pain with your target. Health will be evenly distributed between you."
+  },
+  {
+    "name": "Energy Gift",
+    "strength": 0,
+    "type": "Mind",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Sacrifice your remaining Health to fully replenish the Energy of the Loomian that takes your place."
+  },
+  {
+    "name": "Flabbergast",
+    "strength": 70,
+    "type": "Mind",
+    "category": "Ranged",
+    "energyCost": 36,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Attack the opponent's mind by telepathically flooding it with confusing ideas and imagery. Has a small chance to lower their Ranged Attack."
+  },
+  {
+    "name": "Foul Chant",
+    "strength": 110,
+    "type": "Mind",
+    "category": "Ranged",
+    "energyCost": 45,
+    "accuracy": 0.7,
+    "priority": 0,
+    "description": "Cast a foul curse upon your foe. This may also leave them inflicted with a random status ailment."
+  },
+  {
+    "name": "Health Gift",
+    "strength": 0,
+    "type": "Mind",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Sacrifice your remaining Health to fully replenish the Health of the Loomian that takes your place."
+  },
+  {
+    "name": "Hypnotize",
+    "strength": 0,
+    "type": "Mind",
+    "category": "Support",
+    "energyCost": 40,
+    "accuracy": 0.75,
+    "priority": 0,
+    "description": "Lull the target away into a deep slumber."
+  },
+  {
+    "name": "Memorize",
+    "strength": 0,
+    "type": "Mind",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Learn how to use the last move executed by the target."
+  },
+  {
+    "name": "Mind's Eye",
+    "strength": 0,
+    "type": "Mind",
+    "category": "Support",
+    "energyCost": 15,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Hone your senses to boost your Ranged Attack."
+  },
+  {
+    "name": "Peace of Mind",
+    "strength": 0,
+    "type": "Mind",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Seek mental serenity to boost your Ranged Attack and Ranged Defense."
+  },
+  {
+    "name": "Psychal Slap",
+    "strength": 85,
+    "type": "Mind",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Swat at the opponent from a distance, while using your mind to summon a larger, metaphysical copy of your hand to strike the opponent. This attack deals damage based on your Melee Attack, and the opponent's Ranged Defense."
+  },
+  {
+    "name": "Psychal Blast",
+    "strength": 90,
+    "type": "Mind",
+    "category": "Ranged",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Strike the target with a fierce mental blast. This may lower their Ranged Defense."
+  },
+  {
+    "name": "Return to Sender",
+    "strength": 0,
+    "type": "Mind",
+    "category": "Ranged",
+    "energyCost": 25,
+    "accuracy": 1,
+    "priority": -1,
+    "description": "Unleash an attack on the Loomian who last struck you with a Ranged move this turn, with double the power."
+  },
+  {
+    "name": "Splitting Headache",
+    "strength": 60,
+    "type": "Mind",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Deal double damage if you are inflicted with a status ailment."
+  },
+  {
+    "name": "Stratagem",
+    "strength": 80,
+    "type": "Mind",
+    "category": "Ranged",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "A unique move which utilizes the user's Ranged Defense stat in place of its Attack."
+  },
+  {
+    "name": "Telekinetic Sweep",
+    "strength": 90,
+    "type": "Mind",
+    "category": "Melee",
+    "energyCost": 45,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Swipe low at your foes with a metaphysical slap. If hit, this might leave them dazed."
+  },
+  {
+    "name": "Adaptive Assault",
+    "strength": 75,
+    "type": "Various",
+    "category": "Melee / Ranged",
+    "energyCost": 35,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "The type and effect of this move varies with the evolutionary strengths of the Loomian that uses it."
+  },
+  {
+    "name": "Gloominous Roar",
+    "strength": 85,
+    "type": "Various",
+    "category": "Ranged",
+    "energyCost": 46,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "When used by Tiklipse, this move becomes the same type(s) as it."
+  }
+]

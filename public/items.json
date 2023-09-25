@@ -1,0 +1,1142 @@
+[
+  {
+    "name": "Capture Disc",
+    "description": "Throw toward a wild Loomian for a chance to capture it. Features a fully enclosed vivarium that keeps the Loomian comfortable and provides for its natural needs.",
+    "category": "Discs"
+  },
+  {
+    "name": "Expert Disc",
+    "description": "A rare type of Capture Disc. It's not any better at capturing Loomians than a standard Capture Disc, so it is mostly used for showing off.",
+    "category": "Discs"
+  },
+  {
+    "name": "Adv. Disc",
+    "description": "An upgraded Capture Disc with a slightly better chance of capturing Loomians. Features the same enclosed vivarium as a standard capture Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Hyper Disc",
+    "description": "An upgraded Capture Disc with a greater chance of capturing Loomians. Features the same enclosed vivarium as a standard Capture Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Plain Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Typeless Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Flame Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Fire-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Wave Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Water-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Blossom Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Plant-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Terra Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Earth-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Volt Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Electric-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Frost Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Ice-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Shine Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Light-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Shade Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Dark-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Web Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Bug-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Alloy Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Metal-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Draft Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Air-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Noxious Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Toxic-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Mental Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Mind-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Ghost Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Spirit-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Martial Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Brawler-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Archaic Disc",
+    "description": "A unique kind of Capture Disc that has been designed to be keen at capturing Ancient-type Loomians.",
+    "category": "Discs"
+  },
+  {
+    "name": "Wheel Disc",
+    "description": "A special type of Capture Disc. Its luck at capturing Loomians is unparalleled.",
+    "category": "Discs"
+  },
+  {
+    "name": "Ace Disc",
+    "description": "A rare Capture Disc that will always capture a wild Loomian without fail. Features the same enclosed vivarium as a standard Capture Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Spooky Disc",
+    "description": "A rare type of capture disc. It is as good as capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Snowflake Disc",
+    "description": "A rare type of capture disc. It is as good as capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Full Heart Disc",
+    "description": "A rare type of capture disc. It is as good as capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Broken Heart Disc",
+    "description": "A rare type of capture disc. It is as good as capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Meteor Disc",
+    "description": "A rare type of capture disc. It is as good as capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Pumpkin Disc",
+    "description": "A special type of capture disc. It is especially good at capturing Nevermare.",
+    "category": "Discs"
+  },
+  {
+    "name": "Frost Blossom Disc",
+    "description": "A rare type of Capture Disc. It is as good as capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Waba Disc",
+    "description": "A rare type of Capture Disc. It is better than a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Coal Disc",
+    "description": "A rare type of capture disc made for trainers on the Naughty List. It is sadly worse than a regular capture disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Donut Disc",
+    "description": "A rare type of capture disc. It is as good as capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Lollipop Disc",
+    "description": "A rare type of capture disc. It is as good as capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "C.C. Cookie Disc",
+    "description": "A rare type of capture disc. It is as good as capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Skeleton Disc",
+    "description": "A rare type of Capture Disc. It is as good as capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Metro Disc",
+    "description": "A rare type of Capture Disc. It is as good as capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Metro Disc G",
+    "description": "A special type of capture disc. It is exceptionally good at capturing Metronette.",
+    "category": "Discs"
+  },
+  {
+    "name": "Pumpkin Disc W",
+    "description": "A special type of capture disc. It is exceptionally good at capturing Nevermare.",
+    "category": "Discs"
+  },
+  {
+    "name": "Egg Disc E",
+    "description": "A special type of Capture Disc. It is as good at capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Egg Disc K",
+    "description": "A special type of Capture Disc. It is as good at capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Egg Disc R",
+    "description": "A special type of Capture Disc. It is especially good at capturing a certain Loomian.",
+    "category": "Discs"
+  },
+  {
+    "name": "Egg Disc B",
+    "description": "A special type of Capture Disc. It is especially good at capturing a certain Loomian.",
+    "category": "Discs"
+  },
+  {
+    "name": "Egg Disc G",
+    "description": "A special type of Capture Disc. It is especially good at capturing a certain Loomian.",
+    "category": "Discs"
+  },
+  {
+    "name": "Treasure Disc",
+    "description": "A special type of Capture Disc. It is as good at capturing wild Loomians as a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Crown Disc",
+    "description": "A rare type of Capture Disc. It is better than a Hyper Disc.",
+    "category": "Discs"
+  },
+  {
+    "name": "Omni Disc",
+    "description": "A limited-edition Capture Disc that will always capture a wild Loomian without fail.",
+    "category": "Discs"
+  },
+  {
+    "name": "Thunderfruit",
+    "description": "A rare fruit that causes harm if eaten by humans, but may induce evolution if eaten by certain Loomians.",
+    "category": "Fruits"
+  },
+  {
+    "name": "Powerfruit",
+    "description": "When fed to a Loomian, it fills it with power and raises it to the next level. If its level can't rise any higher, the fruit may still cause it to evolve if it is able.",
+    "category": "Fruits"
+  },
+  {
+    "name": "Kabunga Coffee",
+    "description": "When held by a Loomian, it will have a chance each turn during a battle to regain some Energy.",
+    "category": "Items"
+  },
+  {
+    "name": "Mysterious Dust",
+    "description": "When held by a Loomian in battle, there is a chance each turn of its Status being cured.",
+    "category": "Items"
+  },
+  {
+    "name": "Energy Orb",
+    "description": "Slightly decreases the Energy Cost of a Loomian's moves when held.",
+    "category": "Items"
+  },
+  {
+    "name": "Drain Orb",
+    "description": "When held, increases the amount of Health gained when using moves that drain the opponent's Health.",
+    "category": "Items"
+  },
+  {
+    "name": "Heavy Shackles",
+    "description": "When held by a Loomian, it will tend to move after all other Loomians in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Power Cuffs",
+    "description": "When held by a Loomian, their Melee and Ranged moves will deal more damage, but will also cost more Energy.",
+    "category": "Items"
+  },
+  {
+    "name": "Heavy Shield",
+    "description": "When held by a Loomian, its Ranged Defense is boosted, but using any of its moves will cost a little more Energy.",
+    "category": "Items"
+  },
+  {
+    "name": "Heavy Armor",
+    "description": "When held by a Loomian, its Melee Defense is boosted, but using any of its moves will cost a little more Energy.",
+    "category": "Items"
+  },
+  {
+    "name": "Thunder Orb",
+    "description": "A Loomian holding this in battle will be inflicted with paralysis.",
+    "category": "Items"
+  },
+  {
+    "name": "Volcanic Ash",
+    "description": "A Loomian holding this in battle will be inflicted with a burn.",
+    "category": "Items"
+  },
+  {
+    "name": "Health Amulet",
+    "description": "When held by a Loomian, it will gain a small amount of Health at the end of each turn in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Typeless Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Typeless moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Fire Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Fire-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Water Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Water-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Plant Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Plant-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Earth Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Earth-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Electric Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Electric=type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Ice Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Ice-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Light Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Light-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Dark Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Dark-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Bug Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Bug-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Metal Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Metal-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Air Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Air-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Toxic Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Toxic-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Mind Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Mind-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Spirit Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Spirit-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Brawler Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Brawler-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Ancient Essence",
+    "description": "When held by a Loomian, this strange substance will boost the strength of their Ancient-type moves in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Mystic Wand",
+    "description": "When held by Shawchi, this mysterious stick boosts the power of its Ranged attacks.",
+    "category": "Items"
+  },
+  {
+    "name": "Drop of Youth",
+    "description": "A drop from the legendary Fountain of Youth. It prevents a Loomian from evolving and boosts its Defenses.",
+    "category": "Items"
+  },
+  {
+    "name": "Strong Magnet",
+    "description": "Causes one Metal-type attack that is directed at an ally Loomian to be redirected toward the Loomian equipped with Strong Magnet.",
+    "category": "Items"
+  },
+  {
+    "name": "Protein Shake",
+    "description": "A healthy workout supplement for Loomians. A Loomian equipped with Protein Shake will gain double Training Points.",
+    "category": "Items"
+  },
+  {
+    "name": "Plain Pearl",
+    "description": "Absorbs half the power of a Typeless attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Flame Pearl",
+    "description": "Absorbs half the power of a Fire attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Wave Pearl",
+    "description": "Absorbs half the power of a Water attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Blossom Pearl",
+    "description": "Absorbs half the power of a Plant-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Terra Pearl",
+    "description": "Absorbs half the power of a Earth-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Volt Pearl",
+    "description": "Absorbs half the power of a Electric-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Frost Pearl",
+    "description": "Absorbs half the power of a Ice-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Shine Pearl",
+    "description": "Absorbs half the power of a Light-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Shade Pearl",
+    "description": "Absorbs half the power of a Dark-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Web Pearl",
+    "description": "Absorbs half the power of a Bug-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Metallic Pearl",
+    "description": "Absorbs half the power of a Metal-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Draft Pearl",
+    "description": "Absorbs half the power of a Air-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Noxious Pearl",
+    "description": "Absorbs half the power of a Toxic-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Mental Pearl",
+    "description": "Absorbs half the power of a Mind-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Spectral Pearl",
+    "description": "Absorbs half the power of a Spirit-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Martial Pearl",
+    "description": "Absorbs half the power of a Brawler-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Archaic Pearl",
+    "description": "Absorbs half the power of a Ancient-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Plain Shell",
+    "description": "Increases the Strength of one Typeless attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Flame Shell",
+    "description": "Increases the Strength of one Fire attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Wave Shell",
+    "description": "Increases the Strength of one Water attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Blossom Shell",
+    "description": "Increases the Strength of one Plant-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Terra Shell",
+    "description": "Increases the Strength of one Earth-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Volt Shell",
+    "description": "Increases the Strength of one Electric-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Frost Shell",
+    "description": "Increases the Strength of one Ice-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Shine Shell",
+    "description": "Increases the Strength of one Light-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Shade Shell",
+    "description": "Increases the Strength of one Dark-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Web Shell",
+    "description": "Increases the Strength of one Bug-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Metallic Shell",
+    "description": "Increases the Strength of one Metal-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Draft Shell",
+    "description": "Increases the Strength of one Air-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Noxious Shell",
+    "description": "Increases the Strength of one Toxic-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Mental Shell",
+    "description": "Increases the Strength of one Mind-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Spectral Shell",
+    "description": "Increases the Strength of one Spirit-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Martial Shell",
+    "description": "Increases the Strength of one Brawler-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Archaic Shell",
+    "description": "Increases the Strength of one Ancient-type attack used against the Loomian equipped with this item.",
+    "category": "Items"
+  },
+  {
+    "name": "Health Reset",
+    "description": "Using this device on a Loomian will remove some of their Health Training Points.",
+    "category": "Items"
+  },
+  {
+    "name": "Energy Reset",
+    "description": "Using this device on a Loomian will remove some of their Energy Training Points.",
+    "category": "Items"
+  },
+  {
+    "name": "Attack Reset M",
+    "description": "Using this device on a Loomian will remove some of their Melee Attack Training Points.",
+    "category": "Items"
+  },
+  {
+    "name": "Attack Reset R",
+    "description": "Using this device on a Loomian will remove some of their Ranged Attack Training Points.",
+    "category": "Items"
+  },
+  {
+    "name": "Defense Reset M",
+    "description": "Using this device on a Loomian will remove some of their Melee Defense Training Points.",
+    "category": "Items"
+  },
+  {
+    "name": "Defense Reset R",
+    "description": "Using this device on a Loomian will remove some of their Ranged Defense Training Points.",
+    "category": "Items"
+  },
+  {
+    "name": "Speed Reset",
+    "description": "Using this device on a Loomian will remove some of their Speed Training Points.",
+    "category": "Items"
+  },
+  {
+    "name": "Repellent",
+    "description": "Prevents encounters with wild Loomians for 200 steps when applied.",
+    "category": "Items"
+  },
+  {
+    "name": "Ancient Scepter",
+    "description": "An old, mysterious artifact. Legends say it can be used to evolve a certain Loomian.",
+    "category": "Items"
+  },
+  {
+    "name": "Molted Claw",
+    "description": "A sharp husk dropped by a Garbantis after its first molt.",
+    "category": "Items"
+  },
+  {
+    "name": "Scrap Metal",
+    "description": "Pieces of high-grade steel made to withstand intense conditions.",
+    "category": "Items"
+  },
+  {
+    "name": "Spare Cable",
+    "description": "A cable containing color-coded wires used to transfer heavy loads of power and information.",
+    "category": "Items"
+  },
+  {
+    "name": "Clear Lens",
+    "description": "A highly-focused lens capable of zooming up to 200x and focusing elemental bursts of energy.",
+    "category": "Items"
+  },
+  {
+    "name": "Flame Core",
+    "description": "A core that enables the execution of burning attacks.",
+    "category": "Items"
+  },
+  {
+    "name": "Freezer Core",
+    "description": "A core that enables the execution of freezing attacks.",
+    "category": "Items"
+  },
+  {
+    "name": "Voltaic Core",
+    "description": "A core that enables the execution of electrifying attacks.",
+    "category": "Items"
+  },
+  {
+    "name": "Power Core",
+    "description": "A core capable of storing large amounts of power. The power can be used to fire elemental bursts.",
+    "category": "Items"
+  },
+  {
+    "name": "Quantum Core",
+    "description": "A core designed to process unparalleled quantities of data. This technology was, until recently, believed to be unachievable.",
+    "category": "Items"
+  },
+  {
+    "name": "Wisp Bottle",
+    "description": "A bottle containing a rare dye that, when used on a Loomian with a Wisp, will change its wisp's color to another random wisp color. Cannot be used on a Rainbow Wisp, nor create a Rainbow Wisp.",
+    "category": "Items"
+  },
+  {
+    "name": "Petroliths",
+    "description": "The fossilized remains of an ancient Loomian. When combined with other pieces, and infused with Soul Crystal energy, life can be extracted from it, and the Loomian revived.",
+    "category": "Items"
+  },
+  {
+    "name": "Voidstone",
+    "description": "A somewhat rare stone that can be used to craft Capture Discs.",
+    "category": "Items"
+  },
+  {
+    "name": "Exchane Gem",
+    "description": "A peculiar stone that seems to have the power to trigger evolution for Loomians which typically only evolve by trading.",
+    "category": "Items"
+  },
+  {
+    "name": "Glimmering Scale",
+    "description": "An exotic scale that is rumored to induce evolution for certain Loomians.",
+    "category": "Items"
+  },
+  {
+    "name": "Copper Nugget",
+    "description": "A hunk of copper alloy which exhibits strange magnetic properties. It may be useful for something.",
+    "category": "Items"
+  },
+  {
+    "name": "Musty Boot",
+    "description": "A stinky old shoe fished out of the ocean.",
+    "category": "Items"
+  },
+  {
+    "name": "Rusty Can",
+    "description": "A rusty can fished out of the ocean.",
+    "category": "Items"
+  },
+  {
+    "name": "Junk Tire",
+    "description": "An old, worn-out tire fished out of the ocean.",
+    "category": "Items"
+  },
+  {
+    "name": "Worn Rope",
+    "description": "A scrap of heavy-duty rope fished out of the ocean.",
+    "category": "Items"
+  },
+  {
+    "name": "Rageful Plushie",
+    "description": "A Loomian equipped with Rageful Plushie, when strucked by a super-effective move, will become enraged, greatly boosting its Melee Attack and Ranged Attack.",
+    "category": "Items"
+  },
+  {
+    "name": "Clutch Plushie",
+    "description": "When equipped, a Loomian at full Health may barely withstand an attack that would otherwise knock it out. The item will be used up for the remainder of the battle, and the holder will lose one-tenth of its energy.",
+    "category": "Items"
+  },
+  {
+    "name": "Specialty Boots",
+    "description": "A Loomian equipped with Specialty Boots will have increased Speed, but will only be able to use the first move it uses in battle.",
+    "category": "Items"
+  },
+  {
+    "name": "Coal",
+    "description": "This might be the last thing that anybody wants to receive as a gift.",
+    "category": "Items"
+  },
+  {
+    "name": "Spooky Treat",
+    "description": "A sweet treat found in Dr. Haloine's Nightmare. Dr. Haloine is interested in trading for them.",
+    "category": "Items"
+  },
+  {
+    "name": "Nightmare Orb",
+    "description": "A mysterious orb that may help to induce evolution when held by certain Loomians.",
+    "category": "Items"
+  },
+  {
+    "name": "Jolly Cookie",
+    "description": "A delicious cookie awarded by Jolly Village's Great Gift Exchange. Mr. Jolly offers other items in exchange for these cookies.",
+    "category": "Items"
+  },
+  {
+    "name": "Decorative Lights",
+    "description": "A festive string of lights that may help to induce evolution when held by certain Loomians.",
+    "category": "Items"
+  },
+  {
+    "name": "Chocolate Bar",
+    "description": "When a Loomian equipped with Chocolate Bar uses a move in battle, it will consume the item and its move will cost 0 Energy.",
+    "category": "Items"
+  },
+  {
+    "name": "Delicious Cake",
+    "description": "A deluxe angel food cake baked with love by the Sweet Retreat Head Chef himself. It is said that it may attract a certain rare Loomian. Many will say this is a lie, though.",
+    "category": "Items"
+  },
+  {
+    "name": "Birthday Candle",
+    "description": "A trick candle that is exceptionally difficult to blow out. It is said that it may induce evolution in certain Loomians.",
+    "category": "Items"
+  },
+  {
+    "name": "Sweets Jar",
+    "description": "A jar full of tasty sweets. It is said that it may induce evolution in certain Loomians.",
+    "category": "Items"
+  },
+  {
+    "name": "Meteorite",
+    "description": "A chunk of matter from space that survived the fall through the atmosphere to the ground. It can be used for trading, and might also be useful for powering up specific Loomians.",
+    "category": "Items"
+  },
+  {
+    "name": "Matterite",
+    "description": "A Rare chunk of matter from space that survived the fall through the atmosphere to the ground. It can be used to add minerals to Cosmiore's body.",
+    "category": "Items"
+  },
+  {
+    "name": "Antimatterite",
+    "description": "A rare chunk of matter from space that survived the fall through the atmosphere to the ground. It can be used to remove some of the minerals from Cosmiore's body.",
+    "category": "Items"
+  },
+  {
+    "name": "Candy Corn",
+    "description": "A sweet treat found in Uhnne Fair. Dr. Haloine is interested in trading for them.",
+    "category": "Items"
+  },
+  {
+    "name": "Milkshake",
+    "description": "When the possessor has less than half of its health, it will restore a quarter of its health.",
+    "category": "Items"
+  },
+  {
+    "name": "Bouquet",
+    "description": "A beautiful bouquet that shows that you care. Gifting this to a Loomian will help it bond with you.",
+    "category": "Items"
+  },
+  {
+    "name": "Easter Egg",
+    "description": "Egg",
+    "category": "Items"
+  },
+  {
+    "name": "Fractured Crown",
+    "description": "Broken fragments from a peculiar egg. It is treasured by a certain Loomian.",
+    "category": "Items"
+  },
+  {
+    "name": "Radianite Egg",
+    "description": "A rare egg with mysterious powers.",
+    "category": "Items"
+  },
+  {
+    "name": "Closet Key",
+    "description": "A key that unlocks the storage closet in the back of the Loomian Laboratory. Mom gave it to you. There are apparently some items in the closet that will be useful to you on your adventure.",
+    "category": "Key Items"
+  },
+  {
+    "name": "POLUT Silver Keycard",
+    "description": "A keycard that has POLUT Corp.'s logo on it. It apparently grants you Silver Access.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Dubious Sushi",
+    "description": "Some Sushi obtained from the New Sushi Stick restaurant. Something about it seems off.",
+    "category": "Key Items"
+  },
+  {
+    "name": "POLUT Gold Keycard",
+    "description": "A keycard that has POLUT Corp.'s logo on it. It apparently grants you Gold Access.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Vantacorp Keycard",
+    "description": "A keycard with a V on it. Despite being found in POLUT Corp., it doesn't seem to go to any of the doors there.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Fishing Rod",
+    "description": "An ordinary fishing rod that allows you to discover extraordinary Loomians.",
+    "category": "Key Items"
+  },
+  {
+    "name": "UMV Battery",
+    "description": "A battery cell that is apparently of use to the Lagoona Lake Research Team.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Deeplake Relic",
+    "description": "An ancient artifact found at the bottom of the lake on Route 8. Its purpose is unknown.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Atlanthian Travel Pass",
+    "description": "A special unlimited pass for traveling to and from Atlanthian. For Platinum VIP members only.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Experience Boost",
+    "description": "This handy device allows Loomians that don't participate in battle to gain experience, and increases the amount of experience gained by benched Loomians.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Ability Charm",
+    "description": "This peculiar charm causes Loomians with rare Abilities to be attracted to its bearer.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Roaming Charm",
+    "description": "This peculiar charm increases its bearer's odds of encountering rare Roaming and Corrupt Loomians in the wild.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Gleaming Charm",
+    "description": "This peculiar charm causes gleaming Loomians to be attracted to its bearer.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Rally Charm",
+    "description": "This charm increases the number of Loomians that can be rallied at Rally Ranch, and allows you to rally Loomians faster.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Bob's Bait",
+    "description": "A special fishing bait that attracts super rare, different-colored Goppies at Bob's Pond.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Huge Plushie",
+    "description": "A massive Weevolt plushie sold by Atlanthian Arcade in limited quantities.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Lost Coin",
+    "description": "For one, a lost coin. For another, a found coin. So which is it, really?",
+    "category": "Key Items"
+  },
+  {
+    "name": "Arcade Key",
+    "description": "A key to the storage closet at Atlanthian Arcade.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Magic Chisel",
+    "description": "A strange chisel. It may have a special effect when used on a certain Loomian.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Gate Key",
+    "description": "A key to the gate just outside Jolly Village.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Spoo Key",
+    "description": "A key to the mausoleum at the Uhnne Fair Cemetery.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Jolly Mallet",
+    "description": "A festively decorated mallet awarded by Jolly Vilage's Great Gift Exchange. Its purpose is somewhat mysterious.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Red Tuft",
+    "description": "A red tuft of fur which can be combined with others to create a special material.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Orange Tuft",
+    "description": "An orange tuft of fur which can be combined with others to create a special material.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Yellow Tuft",
+    "description": "A yellow tuft of fur which can be combined with others to create a special material.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Green Tuft",
+    "description": "A green tuft of fur which can be combined with others to create a special material.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Blue Tuft",
+    "description": "A blue tuft of fur which can be combined with others to create a special material.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Violet Tuft",
+    "description": "A violet tuft of fur which can be combined with others to create a special material.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Rainbow Tuft",
+    "description": "A special rainbow tuft of fur. Some seek after this rare material.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Mansion Key",
+    "description": "A mysterious key crafted in the Uhnne Fair Haunted Corn Maze.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Jolly Star",
+    "description": "Jolly Village's special tree topper. It was misplaced by Mr. Jolly's helper.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Red Scale",
+    "description": "A red fish scale which can be combined with others to create a special item.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Orange Scale",
+    "description": "An orange fish scale which can be combined with others to create a special item.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Yellow Scale",
+    "description": "A yellow fish scale which can be combined with others to create a special item.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Green Scale",
+    "description": "A green fish scale which can be combined with others to create a special item.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Blue Scale",
+    "description": "A blue fish scale which can be combined with others to create a special item.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Violet Scale",
+    "description": "A violet fish scale which can be combined with others to create a special item.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Rainbow Scale",
+    "description": "A special rainbow fish scale. Some seek after this rare item.",
+    "category": "Key Items"
+  },
+  {
+    "name": "Small Med",
+    "description": "This medicine allows a Loomian to recover 20 Health when administered.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Medium Med",
+    "description": "This medicine allows a Loomian to recover 50 Health when administered.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Antidote",
+    "description": "This medicine cures a Loomian of poison when administered.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Burn Gel",
+    "description": "This medicine soothes a Loomian's burn when administered.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Paralysis Potion",
+    "description": "This medicine allows a Loomian to recover from Paralysis when administered.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Health Shard",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to increase a Loomian's Unique Health Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Energy Shard",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to increase a Loomian's Unique Energy Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Attack Shard M",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to increase a Loomian's Unique Melee Attack Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Attack Shard R",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to increase a Loomian's Unique Ranged Attack Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Defense Shard M",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to increase a Loomian's Unique Melee Defense Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Defense Shard R",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to increase a Loomian's Unique Ranged Defense Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Speed Shard",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to increase a Loomian's Unique Speed Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Dark Health Shard",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to decrease a Loomian's Unique Health Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Dark Energy Shard",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to decrease a Loomian's Unique Energy Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Dark Attack Shard M",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to decrease a Loomian's Unique Melee Attack Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Dark Attack Shard R",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to decrease a Loomian's Unique Ranged Attack Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Dark Defense Shard M",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to decrease a Loomian's Unique Melee Defense Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Dark Defense Shard R",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to decrease a Loomian's Unique Ranged Defense Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Dark Speed Shard",
+    "description": "A mysterious shard collected by defeating a corrupt Loomian. It seems to decrease a Loomian's Unique Speed Points when used.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Health Gummy",
+    "description": "A tasty treat enjoyed by Loomians. It increases a Loomian's Health Training Points when consumed.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Energy Gummy",
+    "description": "A tasty treat enjoyed by Loomians. It increases a Loomian's Energy Training Points when consumed.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Attack Gummy M",
+    "description": "A tasty treat enjoyed by Loomians. It increases a Loomian's Melee Attack Training Points when consumed.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Attack Gummy R",
+    "description": "A tasty treat enjoyed by Loomians. It increases a Loomian's Ranged Attack Training Points when consumed.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Defense Gummy M",
+    "description": "A tasty treat enjoyed by Loomians. It increases a Loomian's Melee Defense Training Points when consumed.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Defense Gummy R",
+    "description": "A tasty treat enjoyed by Loomians. It increases a Loomian's Ranged Defense Training Points when consumed.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Speed Gummy",
+    "description": "A tasty treat enjoyed by Loomians. It increases a Loomian's Speed Training Points when consumed.",
+    "category": "Medicine"
+  }
+]

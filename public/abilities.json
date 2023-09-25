@@ -1,0 +1,638 @@
+[
+  {
+    "name": "Ability Thief",
+    "description": "Steal the Ability of your target when you use a move that makes contact with them."
+  },
+  {
+    "name": "Ace",
+    "description": "As a master of your element, your Attack Type bonus is raised from 25% to 100%."
+  },
+  {
+    "name": "Adorable",
+    "description": "Distract your foes with your captivating charm as you enter battle, lowering their Melee Defense."
+  },
+  {
+    "name": "Aggressive",
+    "description": "Get a Melee Attack boost each time you knock out another Loomian."
+  },
+  {
+    "name": "Ambush",
+    "description": "Attack with double power if your target entered the battle this turn."
+  },
+  {
+    "name": "Analyze",
+    "description": "Identify whether the opponents' Melee or Ranged Defenses are weaker, and boost your own respective Attack."
+  },
+  {
+    "name": "Anomaly",
+    "description": "During battle, when this Loomian's stats should increase, they instead decrease, and vice-versa."
+  },
+  {
+    "name": "Appetite",
+    "description": "Continually feeding on a sugary substance, this Loomian loses a little Health each turn to boost two random stats."
+  },
+  {
+    "name": "Applied Frustration",
+    "description": "When any of your stats are lowered, you focus your anger to sharply boost your Ranged Attack."
+  },
+  {
+    "name": "Apprehension",
+    "description": "You get uneasy when you detect a foe has a move that is powerful against you."
+  },
+  {
+    "name": "Aqua Body",
+    "description": "This Loomian takes reduced damage from Fire-type moves, and cannot be inflicted with a burn."
+  },
+  {
+    "name": "Awakening",
+    "description": "Raises your Attack Type Bonus from 25% to 50%."
+  },
+  {
+    "name": "Baneful",
+    "description": "Deal 20% more damage to opponents which are infected with poison."
+  },
+  {
+    "name": "Bitter Touch",
+    "description": "When another Loomian's move comes into contact with you, they may become filled with regret, becoming unable to use that move again for a few turns."
+  },
+  {
+    "name": "Blistering Heat",
+    "description": "You can poison any Loomian regardless of their type. Your Fire-type moves have a small chance to poison the target."
+  },
+  {
+    "name": "Bloodsucker",
+    "description": "Moves that leech the opponent's health have boosted Strength."
+  },
+  {
+    "name": "Boast",
+    "description": "Brag as you join the fight. Boosts your Melee Attack if it's greater than your foe's, reduces it otherwise."
+  },
+  {
+    "name": "Brute Force",
+    "description": "Removes secondary effects of your moves to deal pure, increased damage."
+  },
+  {
+    "name": "Bug Fever",
+    "description": "Gain a sharp Attack boost when you KO a foe using a Bug-type move."
+  },
+  {
+    "name": "Bully",
+    "description": "When targeting a foe which is shorter than you, bypass their Ability and positive stat boosts."
+  },
+  {
+    "name": "Burglar",
+    "description": "When making contact with the foe, you will swipe their item. If you already have an item, their item will be discarded."
+  },
+  {
+    "name": "Bursting Seams",
+    "description": "After consuming an item, there is a chance you will get it back at the end of the turn."
+  },
+  {
+    "name": "Caddie",
+    "description": "If carrying an item when an ally uses up its own item, you will pass your item to the ally."
+  },
+  {
+    "name": "Captivating",
+    "description": "Capture the attention of your opponents, redirecting their attacks at you."
+  },
+  {
+    "name": "Chaperone",
+    "description": "Protects allies who share a type with this Loomian from being inflicted with status ailments or having their stats lowered."
+  },
+  {
+    "name": "Chill",
+    "description": "Your Typeless moves become Ice-type. The Strength of these moves is boosted a little."
+  },
+  {
+    "name": "Circadian",
+    "description": "Rotate between Light- and Dark-type each turn in battle."
+  },
+  {
+    "name": "Clingy",
+    "description": "This Loomian refuses to let go of its item."
+  },
+  {
+    "name": "Clutch",
+    "description": "When this Loomian is at full Health, and is struck by a move that would knock it out, it hangs on with just 1 Health."
+  },
+  {
+    "name": "Combative",
+    "description": "When any of your stats are lowered, focus your rage to sharply boost your Melee Attack."
+  },
+  {
+    "name": "Combustible",
+    "description": "When struck by a Fire-type attack, this Loomian absorbs it to boost the Strength of its own Fire-type moves."
+  },
+  {
+    "name": "Communication",
+    "description": "The Loomian understands when its allies are attacking, and is able to dodge their moves."
+  },
+  {
+    "name": "Compliant",
+    "description": "Help your team follow your trainer's orders, even when the foe tries to force you to use certain moves."
+  },
+  {
+    "name": "Confidence",
+    "description": "This Loomian does not flinch."
+  },
+  {
+    "name": "Contact Curse",
+    "description": "When another Loomian's move comes into contact with you, they lose some Energy."
+  },
+  {
+    "name": "Coursing Venom",
+    "description": "When struck by a Toxic-type attack, it is absorbed and this Loomian's Toxic-type attacks are strengthened."
+  },
+  {
+    "name": "Dauntless",
+    "description": "Get a Melee Attack boost when entering battle if your foe has an attack which is strong against your type."
+  },
+  {
+    "name": "Dawn",
+    "description": "Increases your Ranged Attack when in battle with an ally with the Dawn or Dusk Ability."
+  },
+  {
+    "name": "Defensive Priority",
+    "description": "Upon entering battle, harshly reduce your Speed to boost your Melee Defense and Ranged Defense."
+  },
+  {
+    "name": "Devious",
+    "description": "When attacking, bypass the target's Ability."
+  },
+  {
+    "name": "Double Strike",
+    "description": "When attacking, this Loomian hits the opponent a second time with reduced strength."
+  },
+  {
+    "name": "Drainage",
+    "description": "Drainage increases the Health gained from using health-draining moves by 50%."
+  },
+  {
+    "name": "Driven",
+    "description": "When the Loomian flinches during combat, it boosts its Speed to compensate."
+  },
+  {
+    "name": "Dusk",
+    "description": "Increases your Melee Attack when in battle with an ally with the Dawn or Dusk Ability."
+  },
+  {
+    "name": "Early Bird",
+    "description": "Wake up from sleep twice as fast as others."
+  },
+  {
+    "name": "Enchant",
+    "description": "When this Loomian uses a damaging move in battle, it has a small chance to leave the target dazed."
+  },
+  {
+    "name": "Enchanted Coat",
+    "description": "This Loomian takes reduced damage from super-effective moves."
+  },
+  {
+    "name": "Expertise",
+    "description": "This Loomian's moves cost 25% less Energy."
+  },
+  {
+    "name": "Fanning Flame",
+    "description": "When struck by an Air-type attack, take reduced damage and receive a boost in Ranged Attack."
+  },
+  {
+    "name": "Festive Spirit",
+    "description": "This Loomian's Ranged Attack stat is equal to its current energy."
+  },
+  {
+    "name": "Finesse",
+    "description": "Attack with great tact, bypassing hurdles your opponents may have set up, such as Scapegoat."
+  },
+  {
+    "name": "Flutter",
+    "description": "The wind generated by your wings protects you from powders and entry hazards."
+  },
+  {
+    "name": "Forge",
+    "description": "When struck by a Fire-type attack, take reduced damage and receive a boost in Melee Attack."
+  },
+  {
+    "name": "Frail Armor",
+    "description": "When struck by a Melee attack, this Loomian experiences a decrease in Melee Defense and a sharp increase in Speed."
+  },
+  {
+    "name": "Frenzy",
+    "description": "After knocking out another Loomian in battle, you gain as much Energy as they had remaining."
+  },
+  {
+    "name": "Glide",
+    "description": "When an Air-type attack is used by any Loomian in battle, you gain a boost in speed."
+  },
+  {
+    "name": "Glutton",
+    "description": "The effects of some edible items are boosted."
+  },
+  {
+    "name": "Guardian",
+    "description": "The effects of some edible items are boosted.Protect your ally Loomians when they take hits in battle, reducing the damage they receive."
+  },
+  {
+    "name": "Gummy",
+    "description": "You are immune to bomb-like attacks."
+  },
+  {
+    "name": "Guru",
+    "description": "The Strength of your weak moves is boosted."
+  },
+  {
+    "name": "Handy",
+    "description": "This Loomian's support moves tend to go first."
+  },
+  {
+    "name": "Handy",
+    "description": "Your Melee Defense is boosted by 50%, but you're weak to Water-type moves."
+  },
+  {
+    "name": "Harmonize",
+    "description": "When inflicted with a status ailment by an opponent's move, the opponent will be inflicted with the same ailment."
+  },
+  {
+    "name": "Hasty",
+    "description": "Fight with increased Melee Attack, but lower Accuracy."
+  },
+  {
+    "name": "Heavy Fists",
+    "description": "Attacks that involve punching or slapping deal 50% more damage."
+  },
+  {
+    "name": "Herd Behavior",
+    "description": "Copy your allies' stat boosts."
+  },
+  {
+    "name": "High Explosive",
+    "description": "Bomb-like attacks deal 50% more damage, but have no secondary effects."
+  },
+  {
+    "name": "Idiosyncratic",
+    "description": "This Loomian has specialized their skills. Their Melee and Ranged stats are swapped compared to others of their species."
+  },
+  {
+    "name": "Ignorant",
+    "description": "When attacking or being attacked, this Loomian is oblivious to the foe's stat boosts, causing them to have no effect."
+  },
+  {
+    "name": "Illuminate",
+    "description": "Typeless moves take on the Light type. The Strength of these moves is boosted a little."
+  },
+  {
+    "name": "Immunized",
+    "description": "This Loomian is immune to status ailments."
+  },
+  {
+    "name": "Incandescent",
+    "description": "The Strength of your Light-type moves is boosted by 50%."
+  },
+  {
+    "name": "Insulated",
+    "description": "Ice and Fire-Type moves deal half as much damage to you."
+  },
+  {
+    "name": "Lazy",
+    "description": "This Loomian tends to move last in battle."
+  },
+  {
+    "name": "Life Force",
+    "description": "This Loomian's moves cost Health instead of Energy. It costs 10 Health to use any move."
+  },
+  {
+    "name": "Lightning Rod",
+    "description": "Attracts all Electric-type moves to this Loomian, which absorbs them to boost its Ranged Attack."
+  },
+  {
+    "name": "Lucky",
+    "description": "Moves with secondary effects have double the chances of their secondary effect activating."
+  },
+  {
+    "name": "Madcap",
+    "description": "Strike with increased Strength when using reckless moves."
+  },
+  {
+    "name": "Marksman",
+    "description": "Critical hits deal increased damage."
+  },
+  {
+    "name": "Malware",
+    "description": "Any Loomian which makes contact when attacking you has its Ability replaced with Malware."
+  },
+  {
+    "name": "Master",
+    "description": "When you knock out another Loomian, get a boost based on your greatest strength."
+  },
+  {
+    "name": "Mean Spirited",
+    "description": "Attack 20% stronger when the target is afflicted with a status ailment."
+  },
+  {
+    "name": "Mysterious Cloak",
+    "description": "This Loomian is protected from all damage that doesn't come directly from a Loomian's move."
+  },
+  {
+    "name": "Mystery Toxins",
+    "description": "Opponents that make contact with you may be inflicted randomly with sleep, poison, or paralysis."
+  },
+  {
+    "name": "Mystic Tone",
+    "description": "When an opponent's attack causes contact with this Loomian, it responds by summoning a random allies' move."
+  },
+  {
+    "name": "Neutralize",
+    "description": "All of your moves become Typeless. The Strength of these moves is boosted a little."
+  },
+  {
+    "name": "Nightmarish",
+    "description": "Haunt the dream of sleeping opponents, causing them damage each turn."
+  },
+  {
+    "name": "Noxious Weeds",
+    "description": "When a Plant-type attack attempts to strike this Loomian the move is choked out by weeds, boosting the Strength of this Loomian's own Plant-type moves."
+  },
+  {
+    "name": "Odd Husk",
+    "description": "This Loomian is protected against the secondary effects of moves that hit it."
+  },
+  {
+    "name": "Overcharged",
+    "description": "The Strength of all Loomians' Electric-type moves are boosted 30% while this Loomian is on the battlefield."
+  },
+  {
+    "name": "Overshadow",
+    "description": "Typeless moves take on the Dark type. The Strength of these moves is boosted a little."
+  },
+  {
+    "name": "Oxidize",
+    "description": "When hit by a Water or Air Type move, you will lose speed and gain Melee Defense."
+  },
+  {
+    "name": "Parting Gift",
+    "description": "When this Loomian is knocked out, it leaves behind a gift that explodes on the Loomian across from it, which deals a random amount of damage."
+  },
+  {
+    "name": "Pincer Trap",
+    "description": "Attacks that involve biting will trap the target in the battle until the end of the next turn."
+  },
+  {
+    "name": "Pitch-Black",
+    "description": "Boosts the strength of your Dark-type attacks."
+  },
+  {
+    "name": "Playful",
+    "description": "Any boosts you receive during battle are shared with ally Loomians."
+  },
+  {
+    "name": "Power Jaw",
+    "description": "Biting attacks deal 50% more damage."
+  },
+  {
+    "name": "Power Napper",
+    "description": "Restore some Health when withdrawn from battle."
+  },
+  {
+    "name": "Premonition",
+    "description": "Identifies the opponent's most powerful move as soon as you enter the fight."
+  },
+  {
+    "name": "Prismatic",
+    "description": "When struck by a Light-type attack, it is absorbed and this Loomian's Light-type attacks are strengthened."
+  },
+  {
+    "name": "Protective Shell",
+    "description": "Your critical vulnerabilities are protected by a hard shell. This prevents you from receiving critical hits in battle."
+  },
+  {
+    "name": "Pyro",
+    "description": "This Loomian's Fire-type moves have 50% more Strength and cost 25% more Energy."
+  },
+  {
+    "name": "Quick Recovery",
+    "description": "When leaving battle, this Loomian instantly recovers from status ailments."
+  },
+  {
+    "name": "Radiance",
+    "description": "Using Light-type moves may cause the foe to be dazed."
+  },
+  {
+    "name": "Raging Fire",
+    "description": "When struck by a Fire-type attack, this Loomian absorbs it to recover Energy."
+  },
+  {
+    "name": "Razor Sharp",
+    "description": "This Loomian's Melee attacks land critical hits more often."
+  },
+  {
+    "name": "Reaper",
+    "description": "Harvest the life essence of foes you KO. Heals 25% of your Max Health, 50% if the foe is Light-type."
+  },
+  {
+    "name": "Rechargeable",
+    "description": "When struck by a Electric-type attack, this Loomian absorbs it to boost its Speed."
+  },
+  {
+    "name": "Regift",
+    "description": "When targeted by another Loomian's support move, send it back to the user."
+  },
+  {
+    "name": "Regurgitate",
+    "description": "When you get knocked out, spit stomach acid on your foes, lowering their defenses."
+  },
+  {
+    "name": "Replicate",
+    "description": "Mimic your opponent's ability."
+  },
+  {
+    "name": "Repugnant",
+    "description": "When attacked by a chomp-like move, damage is reduced, and you may also leave the attacker poisoned."
+  },
+  {
+    "name": "Resentful",
+    "description": "When knocked out by another Loomian's move, deal equal damage to them as final revenge."
+  },
+  {
+    "name": "Resilience",
+    "description": "Boosts your Melee Defense each time another Loomian's move makes contact with you."
+  },
+  {
+    "name": "Rev Up",
+    "description": "Accelerate at the end of each turn, boosting your speed."
+  },
+  {
+    "name": "Reverberate",
+    "description": "While you are in battle, Loomians cannot fall asleep."
+  },
+  {
+    "name": "Salvage",
+    "description": "If not holding an item of its own, this Loomian may recycle an item that was used or dropped."
+  },
+  {
+    "name": "Scorching Skin",
+    "description": "A Loomian whose attacks come into direct contact with this one may be left with a burn."
+  },
+  {
+    "name": "Shakedown",
+    "description": "When joining the battle, search your opponents and reveal their equipped items."
+  },
+  {
+    "name": "Sharp Claws",
+    "description": "Moves that make direct contact increase in Strength."
+  },
+  {
+    "name": "Sharp Edges",
+    "description": "When another Loomian's move comes into contact with you, they receive some damage."
+  },
+  {
+    "name": "Sharp Focus",
+    "description": "Moves that have less than 100% Accuracy are boosted to 100% Accuracy and costs 10% more Energy."
+  },
+  {
+    "name": "Slick Shell",
+    "description": "This Loomian's Ranged Defense is doubled."
+  },
+  {
+    "name": "Slimy",
+    "description": "When the possessor is hit by a contact move, the attacker will have its Speed lowered by one stage."
+  },
+  {
+    "name": "Sly",
+    "description": "The effects of the foe's item are bypassed when attacking, or being attacked by, this Loomian."
+  },
+  {
+    "name": "Specialization",
+    "description": "The fewer moves this Loomian knows, the more power it can put into them."
+  },
+  {
+    "name": "Staunch",
+    "description": "Your stats are not lowered by others' moves or abilities."
+  },
+  {
+    "name": "Sugar Rush",
+    "description": "Your Speed is doubled when you consume your equipped item."
+  },
+  {
+    "name": "Surrogate",
+    "description": "When an ally is knocked out in battle, take over its Ability."
+  },
+  {
+    "name": "Swampy",
+    "description": "This Loomian's Plant-type attacks have a chance to lower the target's Speed."
+  },
+  {
+    "name": "Sweet Aroma",
+    "description": "When you hit the opponent with a move that makes contact, they will be trapped in battle until the end of the next turn."
+  },
+  {
+    "name": "Sweet Touch",
+    "description": "When another Loomian's move comes into contact with you, they may decide to continue using that move for a few turns."
+  },
+  {
+    "name": "Tank",
+    "description": "Halves the damage of the first hit this Loomian takes in battle."
+  },
+  {
+    "name": "Temper",
+    "description": "When hit by a move that brings this Loomian's Health below half, its Ranged Attack is boosted."
+  },
+  {
+    "name": "Terrifying",
+    "description": "Strike fear into your foes as you enter battle, lowering their Melee Attack."
+  },
+  {
+    "name": "Territorial",
+    "description": "Threatened by Loomians of the same gender, you attack harder. However, you tend to strike the opposite gender weaker."
+  },
+  {
+    "name": "Thriving Pace",
+    "description": "Increases your speed when you are afflicted with a status."
+  },
+  {
+    "name": "Tone Deaf",
+    "description": "Attacks which utilize sound deal 20% more damage."
+  },
+  {
+    "name": "Total Eclipse",
+    "description": "When struck by a Light- or Dark-type attack, this Loomian absorbs it to boost its Speed."
+  },
+  {
+    "name": "Toxic Filter",
+    "description": "Attracts all Toxic-type moves to this Loomian, which absorbs them to boost its next Air-type attack."
+  },
+  {
+    "name": "Toxic Spines",
+    "description": "When another Loomian's move comes into contact with you, they may become poisoned."
+  },
+  {
+    "name": "Toxic Touch",
+    "description": "When another Loomian's move comes into contact with you, they may become poisoned."
+  },
+  {
+    "name": "Trash Armor",
+    "description": "This Loomian's Melee Defense is boosted 50%."
+  },
+  {
+    "name": "Turbulent",
+    "description": "Your Typeless moves become Air-type. The Strength of these moves is boosted a little."
+  },
+  {
+    "name": "Two Face",
+    "description": "Turn yourself into a copy of the opponent upon entering the battle."
+  },
+  {
+    "name": "Ungracious Host",
+    "description": "If another Loomian tries to leech Health from you, they will be damaged instead."
+  },
+  {
+    "name": "Vengeance",
+    "description": "When this Loomian witnesses an ally get knocked out in battle, its next attack will hit with double the strength."
+  },
+  {
+    "name": "Vicious",
+    "description": "Your attacks deal 50% more Damage when you are poisoned."
+  },
+  {
+    "name": "Vigilant",
+    "description": "Ensure that you and your allies stay awake during battle."
+  },
+  {
+    "name": "Vigorous",
+    "description": "Ensure that you and your allies stay awake during battle.This Loomian's Melee Attack is boosted when it is inflicted with a status condition."
+  },
+  {
+    "name": "Virtuoso",
+    "description": "Use 25% less Energy when perform moves which utilize sound."
+  },
+  {
+    "name": "Viscid",
+    "description": "A sticky coating prevents you from being forced off of the battlefield from your opponents' moves."
+  },
+  {
+    "name": "Vivid Sight",
+    "description": "Moves used by this Loomian have increased accuracy."
+  },
+  {
+    "name": "Volcanic",
+    "description": "When using a Fire-type move, this Loomian exerts eruptive force that doubles the Strength of the move, but renders it unable to move the next turn."
+  },
+  {
+    "name": "Watcher",
+    "description": "This Loomian attacks with boosted Strength when it is the last to go."
+  },
+  {
+    "name": "Webbing",
+    "description": "When an opponent's attack causes contact with this Loomian, their Speed is lowered."
+  },
+  {
+    "name": "Wholesome",
+    "description": "This Loomian takes reduced damage from Brawler and Mind type moves."
+  },
+  {
+    "name": "Wise",
+    "description": "When using a move that is not very effective against your target, utlilize other advantages to double the power of that move."
+  },
+  {
+    "name": "Woodsman",
+    "description": "When hit by a Plant-type move, absorb it to boost your Melee Attack."
+  }
+]

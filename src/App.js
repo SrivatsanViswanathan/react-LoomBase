@@ -74,12 +74,11 @@ function App() {
   const { genre } = useSelector((state) => state.global);
 
   const dispatch = useDispatch();
-  const functions = process.env.REACT_APP_FUNCTIONS_API;
 
   const fetchData = async () => {
     if (genre === "veils of shadow") {
       try {
-        const response = await axios.get(functions);
+        const response = await axios.get("/.netlify/functions/getData");
         let { genres, loomians, moves, abilities, items, types } =
           response.data;
         moves = [...moves].sort((a, b) => {

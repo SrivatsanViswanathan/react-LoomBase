@@ -1,0 +1,155 @@
+[
+  {
+    "name": "fire",
+    "superEffective": ["plant", "ice", "dark", "metal"],
+    "notEffective": ["fire", "water", "light", "ancient"],
+    "noEffect": [],
+    "resists": ["fire", "plant", "ice", "bug", "metal"],
+    "weakTo": ["water", "earth", "air"],
+    "immuneTo": []
+  },
+  {
+    "name": "water",
+    "superEffective": ["fire", "electric", "earth"],
+    "notEffective": ["water", "plant", "ancient"],
+    "noEffect": [],
+    "resists": ["fire", "water", "ice", "metal"],
+    "weakTo": ["plant", "electric", "toxic"],
+    "immuneTo": []
+  },
+  {
+    "name": "plant",
+    "superEffective": ["water", "earth"],
+    "notEffective": ["plant", "fire", "bug", "toxic", "ancient"],
+    "noEffect": [],
+    "resists": ["water", "plant", "earth", "electric"],
+    "weakTo": ["fire", "ice", "dark", "bug", "toxic"],
+    "immuneTo": ["light"]
+  },
+  {
+    "name": "light",
+    "superEffective": ["dark", "ancient", "spirit"],
+    "notEffective": ["light", "mind"],
+    "noEffect": ["plant"],
+    "resists": ["fire", "light", "ancient"],
+    "weakTo": ["dark", "metal"],
+    "immuneTo": ["spirit"]
+  },
+  {
+    "name": "dark",
+    "superEffective": ["plant", "light", "mind"],
+    "notEffective": ["dark", "bug", "spirit"],
+    "noEffect": [],
+    "resists": ["dark", "mind", "spirit"],
+    "weakTo": ["fire", "light", "bug"],
+    "immuneTo": []
+  },
+  {
+    "name": "ice",
+    "superEffective": ["plant", "earth", "bug", "air"],
+    "notEffective": ["fire", "water", "ice", "metal", "brawler"],
+    "noEffect": [],
+    "resists": ["typeless", "ice", "air"],
+    "weakTo": ["fire", "metal", "brawler"],
+    "immuneTo": []
+  },
+  {
+    "name": "electric",
+    "superEffective": ["water", "metal", "air"],
+    "notEffective": ["plant", "electric", "spirit", "ancient"],
+    "noEffect": ["earth"],
+    "resists": ["electric", "metal", "air"],
+    "weakTo": ["water", "earth"],
+    "immuneTo": []
+  },
+  {
+    "name": "air",
+    "superEffective": ["fire", "bug", "brawler"],
+    "notEffective": ["ice", "electric", "metal"],
+    "noEffect": [],
+    "resists": ["bug", "brawler"],
+    "weakTo": ["ice", "electric"],
+    "immuneTo": ["earth"]
+  },
+  {
+    "name": "bug",
+    "superEffective": ["plant", "dark", "mind"],
+    "notEffective": ["fire", "bug", "air", "metal", "brawler"],
+    "noEffect": [],
+    "resists": ["plant", "dark", "bug", "earth"],
+    "weakTo": ["ice", "air", "brawler"],
+    "immuneTo": []
+  },
+  {
+    "name": "earth",
+    "superEffective": ["fire", "electric", "toxic", "metal"],
+    "notEffective": ["plant", "bug"],
+    "noEffect": ["air"],
+    "resists": ["toxic"],
+    "weakTo": ["water", "plant", "ice"],
+    "immuneTo": ["electric"]
+  },
+  {
+    "name": "toxic",
+    "superEffective": ["water", "plant", "brawler"],
+    "notEffective": ["earth", "toxic", "spirit"],
+    "noEffect": [],
+    "resists": ["plant", "toxic", "brawler"],
+    "weakTo": ["earth", "mind"],
+    "immuneTo": []
+  },
+  {
+    "name": "metal",
+    "superEffective": ["light", "ice", "ancient"],
+    "notEffective": ["fire", "water", "electric", "metal"],
+    "noEffect": [],
+    "resists": ["ice", "air", "bug", "metal", "mind", "ancient", "typeless"],
+    "weakTo": ["fire", "electric", "earth", "brawler"],
+    "immuneTo": []
+  },
+  {
+    "name": "ancient",
+    "superEffective": ["ancient", "spirit"],
+    "notEffective": ["light", "metal"],
+    "noEffect": [],
+    "resists": ["fire", "water", "plant", "electric", "spirit"],
+    "weakTo": ["light", "metal", "ancient"],
+    "immuneTo": []
+  },
+  {
+    "name": "spirit",
+    "superEffective": ["spirit", "brawler", "mind"],
+    "notEffective": ["dark", "ancient"],
+    "noEffect": ["light"],
+    "resists": ["typeless", "electric", "dark", "toxic"],
+    "weakTo": ["light", "ancient", "spirit"],
+    "immuneTo": ["brawler"]
+  },
+  {
+    "name": "brawler",
+    "superEffective": ["typeless", "ice", "bug", "metal"],
+    "notEffective": ["air", "toxic", "mind"],
+    "noEffect": ["spirit"],
+    "resists": ["ice", "bug"],
+    "weakTo": ["air", "toxic", "spirit", "mind"],
+    "immuneTo": []
+  },
+  {
+    "name": "mind",
+    "superEffective": ["typeless", "toxic", "brawler"],
+    "notEffective": ["dark", "metal", "mind"],
+    "noEffect": [],
+    "resists": ["light", "brawler", "mind"],
+    "weakTo": ["dark", "bug", "spirit"],
+    "immuneTo": []
+  },
+  {
+    "name": "typeless",
+    "superEffective": [],
+    "notEffective": ["ice", "metal", "spirit"],
+    "noEffect": [],
+    "resists": [],
+    "weakTo": ["mind", "brawler"],
+    "immuneTo": []
+  }
+]
