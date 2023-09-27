@@ -80,7 +80,7 @@ const LoomiansFilter = () => {
                 const { name } = item;
                 return (
                   <option key={name} value={name}>
-                    {name}
+                    <p>{name}</p>
                   </option>
                 );
               })}
@@ -100,7 +100,7 @@ const LoomiansFilter = () => {
                 const { name } = item;
                 return (
                   <option key={name} value={name}>
-                    {name}
+                    <p>{name}</p>
                   </option>
                 );
               })}
@@ -134,7 +134,12 @@ const Wrapper = styled.div`
   select,
   option {
     text-align: center;
-    margin: auto;
+  }
+  option > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
   option {
     display: flex;
