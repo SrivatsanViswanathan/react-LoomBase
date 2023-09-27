@@ -91,14 +91,6 @@ const Wrapper = styled.div`
     color: var(--textColor);
   }
 
-  select::after {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    pointer-events: none;
-  }
-
   select:focus {
     outline: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);

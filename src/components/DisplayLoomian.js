@@ -30,6 +30,7 @@ const DisplayLoomian = ({ data }) => {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     if (data.length > 1) {
       if (!check) {
         setIndex(0);
@@ -781,7 +782,7 @@ const Wrapper = styled.div`
   .types .name,
   .abilities .name,
   .evolution .name {
-    width: 5.5rem;
+    width: 5rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -857,7 +858,7 @@ const Wrapper = styled.div`
   }
   .stat-box .name {
     display: flex;
-    width: 8rem;
+    width: 8.5rem;
     justify-content: flex-end;
   }
   .stat {
