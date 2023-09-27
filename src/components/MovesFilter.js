@@ -98,12 +98,9 @@ const Wrapper = styled.div`
   select,
   option {
     text-align: center;
-    margin: auto;
+    width: 100%;
   }
   option {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: var(--statHighlight);
     color: var(--textColor);
     text-transform: capitalize;
@@ -111,14 +108,11 @@ const Wrapper = styled.div`
     border: 5px solid black;
   }
   select {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 6.5rem;
     height: 1.3rem;
     border: none;
     border-radius: 10px;
-    appearance: none; /* Remove default arrow button */
+    appearance: none;
     cursor: pointer;
     text-transform: capitalize;
     background: var(--statHighlight);

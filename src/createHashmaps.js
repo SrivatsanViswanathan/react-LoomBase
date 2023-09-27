@@ -59,11 +59,13 @@ export const createHashmaps = (
 
     // Push the Loomian into the array for the combined types
     if (
-      !typesToLoomiansMap[combinedKey].some((loom) => loom.id === loomian.id)
+      !typesToLoomiansMap[combinedKey].some((loom) => loom.name === loomian.name)
     ) {
       typesToLoomiansMap[combinedKey].push(loomian);
     }
   });
+
+  console.log(typesToLoomiansMap);
 
   const movesToLoomiansMap = {};
 
