@@ -112,6 +112,7 @@ const Wrapper = styled.div`
   option {
     text-align: center;
     width: 100%;
+    text-align-last: center;
   }
   option {
     background: var(--statHighlight);
