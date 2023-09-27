@@ -388,6 +388,7 @@ const Wrapper = styled.div`
     gap: 0.15rem;
   }
   .overview-desc {
+    margin: auto;
     margin-top: 1rem;
     width: 95%;
   }
@@ -456,6 +457,10 @@ const Wrapper = styled.div`
       justify-content: flex-start;
       align-items: flex-start;
       width: 50rem;
+    }
+    .overview-desc {
+      margin: 0;
+      margin-top: 1rem;
     }
     .list {
       padding-left: 0rem;
