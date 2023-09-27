@@ -900,8 +900,8 @@ const Wrapper = styled.div`
     height: auto;
   }
   .image {
-    max-width: 15rem;
-    max-height: 13rem;
+    max-width: 12rem;
+    max-height: 10rem;
   }
   .types a,
   .type-affect a,
