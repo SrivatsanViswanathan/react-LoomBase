@@ -103,10 +103,10 @@ function App() {
           await Promise.all([
             axios.get("https://loombase.netlify.app/genres.json"),
             axios.get("https://loombase.netlify.app/loomians.json"),
-            axios.get("https://loombase.netlify.app/lmoves.json"),
-            axios.get("https://loombase.netlify.app/labilities.json"),
-            axios.get("https://loombase.netlify.app/litems.json"),
-            axios.get("https://loombase.netlify.app/ltypes.json"),
+            axios.get("https://loombase.netlify.app/moves.json"),
+            axios.get("https://loombase.netlify.app/abilities.json"),
+            axios.get("https://loombase.netlify.app/items.json"),
+            axios.get("https://loombase.netlify.app/types.json"),
           ]);
 
         // const [genres, loomians, moves, abilities, items, types] =
