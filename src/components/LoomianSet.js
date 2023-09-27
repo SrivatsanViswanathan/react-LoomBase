@@ -331,9 +331,6 @@ const Wrapper = styled.div`
   .details,
   .teamOptions,
   .credits {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     width: 96vw;
   }
   .box {
