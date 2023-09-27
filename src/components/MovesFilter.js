@@ -95,6 +95,11 @@ const Wrapper = styled.div`
     align-items: center;
     gap: 0.5rem;
   }
+  select,
+  option {
+    text-align: center;
+    margin: auto;
+  }
   option {
     display: flex;
     align-items: center;
@@ -102,7 +107,6 @@ const Wrapper = styled.div`
     background: var(--statHighlight);
     color: var(--textColor);
     text-transform: capitalize;
-    text-align: center;
     margin-right: 4rem;
     border: 5px solid black;
   }
@@ -112,7 +116,6 @@ const Wrapper = styled.div`
     justify-content: center;
     width: 6.5rem;
     height: 1.3rem;
-    text-align: center;
     border: none;
     border-radius: 10px;
     appearance: none; /* Remove default arrow button */

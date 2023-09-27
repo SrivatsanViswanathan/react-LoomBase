@@ -134,6 +134,7 @@ const Wrapper = styled.div`
   select,
   option {
     text-align: center;
+    margin: auto;
   }
   option {
     display: flex;
