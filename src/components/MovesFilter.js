@@ -21,13 +21,11 @@ const MovesFilter = () => {
   };
   const handleTypesChange = (e) => {
     const newType = e.target.value;
-    console.log(newType);
 
     dispatch(setMovesFilter({ category, type: newType, text }));
   };
 
   useEffect(() => {
-    console.log(type);
     dispatch(
       setMovesFilter({
         category: "all",

@@ -59,13 +59,13 @@ export const createHashmaps = (
 
     // Push the Loomian into the array for the combined types
     if (
-      !typesToLoomiansMap[combinedKey].some((loom) => loom.name === loomian.name)
+      !typesToLoomiansMap[combinedKey].some(
+        (loom) => loom.name === loomian.name
+      )
     ) {
       typesToLoomiansMap[combinedKey].push(loomian);
     }
   });
-
-  console.log(typesToLoomiansMap);
 
   const movesToLoomiansMap = {};
 
@@ -190,8 +190,6 @@ export const createHashmaps = (
 
     movesByTypeCategory[key].push(move);
   });
-
-  console.log(movesByCategory);
 
   dispatch(setCachedMovesLoomians(movesToLoomiansMap));
   dispatch(setCachedLoomians(loomiansHashmap));
