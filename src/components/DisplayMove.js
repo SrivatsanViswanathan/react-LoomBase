@@ -187,7 +187,7 @@ const Wrapper = styled.div`
       margin-left: auto;
       width: 45rem;
       padding: 1rem 1rem;
-      gap: 4rem;
+      gap: 2rem;
     }
     .box-container {
       display: flex;
@@ -201,7 +201,12 @@ const Wrapper = styled.div`
     .accuracy,
     .energy,
     .priority {
-      width: 3rem;
+      width: 5.5rem;
+    }
+    .accuracy p {
+      line-height: 1.2;
+      text-align: center;
+      margin: 0;
     }
     .description {
       margin-right: auto;

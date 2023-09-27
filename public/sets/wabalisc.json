@@ -1,0 +1,33 @@
+{
+  "name": "wabalisc",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Ranged Defensive",
+      "abilities": ["Ignorant"],
+      "items": ["Health Amulet", "Milkshake"],
+      "personalities": ["Clever"],
+      "tps": "200 HP, 12 En, 88 M Def, 200 R Def",
+      "ups": "",
+      "moves": [["Deep Freeze"], ["Clap Slap"], ["Driving Force"], ["Barbs"]],
+      "detail": "200 HP, 200 Ranged Defense and Clever is to be as Ranged Bulky as possible \n 200 HP and 88 Melee Defense makes Earth Essence Himbrr Earthquake 3HKO with Health Amulet \n 12 Energy = 256 Energy at level 50 for (4 Deep Freezes + 3 Layers of Barbs + 1 Clay Slap)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Melee Defensive",
+      "abilities": ["Ignorant"],
+      "items": ["Health Amulet", "Milkshake"],
+      "personalities": ["Robust"],
+      "tps": "200 HP, 12 En, 200 M Def, 88 R Def",
+      "ups": "",
+      "moves": [["Deep Freeze"], ["Clap Slap"], ["Driving Force"], ["Barbs"]],
+      "detail": "200 HP, 200 Melee Defense and Robust is to be as Melee Bulky as possible \n 200 HP and 88 Ranged Defense makes Metal Essence Smart Falkyrie Metal Blast 2HKO \n 12 Energy = 256 Energy at level 50 for (4 Deep Freezes + 3 Layers of Barbs + 1 Clay Slap)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

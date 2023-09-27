@@ -1,0 +1,25 @@
+{
+  "name": "zuelong",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Offensive Pivot",
+      "abilities": ["Brute Force"],
+      "items": ["Ancient Essence", "Electric Essence", "Archaic Pearl"],
+      "personalities": ["Very Frail, Smart, Nimble"],
+      "tps": "72 HP, 20 En, 8 M Def, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Thunderstrike"],
+        ["Elemental Burst"],
+        ["Fire Breath"],
+        ["Ancient Roar", "Zip-Zap"]
+      ],
+      "detail": "200 Ranged Attack and Smart is to hit as hard as possible \n 200 Speed and Nimble is to be as fast as possible, outspeeding Hunder and below \n 20 Energy = 250 Energy at level 50 for (Any 5 Moves) \n 72 HP and 8 Melee Defense makes Wabalisc Clay Slap 3HKO",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

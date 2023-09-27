@@ -8,9 +8,14 @@
       "abilities": ["Power Napper"],
       "items": ["Mysterious Dust"],
       "personalities": ["Brawny, Robust, Very Sluggish"],
-      "tps": ["HP 200", "20 En", "56 M Atk", "200 M Def", "24 R Def"],
-      "ups": ["Sp 0"],
-      "moves": ["Wave Wrecker", "Mega Chomp", "Thunder Chomp", "Flash ’n Flee"],
+      "tps": "200 HP, 20 En, 56 M Atk, 200 M Def, 24 R Def",
+      "ups": "0 Sp",
+      "moves": [
+        ["Wave Wrecker"],
+        ["Mega Chomp"],
+        ["Thunder Chomp"],
+        ["Flash 'n Flee"]
+      ],
       "detail": "200 Health TPs paired with 200 Melee Defense TPs and Robust makes Very Brawny Hasty Power Cuffs 200 Melee Attack TPs Kirolen Mega Kick 3HKO \n 200 Health TPs paired with 24 Ranged Defense TPs makes Smart Turbulent 200 Ranged Attack TPs Zepholen Resonate 3HKO \n 20 Energy TPs allows for 5 Wave Wreckers / Flash 'n Flees. 56 Melee Attack TPs paired with Brawny makes Mega Chomp 2HKO 80 Health TPs Brawny Nimble Tahtab \n 0 Speed UPs paired with Very Sluggish underspeeds Sluggish Tsukame and above.",
       "otherOptions": "",
       "teamOptions": "",

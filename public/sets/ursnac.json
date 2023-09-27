@@ -1,0 +1,43 @@
+{
+  "name": "ursnac",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Melee Defensive Pivot",
+      "abilities": ["Tank"],
+      "items": ["Health Amulet, Milkshake"],
+      "personalities": ["Robust, Sluggish"],
+      "tps": "200 HP, 20 En, 200 M Def, 80 R Def",
+      "ups": "0 Sp",
+      "moves": [
+        ["Heart Break", "Pep Jab"],
+        ["Shadow Sprint"],
+        ["Slap Down"],
+        ["Baffle"]
+      ],
+      "detail": "200 HP, 200 Melee Defense and Robust is to be as Melee bulky as possible \n 80 Ranged Defense is leftovers and improves overall bulk \n 20 Energy = 256 Energy at level 50 for (3 Baffles + 2 Slap Downs + 1 Shadow Sprint) \n 0 Speed UPs and Sluggish is to pivot in your slower teammates safely with Baffle",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Ranged Defensive Pivot",
+      "abilities": ["Tank"],
+      "items": ["Health Amulet, Milkshake"],
+      "personalities": ["Clever, Sluggish"],
+      "tps": "200 HP, 20 En, 80 M Def, 200 R Def",
+      "ups": "0 Sp",
+      "moves": [
+        ["Heart Break", "Pep Jab"],
+        ["Shadow Sprint"],
+        ["Slap Down"],
+        ["Baffle"]
+      ],
+      "detail": "200 HP, 200 Ranged Defense and Clever is to be as Ranged bulky as possible \n 80 Melee Defense Defense is leftovers and improves overall bulk \n 20 Energy = 256 Energy at level 50 for (3 Baffles + 2 Slap Downs + 1 Shadow Sprint) \n 0 Speed UPs and Sluggish is to pivot in your slower teammates safely with Baffle",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

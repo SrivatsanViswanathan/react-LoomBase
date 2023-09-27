@@ -59,6 +59,7 @@ const MovesFilter = () => {
                   </option>
                 );
               })}
+              <option value='various'>various</option>
             </select>
           </div>
           <div>
@@ -89,6 +90,11 @@ const Wrapper = styled.div`
     display: flex;
     gap: 1.5rem;
   }
+  form > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
   option {
     display: flex;
     align-items: center;
@@ -101,6 +107,9 @@ const Wrapper = styled.div`
     border: 5px solid black;
   }
   select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 6.5rem;
     height: 1.3rem;
     text-align: center;

@@ -91,7 +91,7 @@ const DisplayType = ({ data, loomians }) => {
           <div
             className={`effective ${data.resists.length === 0 ? "none" : ""}`}
           >
-            <span>{data.name} loomians resists moves from these types : </span>
+            <span>{data.name} loomians resist moves from these types : </span>
             <div className='items'>
               {data.resists.map((item) => {
                 return (

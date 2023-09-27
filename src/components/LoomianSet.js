@@ -97,39 +97,78 @@ const LoomianSet = ({ data }) => {
                         <div className='left'>
                           <div>
                             Move 1 :{" "}
-                            <Link to={`/moves/${moves[0].toLowerCase()}`}>
-                              {moves[0]}
-                            </Link>
+                            {moves[0].map((move, index) => {
+                              return (
+                                <span key={index}>
+                                  <Link to={`/moves/${move.toLowerCase()}`}>
+                                    {move}
+                                  </Link>
+                                  <span>
+                                    {index !== moves[0].length - 1 ? " / " : ""}
+                                  </span>
+                                </span>
+                              );
+                            })}
                           </div>
                           <div>
                             Move 2 :{" "}
-                            <Link to={`/moves/${moves[1].toLowerCase()}`}>
-                              {moves[1]}
-                            </Link>
+                            {moves[1].map((move, index) => {
+                              return (
+                                <span key={index}>
+                                  <Link to={`/moves/${move.toLowerCase()}`}>
+                                    {move}
+                                  </Link>
+                                  <span>
+                                    {index !== moves[1].length - 1 ? " / " : ""}
+                                  </span>
+                                </span>
+                              );
+                            })}
                           </div>
                           <div>
                             Move 3 :{" "}
-                            <Link to={`/moves/${moves[2].toLowerCase()}`}>
-                              {moves[2]}
-                            </Link>
+                            {moves[2].map((move, index) => {
+                              return (
+                                <span key={index}>
+                                  <Link to={`/moves/${move.toLowerCase()}`}>
+                                    {move}
+                                  </Link>
+                                  <span>
+                                    {index !== moves[2].length - 1 ? " / " : ""}
+                                  </span>
+                                </span>
+                              );
+                            })}
                           </div>
                           <div>
                             Move 4 :{" "}
-                            <Link to={`/moves/${moves[3].toLowerCase()}`}>
-                              {moves[3]}
-                            </Link>
+                            {moves[3].map((move, index) => {
+                              return (
+                                <span key={index}>
+                                  <Link to={`/moves/${move.toLowerCase()}`}>
+                                    {move}
+                                  </Link>
+                                  <span>
+                                    {index !== moves[3].length - 1 ? " / " : ""}
+                                  </span>
+                                </span>
+                              );
+                            })}
                           </div>
                         </div>
                         <div className='right'>
                           <div className='item'>
                             <div className='name'>Item : </div>
                             <div className='items-list'>
-                              {items.map((item) => {
+                              {items.map((item, index) => {
                                 return (
                                   <div key={item}>
                                     <Link to={`/items/${item.toLowerCase()}`}>
-                                      {item},
+                                      {item}
                                     </Link>
+                                    <span>
+                                      {index !== items.length - 1 ? ", " : ""}
+                                    </span>
                                   </div>
                                 );
                               })}
@@ -156,7 +195,7 @@ const LoomianSet = ({ data }) => {
                           </div>
                           <div className='personality'>
                             <div className='name'>Personality : </div>
-                            <div>
+                            <div className='personality-row'>
                               {personalities.map((item, index) => {
                                 return (
                                   <div key={item}>
@@ -171,28 +210,15 @@ const LoomianSet = ({ data }) => {
                           </div>
                           <div className='tp'>
                             <div className='name'>TP : </div>
-                            {tps.map((item, index) => {
-                              return (
-                                <div key={item}>
-                                  {item}
-                                  {index !== tps.length - 1 ? " / " : ""}
-                                </div>
-                              );
-                            })}
+                            <div className='tp-row'>
+                              <div>{tps}</div>
+                            </div>
                           </div>
                           {ups ? (
                             <>
-                              {" "}
                               <div className='tp'>
                                 <div className='name'>UP : </div>
-                                {ups.map((item, index) => {
-                                  return (
-                                    <div key={item}>
-                                      {item}
-                                      {index !== ups.length - 1 ? " / " : ""}
-                                    </div>
-                                  );
-                                })}
+                                <div>{ups}</div>
                               </div>
                             </>
                           ) : (
@@ -340,12 +366,26 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
     gap: 0.25rem;
+    flex-wrap: wrap;
   }
   .tp > div,
   .personality > div,
   .ability > div {
     display: flex;
     gap: 0.2rem;
+  }
+  .tp-row,
+  .personality-row {
+    display: flex;
+    max-width: 16rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .items-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 15rem;
+    gap: 0.15rem;
   }
   .overview-desc {
     margin-top: 1rem;
@@ -368,12 +408,7 @@ const Wrapper = styled.div`
   .teamOptions {
     margin-top: 2rem;
   }
-  .items-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    gap: 0.3rem;
-  }
+
   .list {
     padding-left: 1rem;
   }
@@ -433,6 +468,8 @@ const Wrapper = styled.div`
       align-items: center;
       padding: 0.5rem 0;
       width: auto;
+      flex-wrap: none;
+      gap: 0rem;
     }
     .left,
     .right {
@@ -440,11 +477,11 @@ const Wrapper = styled.div`
       min-width: 10rem;
     }
     .left {
-      margin-left: 3rem;
+      margin-left: 2rem;
     }
     .right {
-      margin-right: 3rem;
-      max-width: 30rem;
+      margin-right: 2rem;
+      max-width: 35rem;
     }
     .set-details {
       margin-top: 0rem;
@@ -464,7 +501,7 @@ const Wrapper = styled.div`
     .name {
       display: flex;
       min-width: 6rem;
-      justify-content: flex-start;
+      justify-content: flex-end;
     }
     .set-info {
       display: flex;

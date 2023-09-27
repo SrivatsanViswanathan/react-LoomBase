@@ -1,0 +1,79 @@
+{
+  "name": "pyrolen",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Ranged Defensive (Quick Recovery)",
+      "abilities": ["Quick Recovery"],
+      "items": ["Heavy Shield"],
+      "personalities": ["Frail, Very Clever, Sluggish"],
+      "tps": "200 HP, 28 En, 72 M Def, 200 R Def",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Fire Breath"],
+        ["Mud Spatter", "Shrewd Blast"],
+        ["Peace of Mind"],
+        ["Rejuvenate"]
+      ],
+      "detail": "200 HP, 200 Ranged Defense, Very Clever and Heavy Shield is for Maximum Ranged Bulk \n 28 Energy = 256 Energy at level 50 for (2 Fire Breaths + 2 Peace of Minds + 1 Rejuvenate) \n 72 Melee Defense is leftovers and increases overall Bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Ranged Defensive (Fanning Flame)",
+      "abilities": ["Fanning Flame"],
+      "items": ["Mysterious Dust"],
+      "personalities": ["Frail, Very Clever, Sluggish"],
+      "tps": "200 HP, 4 En, 96 M Def, 200 R Def",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Fire Breath"],
+        ["Mud Spatter", "Shrewd Blast"],
+        ["Peace of Mind"],
+        ["Rejuvenate"]
+      ],
+      "detail": "200 HP, 200 Ranged Defense and Very Clever is to be as Ranged Tanky as possible \n 4 Energy = 251 Energy at level 50 for (5 Fire Breaths) \n 96 Melee Defense is leftovers and increases overall Bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Mixed Defensive",
+      "abilities": ["Quick Recovery"],
+      "items": ["Heavy Shield"],
+      "personalities": ["Very Frail, Robust, Clever"],
+      "tps": "200 HP, 28 En, 136 M Def, 88 R Def, 48 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Fire Breath"],
+        ["Mud Spatter", "Shrewd Blast"],
+        ["Peace of Mind"],
+        ["Rejuvenate"]
+      ],
+      "detail": "200 HP, 136 Melee Defense and Robust makes Very Brawny Tahtab Junglejutsu 3HKO \n 200 HP, 88 Ranged Defense, Clever and Heavy Shield is to increase Ranged Bulk as much as possible \n 48 Speed outspeeds anything trying to speedcreep Sluggish Stratusoar \n 28 Energy = 256 Energy at level 50 for (2 Fire Breaths + 2 Peace of Minds + 1 Rejuvenate)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Bulky Offensive",
+      "abilities": ["Quick Recovery"],
+      "items": ["Heavy Shield"],
+      "personalities": ["Very Frail, Smart, Clever"],
+      "tps": "168 HP, 28 En, 96 R Atk, 160 R Def, 48 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Fire Breath"],
+        ["Mud Spatter", "Shrewd Blast"],
+        ["Peace of Mind"],
+        ["Rejuvenate"]
+      ],
+      "detail": "168 HP, 160 Ranged Defense, Clever and Heavy Shield makes Smart Ancient Essence Zuelong Elemental Burst 3HKO \n 48 Speed outspeeds anything trying to speedcreep Sluggish Stratusoar \n 28 Energy = 256 Energy at level 50 for (2 Fire Breaths + 2 Peace of Minds + 1 Rejuvenate) \n 96 Ranged Attack is leftovers, and with Smart, gives it a bit more offensive pressure",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

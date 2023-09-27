@@ -189,6 +189,8 @@ export const createHashmaps = (
     movesByTypeCategory[key].push(move);
   });
 
+  console.log(movesByCategory);
+
   dispatch(setCachedMovesLoomians(movesToLoomiansMap));
   dispatch(setCachedLoomians(loomiansHashmap));
   dispatch(setCachedMoves(movesHashmap));

@@ -39,7 +39,6 @@ const router = createBrowserRouter([
     element: <HomePage></HomePage>,
     children: [
       { index: true, path: "/", element: <Loomians></Loomians> },
-      { path: "loomians", element: <Loomians></Loomians> },
       { path: "loomians/:id", element: <SingleLoomian></SingleLoomian> },
       { path: "abilities", element: <Abilities></Abilities> },
       { path: "abilities/:id", element: <SingleAbility></SingleAbility> },
@@ -104,11 +103,21 @@ function App() {
           await Promise.all([
             axios.get("https://loombase.netlify.app/genres.json"),
             axios.get("https://loombase.netlify.app/loomians.json"),
-            axios.get("https://loombase.netlify.app/moves.json"),
-            axios.get("https://loombase.netlify.app/abilities.json"),
-            axios.get("https://loombase.netlify.app/items.json"),
-            axios.get("https://loombase.netlify.app/types.json"),
+            axios.get("https://loombase.netlify.app/lmoves.json"),
+            axios.get("https://loombase.netlify.app/labilities.json"),
+            axios.get("https://loombase.netlify.app/litems.json"),
+            axios.get("https://loombase.netlify.app/ltypes.json"),
           ]);
+
+        // const [genres, loomians, moves, abilities, items, types] =
+        //   await Promise.all([
+        //     axios.get("http://localhost:8888/genres.json"),
+        //     axios.get("http://localhost:8888/loomians.json"),
+        //     axios.get("http://localhost:8888/moves.json"),
+        //     axios.get("http://localhost:8888/abilities.json"),
+        //     axios.get("http://localhost:8888/items.json"),
+        //     axios.get("http://localhost:8888/types.json"),
+        //   ]);
 
         moves.data = [...moves.data].sort((a, b) => {
           const nameA = a.name.toLowerCase();

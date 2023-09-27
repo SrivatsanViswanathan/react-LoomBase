@@ -1,0 +1,25 @@
+{
+  "name": "himbrr",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Bulky Offensive Hazard Remover",
+      "abilities": ["Awakening"],
+      "items": ["Earth Essence", "Ice Essence", "Health Amulet", "Flame Pearl"],
+      "personalities": ["Very Brawny, Clumsy, Sluggish"],
+      "tps": "200 HP, 20 En, 200 M Atk, 80 Sp",
+      "ups": "",
+      "moves": [
+        ["Ice Hammer"],
+        ["Earthquake"],
+        ["Mudslide"],
+        ["Quick Punch", "Icicle Trap"]
+      ],
+      "detail": "200 Melee Attack and Very Brawny is to hit as hard as possible \n 200 HP is to be as bulky as possible \n 20 Energy = 250 Energy at level 50 for (5 Ice Hammers / 5 Earthquakes) \n 80 Speed and Sluggish outspeeds Sluggish 0 Speed Sedimars",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

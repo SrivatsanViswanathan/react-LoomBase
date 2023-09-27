@@ -1,0 +1,28 @@
+{
+  "name": "wintrix",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Peace of Mind",
+      "abilities": ["Wise"],
+      "items": ["Ice Essence"],
+      "personalities": [
+        "Very Frail, Smart, Nimble",
+        "Frail, Tender, Very Smart"
+      ],
+      "tps": "96 HP, 4 En, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Frost Beam"],
+        ["Peace of Mind"],
+        ["Provoke", "Gust"],
+        ["Perch", "Gust"]
+      ],
+      "detail": "200 Ranged Attack and Smart is to hit as hard as possible \n 200 Speed and Nimble is to be as fast as possible, most notably outspeeding Very Brawny Tahtab and below \n 96 HP is leftovers and with it, Wintrix lives Brawny Tyrecks Steel Crusher \n 4 Energy = 253 Energy at level 50 for (5 Frost Beams)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

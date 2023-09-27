@@ -1,0 +1,33 @@
+{
+  "name": "tyrecks",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Fast Offensive",
+      "abilities": ["Terrifying"],
+      "items": ["Health Amulet"],
+      "personalities": ["Brawny, Very Clumsy, Nimble"],
+      "tps": "80 HP, 12 En, 200 M Atk, 8 M Def, 200 Sp",
+      "ups": "",
+      "moves": [["Steel Crusher"], ["Earthquake"], ["Sharpen"], ["Scapegoat"]],
+      "detail": "200 Melee Attack and Brawny is to hit as hard as possible \n 200 Speed with Nimble outspeeds Very Brawny Halvantic \n 12 Energy = 250 Energy at level 50 for (5 Earthquakes / 5 Steel Crushers) \n 80 HP and 8 Melee Defense makes -1 Very Brawny Tahtab Timber Thrash a 2HKO",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Bulky Offensive",
+      "abilities": ["Terrifying"],
+      "items": ["Health Amulet"],
+      "personalities": ["Brawny, Very Clumsy, Clever"],
+      "tps": "200 HP, 12 En, 32 M Atk, 200 R Def, 56 Sp",
+      "ups": "",
+      "moves": [["Steel Crusher"], ["Earthquake"], ["Sharpen"], ["Scapegoat"]],
+      "detail": "200 HP and 200 Ranged Defense with Clever make Gargolem-Defense Mudslide not break Scapegoat \n 56 Speed outspeeds 32 Speed Cosmiore-Cracked and below \n 12 Energy = 250 Energy at level 50 for (5 Earthquakes / 5 Steel Crushers) \n 32 Melee Attack with Brawny lets Tyrecks hit somewhat hard",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

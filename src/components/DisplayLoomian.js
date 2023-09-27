@@ -39,8 +39,25 @@ const DisplayLoomian = ({ data }) => {
     }
   }, [check, data.length]);
 
-  const { id, name, model, line, stats, types, abilities, sAbility, moves } =
-    data[index];
+  let {
+    id,
+    name,
+    model,
+    line,
+    stats,
+    types,
+    abilities,
+    sAbility,
+    moves,
+    soulBurst,
+  } = data[index];
+
+  let oldName = name;
+
+  if (soulBurst) {
+    const string = "Soulburst ";
+    name = name.replace(string, "");
+  }
   const {
     cachedLoomians,
     cachedTypes,
@@ -387,7 +404,7 @@ const DisplayLoomian = ({ data }) => {
   return (
     <Wrapper paddingRight={paddingRight}>
       <div className='title'>
-        <Title title={name}></Title>
+        <Title title={oldName}></Title>
       </div>
       <div className='basic-container'>
         <div className='basic-info'>
@@ -764,7 +781,7 @@ const Wrapper = styled.div`
   .types .name,
   .abilities .name,
   .evolution .name {
-    width: 5rem;
+    width: 5.5rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;

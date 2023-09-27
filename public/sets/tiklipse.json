@@ -1,0 +1,25 @@
+{
+  "name": "tiklipse",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Offensive",
+      "abilities": ["Total Eclipse"],
+      "items": ["Dark Essence", "Light Essence"],
+      "personalities": ["Very Frail, Smart, Nimble"],
+      "tps": "52 HP, 32 En, 200 R Atk, 16 R Def, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Gamma Pulse"],
+        ["Dark Surge"],
+        ["Raging Howl"],
+        ["Power Focus"]
+      ],
+      "detail": "200 Ranged Attack and Smart is to hit as hard as possible \n 200 Speed with Nimble is to be as fast as possible, and outspeeds Nimble Phagenaut and below \n 32 Energy = 240 Energy at level 50 for (1 Dark Surge + 3 Gamma Pulses + 2 Power Focuses) \n Note: 1 Gamma Pulse = 2 Power Focuses \n 16 Ranged Defense gives Protogon an M Attack boost \n 52 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

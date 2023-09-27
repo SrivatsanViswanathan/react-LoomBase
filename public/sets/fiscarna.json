@@ -1,0 +1,43 @@
+{
+  "name": "fiscarna",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Offensive",
+      "abilities": ["Regift"],
+      "items": ["Health Amulet", "Heavy Shield"],
+      "personalities": ["Very Frail, Smart, Nimble"],
+      "tps": "88 HP, 20 En, 200 R Atk, 192 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Mudslide"],
+        ["Frost Beam"],
+        ["Peace of Mind"],
+        ["Empathise", "Scapegoat"]
+      ],
+      "detail": "200 Ranged Attack with Smart is to hit as hard as possible \n 192 Speed with Nimble outspeeds Very Smart Shawchi and below \n 20 Energy = 250 Energy at level 50 for (4 Frost Beams + 2 Peace of Minds) \n 88 HP makes Health Amulet restore 10 points of Health per turn",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Stratagem",
+      "abilities": ["Regift"],
+      "items": ["Health Amulet", "Heavy Shield"],
+      "personalities": ["Frail, Very Clever, Sluggish"],
+      "tps": "200 HP, 20 En, 56 M Def, 200 R Atk, 24 Sp / 0 En, 76 M Def",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Mudslide"],
+        ["Frost Beam"],
+        ["Peace of Mind"],
+        ["Empathise", "Scapegoat"]
+      ],
+      "detail": "200 HP, 200 Ranged Defense and Very Clever is to be as Ranged bulky as possible, 56 / 76 Melee Defense is leftovers and increases overall bulk, 24 Speed outspeeds Sluggish Stratusoar, 0 Energy = 246 Energy at level 50 for (4 Stratagems + 2 Peace of Minds) with Heavy Shield, 20 Energy = 250 Energy at level 50 for (5 Stratagems + 2 Peace of Minds) with Health Amulet",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

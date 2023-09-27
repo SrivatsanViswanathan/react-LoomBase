@@ -1,0 +1,25 @@
+{
+  "name": "ursoul",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Priority Abuser",
+      "abilities": ["Sharp Claws"],
+      "items": ["Power Cuffs"],
+      "personalities": ["Very Brawny, Clumsy, Sluggish"],
+      "tps": "200 HP, 44 En, 200 M Atk, 56 Sp / 4 En, 40 M Def",
+      "ups": "",
+      "moves": [
+        ["Quick Punch", "Pep Jab"],
+        ["Shadow Sprint", "Phantom Slash"],
+        ["Slap Down"],
+        ["Sharpen", "Pep Jab", "Phantom Slash"]
+      ],
+      "detail": "200 Melee Attack and Very Brawny is to hit as hard as possible \n 200 HP is to be as bulky as possible \n 56 Speed and Sluggish outspeeds Sluggish Stratusoar \n 44 Energy = 256 Energy at level 50 for (3 Slap Downs + 1 Sharpen + 2 Quick Punches / 2 Shadow Sprints) (Use if Sharpen) \n 4 Energy = 248 at level 50 for (8 Quick Punches / 8 Shadow Sprints) (Use if not Sharpena) \n 200 HP and 40 Melee Defense makes Brawny Plant Essence Tahtab Timber Thrash 2HKO",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

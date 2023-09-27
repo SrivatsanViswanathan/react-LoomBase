@@ -8,6 +8,7 @@ const DisplayItem = ({ data }) => {
   const { description } = data;
   const { id } = useParams();
 
+  const loomNames = new Set();
   let looms = [];
 
   sets.forEach((item) => {
@@ -15,12 +16,18 @@ const DisplayItem = ({ data }) => {
       item.sets.forEach((stuff) => {
         stuff.items.forEach((loomItem) => {
           if (loomItem.toLowerCase() === id.toLowerCase()) {
-            looms.push(cachedLoomians[item.name]);
+            const loomName = cachedLoomians[item.name][0].name.toLowerCase();
+            if (!loomNames.has(loomName)) {
+              loomNames.add(loomName);
+              looms = looms.concat(cachedLoomians[item.name]);
+            }
           }
         });
       });
     }
   });
+
+  looms = looms.sort((a, b) => a.id - b.id);
 
   return (
     <Wrapper>
@@ -29,7 +36,7 @@ const DisplayItem = ({ data }) => {
         <Title title={"abilityLoomians"}></Title>
       </div>
       {looms.length > 0 ? (
-        <LoomiansList filtered_loomians={looms[0]} moves={true}></LoomiansList>
+        <LoomiansList filtered_loomians={looms} moves={true}></LoomiansList>
       ) : (
         <div className='none'>No Loomians have this item in their sets.</div>
       )}

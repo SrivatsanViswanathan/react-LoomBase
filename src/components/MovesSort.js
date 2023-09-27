@@ -54,9 +54,17 @@ const Wrapper = styled.div`
   margin-top: 1rem;
   display: flex;
   justify-content: center;
+  form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
   label {
     display: inline-block;
-    margin-right: 0.5rem;
+  }
+  form > div {
+    display: flex;
+    align-items: center;
   }
   option {
     display: flex;
@@ -66,9 +74,11 @@ const Wrapper = styled.div`
     color: var(--textColor);
     text-transform: capitalize;
     text-align: center;
-    margin-right: 4rem;
   }
   select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 6.5rem;
     height: 1.3rem;
     text-align: center;

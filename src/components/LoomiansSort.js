@@ -100,6 +100,10 @@ const Wrapper = styled.div`
     display: flex;
     gap: 1.5rem;
   }
+  form > div {
+    display: flex;
+    align-items: center;
+  }
   label {
     display: inline-block;
     margin-right: 0.5rem;
@@ -114,6 +118,9 @@ const Wrapper = styled.div`
     text-align: center;
   }
   select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 6.5rem;
     height: 1.3rem;
     text-align: center;

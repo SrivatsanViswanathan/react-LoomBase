@@ -1,0 +1,33 @@
+{
+  "name": "barblast",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Offensive",
+      "abilities": ["High Explosive"],
+      "items": ["Energy Orb", "Toxic Essence", "Volt Pearl", "Terra Pearl"],
+      "personalities": ["Frail, Very Smart, Sluggish"],
+      "tps": "200 HP, 20 En, 200 R Atk, 80 R Def / 4 En, 96 R Def",
+      "ups": "0 M Atk",
+      "moves": [["Water Bomb"], ["Toxiblast"], ["Power Focus"], ["Rejuvenate"]],
+      "detail": "200 Ranged Attack and Very Smart is to hit as hard as possible \n 200 HP is to be as bulky as possible \n 80/96 Ranged Defense gives Protogon a Melee Attack boost \n 20 Energy = 242 Energy at level 50 for (4 Toxiblasts + 1 Power Focus + 1 Rejuvenate) without Energy Orb \n 4 Energy = 239 Energy at level 50 for (2 Toxiblasts + 1 Water Bomb + 3 Power Focuses + 2 Rejuvenates) with Energy Orb",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Defensive",
+      "abilities": ["High Explosive"],
+      "items": ["Energy Orb", "Heavy Armor", "Volt Pearl", "Terra Pearl"],
+      "personalities": ["Frail, Very Robust, Sluggish"],
+      "tps": "200 HP, 60 En, 200 M Def, 40 R Def / 20 En, 80 R Def",
+      "ups": "0 M Atk",
+      "moves": [["Water Bomb"], ["Toxiblast"], ["Power Focus"], ["Rejuvenate"]],
+      "detail": "200 HP and 40 Ranged Defense makes Very Smart Zuelong Thunderstrike 2HKO \n 60 Energy = 250 Energy at level 50 for (3 Rejuvenates) with Heavy Armor \n 60 Energy = 250 Energy at level 50 for (3 Rejuvenates, 3 Water Bombs and 1 Toxiblast) with Energy Orb \n 200 HP and 80 Ranged Defense makes +1 Pharoglyph Psycho Blast 2HKO \n 20 Energy = 242 Energy at level 50 for (6 Toxiblasts + 1 Power Focus) without Energy Orb or Heavy Armor",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

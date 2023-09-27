@@ -1,0 +1,46 @@
+{
+  "name": "vesperatu",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Sharp Claws",
+      "abilities": ["Sharp Claws"],
+      "items": ["Dark Essence"],
+      "personalities": ["Brawny, Very Clumsy, Nimble"],
+      "tps": "80 HP, 20 En, 200 M Atk, 200 Sp / 64 HP, 36 En",
+      "ups": "",
+      "moves": [
+        ["Slap Down"],
+        ["Phantom Slash", "Shadow Sprint"],
+        ["Slash", "Shadow Sprint"],
+        ["Sharpen", "Shadow Sprint", "Revival"]
+      ],
+      "detail": "200 Melee Attack and Brawny is to hit as hard as possible \n 200 Speed and Nimble is to be as fast as possible, and outspeeds Nimble Cosmiore-U and below \n 20 Energy = 250 Energy at level 50 for (5 Slap Downs + 1 Sharpen / 1 Shadow Sprint) (Use if not using Revival) \n 36 Energy = 253 Energy at level 50 for (4 Slap Downs + 1 Revival) (use if Revival) \n 80/64 HP is leftovers and makes Plant Essence Brawny Tahtab Timber Thrash 2HKO",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Mixed Attacker",
+      "abilities": ["Awakening"],
+      "items": ["Dark Essence"],
+      "personalities": [
+        "Smart, Very Foolish, Nimble",
+        "Very Tender, Smart, Nimble"
+      ],
+      "tps": "20 En, 200 M Atk, 80 R Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Slap Down"],
+        ["Dark Surge"],
+        ["Spectral Burst"],
+        ["Revival", "Shadow Sprint"]
+      ],
+      "detail": "200 Melee Attack is to hit as hard as possible with Slap Down \n 200 Speed and Nimble is to be as fast as possible, and outspeeds Nimble Cosmiore-U and below \n 80 Ranged Attack, Smart, Dark Essence and Awakening makes Dark Surge a 3HKO against Obsidrugon \n 20 Energy = 250 Energy at level 50 for (2 Slap Downs + 4 Dark Surges) (Use if not using Revival)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

@@ -123,6 +123,10 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
   }
+  form > div {
+    display: flex;
+    align-items: center;
+  }
   label {
     display: inline-block;
     margin-right: 0.5rem;
@@ -137,12 +141,15 @@ const Wrapper = styled.div`
     text-align: center;
   }
   select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 6.5rem;
     height: 1.3rem;
     text-align: center;
     border: none;
     border-radius: 10px;
-    appearance: none; /* Remove default arrow button */
+    appearance: none;
     cursor: pointer;
     text-transform: capitalize;
     background: var(--statHighlight);

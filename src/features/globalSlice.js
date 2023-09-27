@@ -115,7 +115,7 @@ const globalSlice = createSlice({
       state.filterTypeCategory = action.payload;
     },
     setFilterTypeCategoriesBackup: (state, action) => {
-      state.filterTypeCategory = action.payload;
+      state.filterTypeCategoryBackup = action.payload;
     },
     addSets: (state, action) => {
       state.sets.push(action.payload);
@@ -283,6 +283,9 @@ const globalSlice = createSlice({
           filterTypeCategory[type.toLowerCase() + "-" + category.toLowerCase()];
       } else if (category !== "all") {
         filteredMoves = filteredCategory[category.toLowerCase()];
+        filteredMoves = filteredMoves.concat(
+          filteredCategory["melee / ranged"]
+        );
       } else if (type !== "all") {
         filteredMoves = filteredType[type.toLowerCase()];
       }

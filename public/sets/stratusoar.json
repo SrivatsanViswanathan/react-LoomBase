@@ -1,0 +1,25 @@
+{
+  "name": "stratusoar",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Defensive Utility",
+      "abilities": ["Toxic Filter"],
+      "items": ["Energy Orb", "Heavy Shield"],
+      "personalities": ["Frail, Very Clever, Sluggish"],
+      "tps": "200 HP, 12 En, 88 M Def, 200 R Def / 20 En, 80 M Def",
+      "ups": "",
+      "moves": [
+        ["Metal Blast"],
+        ["Gust"],
+        ["Tase", "Jet Stream", "Magnify"],
+        ["Perch"]
+      ],
+      "detail": "200 HP and 200 Ranged Defense (+ Heavy Shield) is to be as Ranged bulky as possible \n 96 / 88 Ranged Defense is leftovers and to improve overall bulk \n 12 Energy = 236 Energy at level 50 for (4 Metal Blasts + 2 Perches) with Energy Orb \n 20 Energy = 237 Energy at level 50 for (1 Metal Blast + 1 Gust + 2 Perches) with Heavy Shield",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "tahtab",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Fast Offensive",
+      "abilities": ["Awakening"],
+      "items": ["Plant Essence", "Blossom Shell", "Specialty Boots"],
+      "personalities": ["Brawny, Very Clumsy, Nimble"],
+      "tps": "48 HP, 52 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Timber Thrash"],
+        ["Junglejutsu"],
+        ["Poison"],
+        ["Bulk Up", "Barter"]
+      ],
+      "detail": "200 Melee Attack with Brawny is to be as strong as possible \n 200 Speed and Nimble is to be as fast as possible, and outspeeds Nimble Wendolen, with Boots it outspeeds Nimble Boots Garlash \n 52 Energy = 256 Energy at level 50 for (3 Timber Thrashes + 1 Junglejutsu + 1 Poison) \n 48 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Stronger Offensive",
+      "abilities": ["Awakening"],
+      "items": ["Specialty Boots"],
+      "personalities": ["Very Brawny, Tender, Clumsy"],
+      "tps": "40 HP, 52 En, 200 M Atk, 8 R Def 200 Sp",
+      "ups": "",
+      "moves": [["Timber Thrash"], ["Junglejutsu"], ["Poison"], ["Barter"]],
+      "detail": "200 Melee Attack and Very Brawny is to be as strong as possible \n 200 Speed is to be as fast as possible, and outspeeds Nimble Shawchi, with Boots it outspeeds Gargolem-Speed and below \n 52 Energy = 256 Energy at level 50 for (3 Timber Thrashes + 1 Junglejutsu + 1 Poison) \n 8 Ranged Defense and Tender gives Protogon an M Attack Boost \n 40 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

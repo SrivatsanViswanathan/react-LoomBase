@@ -1,0 +1,25 @@
+{
+  "name": "obsidrugon",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Defensive",
+      "abilities": ["Resilience"],
+      "items": ["Heavy Armor", "Mysterious Dust"],
+      "personalities": ["Very Robust, Clumsy, Sluggish"],
+      "tps": "200 HP, 4 En, 200 M Def, 96 R Def",
+      "ups": "",
+      "moves": [
+        ["Primal Slash", "Earthquake"],
+        ["Body Crash"],
+        ["Drudge", "Brace", "Burrow"],
+        ["Beast's Slumber"]
+      ],
+      "detail": "200 Health, 200 Defense, Very Robust and Heavy Armor is for maximum Melee Bulk \n 96 Ranged Defense is leftovers and to improve overall bulk \n 4 Energy = 265 Energy at level 50 for (1 Beast’s Slumber + 5 Body Crashes) with no Heavy Armor",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}
