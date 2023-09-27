@@ -168,6 +168,7 @@ const Wrapper = styled.div`
     margin-right: auto;
     margin-left: auto;
     width: 90vw;
+    line-height: 1.5;
   }
   a {
     color: white;

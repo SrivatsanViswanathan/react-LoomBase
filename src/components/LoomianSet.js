@@ -429,6 +429,9 @@ const Wrapper = styled.div`
   .credits {
     margin-bottom: 2rem;
   }
+  .credits-desc {
+    margin-left: 0.5rem;
+  }
   .overview p,
   .details {
     line-height: 1.75;
@@ -513,6 +516,9 @@ const Wrapper = styled.div`
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
+    }
+    .credits-desc {
+      margin-left: 0rem;
     }
   }
   @media (min-width: 1700px) {

@@ -53,6 +53,7 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    line-height: 1.5;
   }
   .none {
     margin-right: auto;

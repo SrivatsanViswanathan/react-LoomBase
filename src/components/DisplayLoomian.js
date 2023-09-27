@@ -170,7 +170,7 @@ const DisplayLoomian = ({ data }) => {
     if (hasMatch) {
       return result;
     } else {
-      return "";
+      return "---";
     }
   };
 
@@ -195,7 +195,7 @@ const DisplayLoomian = ({ data }) => {
     if (hasMatch) {
       return result;
     } else {
-      return "";
+      return "---";
     }
   };
 
@@ -622,7 +622,7 @@ const DisplayLoomian = ({ data }) => {
               <div className='type-box'>
                 <div className='name'>Very weak to : </div>
                 <div className='types-list'>
-                  {length > 1 ? stronglyWeakTo() : ""}
+                  {length > 1 ? stronglyWeakTo() : "---"}
                 </div>
               </div>
               <div className='type-box'>
@@ -646,7 +646,7 @@ const DisplayLoomian = ({ data }) => {
               <div className='type-box'>
                 <div className='name'>Strongly resists : </div>
                 <div className='types-list'>
-                  {length > 1 ? stronglyResistTo() : ""}
+                  {length > 1 ? stronglyResistTo() : "---"}
                 </div>
               </div>
               <div className='type-box'>
@@ -677,8 +677,8 @@ const DisplayLoomian = ({ data }) => {
                             </div>
                           )),
                         ]
-                      : ""
-                    : ""}
+                      : "---"
+                    : "---"}
                 </div>
               </div>
             </div>
@@ -804,13 +804,16 @@ const Wrapper = styled.div`
     align-items: start;
     gap: 0.3rem;
     flex-wrap: wrap;
+    transform: translateY(1px);
   }
+
   .types-list p {
     padding: 0.25rem 1rem;
     width: 5.6rem;
     text-align: center;
     border-radius: 20px;
     text-transform: capitalize;
+    transform: translateY(-1px);
   }
   .type-row {
     display: flex;
@@ -900,8 +903,10 @@ const Wrapper = styled.div`
     height: auto;
   }
   .image {
-    max-width: 12rem;
-    max-height: 13rem;
+    max-width: 10.5rem;
+    max-height: 12rem;
+    width: auto;
+    height: auto;
   }
   .types a,
   .type-affect a,
@@ -1016,6 +1021,8 @@ const Wrapper = styled.div`
     .image {
       height: 13rem;
       width: auto;
+      max-height: none;
+      max-width: none;
     }
     .evo-stats {
       display: flex;
