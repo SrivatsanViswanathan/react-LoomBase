@@ -8,7 +8,7 @@
       "abilities": ["Pitch-Black"],
       "items": ["Dark Essence"],
       "personalities": ["Brawny, Very Clumsy, Nimble"],
-      "tps": "72 HP, 20 En, 8 M Def, 200 M Atk, 200 Sp",
+      "tps": "88 HP, 20 En, 8 M Def, 200 M Atk, 200 Sp",
       "ups": "",
       "moves": [
         ["Thunder Crash"],
@@ -22,9 +22,9 @@
       "author": "Epicly Epic Gamer"
     },
     {
-      "setName": "Stronger Wallbreaker",
+      "setName": "Stronger Bulk Up",
       "abilities": ["Pitch-Black"],
-      "items": ["Dark Essence", "Specialty Boots"],
+      "items": ["Dark Essence"],
       "personalities": ["Very Brawny, Tender, Clumsy"],
       "tps": "72 HP, 12 En, 200 M Atk, 16 R Def, 200 Sp",
       "ups": "",
@@ -33,6 +33,24 @@
         ["Gnarly Gash"],
         ["Primal Slash"],
         ["Bulk Up", "Poison"]
+      ],
+      "detail": "200 Melee Attack and Very Brawny are to hit as hard as possible \n 200 Speed is to be as fast as possible, outspeeding Brawny Akhalos and below, with Boots outspeeds Boots Kanibo \n 12 Energy = 259 Energy at level 50 for (3 Thunder Crashes + 2 Gnarly Gashes + 1 Primal Slash) \n 16 Ranged Defense with Tender gives Protogon a Melee Attack boost \n 72 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Specialty Boots",
+      "abilities": ["Pitch-Black"],
+      "items": ["Specialty Boots"],
+      "personalities": ["Very Brawny, Tender, Clumsy"],
+      "tps": "72 HP, 12 En, 200 M Atk, 16 R Def, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Thunder Crash"],
+        ["Gnarly Gash"],
+        ["Primal Slash"],
+        ["Poison", "Baneful Bash"]
       ],
       "detail": "200 Melee Attack and Very Brawny are to hit as hard as possible \n 200 Speed is to be as fast as possible, outspeeding Brawny Akhalos and below, with Boots outspeeds Boots Kanibo \n 12 Energy = 259 Energy at level 50 for (3 Thunder Crashes + 2 Gnarly Gashes + 1 Primal Slash) \n 16 Ranged Defense with Tender gives Protogon a Melee Attack boost \n 72 HP is leftovers",
       "otherOptions": "",
