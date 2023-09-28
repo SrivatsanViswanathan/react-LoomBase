@@ -4,11 +4,11 @@
   "credit": "",
   "sets": [
     {
-      "setName": "Faster Bulk Up",
+      "setName": "Bulk Up",
       "abilities": ["Pitch-Black"],
       "items": ["Dark Essence"],
       "personalities": ["Brawny, Very Clumsy, Nimble"],
-      "tps": "72 HP, 20 En, 8 M Def, 200 R Atk, 200 Sp",
+      "tps": "72 HP, 20 En, 8 M Def, 200 M Atk, 200 Sp",
       "ups": "",
       "moves": [
         ["Thunder Crash"],
