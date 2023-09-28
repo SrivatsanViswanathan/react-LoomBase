@@ -12,7 +12,7 @@
       "ups": "0 M Atk",
       "moves": [
         ["Jet Stream", "Air Blade"],
-        ["Poison"],
+        ["Poison", "Muck Blast"],
         ["Gust", "Provoke"],
         ["Perch"]
       ],
