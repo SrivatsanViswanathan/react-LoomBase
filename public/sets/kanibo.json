@@ -1,0 +1,27 @@
+{
+  "name": "Kanibo",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Ambush Wallbreaker",
+      "abilities": ["Ambush"],
+      "items": ["Specialty Boots", "Brawler Essence"],
+      "personalities": [
+        "Very Brawny, Clumsy, Foolish / Very Brawny, Clumsy, Tender"
+      ],
+      "tps": "48 HP, 52 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Clawber"],
+        ["Wave Wrecker"],
+        ["Ice Hammer", "Driving Force"],
+        ["Raging Tackle", "Driving Force"]
+      ],
+      "detail": "200 Melee Attack with Very Brawny is to hit as hard as possible \n 200 Speed outspeeds Nimble Searknight and below, with Boots outspeeds Nimble Zuelong \n 52 Energy = 270 Energy at level 50 for (4 Clawbers + 1 Wave Wrecker) \n 48 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

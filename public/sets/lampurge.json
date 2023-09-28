@@ -1,0 +1,20 @@
+{
+  "name": "lampurge",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Double Ally Defender",
+      "abilities": ["Captivating"],
+      "items": ["Drop of Youth"],
+      "personalities": ["Robust clever Very Frail"],
+      "tps": "100 HP, 200 M Def, 200 R Def",
+      "ups": "0 M Atk",
+      "moves": [["Dodge"], ["Rant"], ["Luster Root"], ["Final Ruse"]],
+      "detail": "A redirecter with TP's to give it as much defense as possible \n It will click dodge every other turn and in the turns where it doesn't it will use Luster Loot to regain HP \n  Rant to lower R Attackers power, or on a turn you know it will faint \n Final ruse to also take down one of your opponents \n Works very well with set up sweepers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "mvincent05"
+    }
+  ]
+}

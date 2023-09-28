@@ -1,0 +1,22 @@
+{
+  "name": "eruptidon",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Magnify",
+      "abilities": ["Pyro"],
+      "items": ["Fire Essence", "Flame Shell"],
+      "personalities": [
+        "Very Frail, Smart Nimble / Frail, Tender, Very Smart / Frail, Very Smart, Foolish"
+      ],
+      "tps": "16 HP, 84 En, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [["Fire Breath"], ["Landslide"], ["Dark Surge"], ["Magnify"]],
+      "detail": "200 Ranged Attack with Smart is to hit as hard as possible \n 200 Speed with Nimble outspeeds Nimble Falkyrie and Nimble Tyrecks, without Nimble, it outspeeds Nimble Searknight \n 84 Energy = 265 at level 50 for (3 Fire Breaths + 1 Landslide + 1 Magnify) \n 16 HP is leftovers and improves bulk a little",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

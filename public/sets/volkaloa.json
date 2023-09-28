@@ -1,0 +1,30 @@
+{
+  "name": "volkaloa",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Brawn Boost",
+      "abilities": ["Combustible"],
+      "items": [
+        "Ancient Essence",
+        "Plant Essence",
+        "Earth Essence",
+        "Fire Essence"
+      ],
+      "personalities": ["Brawny, Very Clumsy, Nimble"],
+      "tps": "12 En, 200 M Ark, 88 R Def, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Savage Greed"],
+        ["Coconut Bomb", "Blaze Chomp"],
+        ["Earthquake", "Blaze Chomp"],
+        ["Brawn Boost"]
+      ],
+      "detail": "200 Melee Attack with Brawny is to hit as hard as possible \n 200 Speed with Nimble is to be as fast as possible, outspeeding Nimble Lyricat and below \n 12 Energy = 245 Energy at level 50 for (2 Savage Greeds + 2 Coconut Bombs + 2 Brawn Boosts) \n 88 Ranged Defense gives Protogon a Melee Attack Boost",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

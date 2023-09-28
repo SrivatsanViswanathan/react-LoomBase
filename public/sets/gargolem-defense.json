@@ -1,0 +1,43 @@
+{
+  "name": "gargolem defense",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Melee Bulky Support",
+      "abilities": ["Immunized"],
+      "items": ["Health Amulet", "Milkshake"],
+      "personalities": ["Robust"],
+      "tps": "200 HP, 4 En, 200 M Def, 96 R Def",
+      "ups": "",
+      "moves": [
+        ["Mudslide", "Gust"],
+        ["Slap Down", "Empathize"],
+        ["Driving Force"],
+        ["Barbs"]
+      ],
+      "detail": "200 HP, 200 Melee Defense, and Robust is to be as Melee bulky as possible \n 96 Ranged Defense is leftovers and improves overall Ranged bulk \n 4 Energy = 265 Energy at level 50 for (3 Layers of Barbs + 4 Driving Forces + 1 Slap Down)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Ranged Bulky Support",
+      "abilities": ["Immunized"],
+      "items": ["Health Amulet", "Milkshake"],
+      "personalities": ["Clever"],
+      "tps": " 200 HP, 4 En, 96 M Def, 200 R Def",
+      "ups": "",
+      "moves": [
+        ["Mudslide", "Gust"],
+        ["Slap Down", "Empathize"],
+        ["Driving Force"],
+        ["Barbs"]
+      ],
+      "detail": "200 HP, 200 Ranged Defense, and Clever is to be as Ranged bulky as possible \n 96 Melee Defense is leftovers and improves overall Melee bulk \n 4 Energy = 265 Energy at level 50 for (3 Layers of Barbs + 4 Driving Forces + 1 Slap Down)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

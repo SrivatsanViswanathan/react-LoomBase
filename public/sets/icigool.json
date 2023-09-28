@@ -1,0 +1,33 @@
+{
+  "name": "icigool",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Melee Defensive Pivot",
+      "abilities": ["Expertise"],
+      "items": ["Energy Orb"],
+      "personalities": ["Robust, Sluggish"],
+      "tps": "200 HP, 44 En, 200 M Def, 56 R Def",
+      "ups": "0 Sp",
+      "moves": [["Ice Hammer"], ["Fade Away"], ["Baffle"], ["Rejuvenate"]],
+      "detail": "200 HP, 200 Melee Defense, and Robust are to be as Melee bulky as possible \n 56 Ranged Defense is leftovers and improves overall bulk \n 44 Energy = 225 Energy at level 50 for (2 Rejuvenates and 5 of any other move) with Energy Orb and Expertise \n 0 Speed UPs with Sluggish lets it move second so it can  bring in a powerful wallbreaker with Baffle safely",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Ranged Defensive Pivot",
+      "abilities": ["Expertise"],
+      "items": ["Energy Orb"],
+      "personalities": ["Clever, Sluggish"],
+      "tps": "200 HP, 44 En, 56 M Def, 200 R Def",
+      "ups": "0 Sp",
+      "moves": [["Ice Hammer"], ["Fade Away"], ["Baffle"], ["Rejuvenate"]],
+      "detail": "200 HP, 200 Ranged Defense, and Clever are to be as Ranged bulky as possible \n 44 Energy = 225 Energy at level 50 for (2 Rejuvenates and 5 of any other move) with Energy Orb and Expertise \n 0 Speed UPs with Sluggish lets it move second so it can bring in a powerful wallbreaker with Baffle safely \n 56 Melee Defense is leftovers and improves overall bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

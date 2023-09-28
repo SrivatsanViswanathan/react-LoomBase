@@ -1,0 +1,25 @@
+{
+  "name": "venolen",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Defensive",
+      "abilities": ["Devious"],
+      "items": ["Heavy Shield", "Heavy Shackles"],
+      "personalities": ["Frail, Very Clever, Sluggish"],
+      "tps": "200 HP, 4 En, 96 M Def, 200 R Def / 192 HP, 12 En",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Adaptive Assault"],
+        ["Mud Spatter", "Barter"],
+        ["Charade", "Poison"],
+        ["Rejuvenate"]
+      ],
+      "detail": "200 / 192 HP with 200 Ranged Defense and Very Clever are to be as bulky as possible \n 200 / 192 HP with 96 Melee Defense makes Plant Essence Tahtab Timber Thrash 3HKO \n 4 Energy = 250 Energy at level 50 for (3 Rejuvenates) \n 12 Energy = 251 Energy at level 50 for (3 Rejuvenates + 1 Adaptive Assault)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "snagulp",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Mixed Bulky Support",
+      "abilities": ["Clingy"],
+      "items": ["Drop of Youth"],
+      "personalities": ["Very Frail, Robust, Clever"],
+      "tps": "192 HP, 4 En, 104 M Def, 200 R Def",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Jet Stream", "Air Blade"],
+        ["Poison"],
+        ["Gust", "Provoke"],
+        ["Perch"]
+      ],
+      "detail": "192 HP and 104 Melee Defense with Robust and Drop of Youth make Very Brawny Tahtab Timber Thrash 4HKO \n 192 HP and 200 Ranged Defense with Clever and Drop of Youth make Gargolem-A Jet Stream 4HKO \n 4 Energy = 234 Energy at level 50 for (1 Perch + 3 Jet Streams) or (1 Air Blade + 2 Gusts + 2 Perches)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

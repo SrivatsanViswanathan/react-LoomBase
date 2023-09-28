@@ -1,0 +1,25 @@
+{
+  "name": "infernix",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Ranged Defensive",
+      "abilities": ["Power Napper"],
+      "items": ["Heavy Shield", "Energy Orb"],
+      "personalities": ["Frail, Clever"],
+      "tps": "200 HP, 4 En, 40 M Def, 200 R Def, 56 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Fire Breath"],
+        ["Elemental Burst", "Jet Stream", "Draco Beam"],
+        ["Peace of Mind"],
+        ["Phoenix Flame"]
+      ],
+      "detail": "200 HP and 200 Ranged Defense with Clever are to be as bulky as possible \n 56 Speed outspeeds 0 Speed Phagenaut \n 4 Energy = 250 Energy at level 50 for (1 Fire Breath + 1 Shrewd Blast + 5 Peace of Minds) with Heavy Shield \n 4 Energy = 250 Energy at level 50 for (6 Fire Breaths + 1 Peace of Mind) with Energy Orb \n 40 Melee Defense is leftovers and improves bulk a little",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

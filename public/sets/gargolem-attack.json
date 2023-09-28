@@ -1,0 +1,38 @@
+{
+  "name": "gargolem attack",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Mixed Attacker",
+      "abilities": ["Master"],
+      "items": ["Clutch Plushie", "Earth Essence", "Air Essence"],
+      "personalities": ["Nimble"],
+      "tps": "4 En, 88 M Atk, 200 R Atk, 8 R Def, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Earthquake", "Landslide"],
+        ["Jet Stream"],
+        ["Slap Down"],
+        ["Boom Bash"]
+      ],
+      "detail": "200 Speed with Nimble outspeed Nimble Tahtab and below \n 200 Ranged Attack is to hit as hard as possible with Ranged Moves \n 8 Ranged Defense gives Protogon a Melee Attack boost \n 4 Energy = 265 Energy at level 50 for (5 Landslides) \n 88 Melee Attack is leftovers and increases Melee Attack power",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Ranged Attacker",
+      "abilities": ["Master"],
+      "items": ["Clutch Plushie", "Earth Essence", "Air Essence"],
+      "personalities": ["Frail, Nimble"],
+      "tps": "80 En, 200 R Atk, 16 R Def, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [["Landslide"], ["Jet Stream"], ["Dark Surge"], ["Boom Bash"]],
+      "detail": "200 Speed with Nimble outspeed Nimble Tahtab and below \n 200 Ranged Attack is to hit as hard as possible \n 16 Ranged Defense gives Protogon a Melee Attack boost \n 80 Energy = 280 Energy at level 50 for (2 Jet Streams + 2 Landslides + 2 Dark Surge)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

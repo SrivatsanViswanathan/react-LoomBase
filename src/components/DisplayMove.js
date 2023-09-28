@@ -29,9 +29,13 @@ const DisplayMove = ({ data, loomians }) => {
     const filteredTypesToLooms = {};
 
     Object.keys(filterTypesLooms).forEach((type) => {
-      filteredTypesToLooms[type] = filterTypesLooms[type].filter((loom) => {
-        return loomians.includes(loom);
-      });
+      if (loomians) {
+        filteredTypesToLooms[type] = filterTypesLooms[type].filter((loom) => {
+          return loomians.includes(loom);
+        });
+      } else {
+        filteredTypesToLooms[type] = [];
+      }
     });
 
     if (loomians) {
@@ -101,7 +105,7 @@ const DisplayMove = ({ data, loomians }) => {
           <LoomiansList filtered_loomians={filtered_loomians}></LoomiansList>
         </>
       ) : (
-        ""
+        <div className='no-looms'>No Loomians can learn this move.</div>
       )}
     </Wrapper>
   );
@@ -172,6 +176,10 @@ const Wrapper = styled.div`
   }
   a {
     color: white;
+  }
+  .no-looms {
+    margin-top: 1rem;
+    text-align: center;
   }
   @media (min-width: 992px) {
     height: auto;

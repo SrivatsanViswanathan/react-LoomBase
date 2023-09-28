@@ -258,6 +258,10 @@ const globalSlice = createSlice({
         sortedMoves = sortedMoves.sort((a, b) => b.energyCost - a.energyCost);
       }
 
+      if (!Array.isArray(sortedMoves)) {
+        sortedMoves = []; // Initialize as an empty array if undefined
+      }
+
       state.filtered_moves = sortedMoves;
       state.movesSort = select;
     },
@@ -283,9 +287,14 @@ const globalSlice = createSlice({
           filterTypeCategory[type.toLowerCase() + "-" + category.toLowerCase()];
       } else if (category !== "all") {
         filteredMoves = filteredCategory[category.toLowerCase()];
-        filteredMoves = filteredMoves.concat(
-          filteredCategory["melee / ranged"]
-        );
+        if (
+          filteredCategory["melee / ranged"] !== null &&
+          category.toLowerCase() !== "support"
+        ) {
+          filteredMoves = filteredMoves.concat(
+            filteredCategory["melee / ranged"]
+          );
+        }
       } else if (type !== "all") {
         filteredMoves = filteredType[type.toLowerCase()];
       }

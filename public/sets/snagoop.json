@@ -1,0 +1,20 @@
+{
+  "name": "snagoop",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Barter",
+      "abilities": ["Immunized"],
+      "items": ["Volcanic Ash", "Thunder Orb"],
+      "personalities": ["Very Frail, Smart, Nimble"],
+      "tps": "72 HP, 12 En, 200 R Atk, 16 R Def, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [["Jet Stream"], ["Muck Blast"], ["Provoke"], ["Barter"]],
+      "detail": "200 Ranged Attack with Smart is to hit as hard as possible \n 200 Speed with Nimble is to be as fast as possible \n 12 Energy = 250 Energy at level 50 for (4 Muck Blasts / 4 Jet Streams + 1 Barter) \n 72 HP with 16 Ranged Defense makes Very Smart Light Essence Falkyrie Nova Blast 2HKO",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

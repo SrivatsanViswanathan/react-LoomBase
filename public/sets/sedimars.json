@@ -1,0 +1,25 @@
+{
+  "name": "sedimars",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Ranged Defensive",
+      "abilities": ["Hasty"],
+      "items": ["Heavy Shield"],
+      "personalities": ["Clumsy, Very Clever, Sluggish"],
+      "tps": "192 HP, 52 En, 24 M Atk, 40 M Def, 192 R Def",
+      "ups": "",
+      "moves": [
+        ["Earthquake"],
+        ["Blaze Chomp", "Thunder Chomp"],
+        ["Sharpen", "Mudslide"],
+        ["Rejuvenate"]
+      ],
+      "detail": "192 HP, 192 Ranged Defense, Very Clever, and Heavy Shield are to be as Ranged bulky as possible \n 192 HP with 40 Melee Defense makes Brawny Tyrecks Earthquake 4HKO \n 24 Melee Attack with Hasty makes Earthquake 2HKO 72 HP, 24 Melee Defense, Health Amulet Pharoglyph \n 52 Energy = 254 Energy at level 50 for (3 Earthquakes + 1 Rejuvenate) with Heavy Shield",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

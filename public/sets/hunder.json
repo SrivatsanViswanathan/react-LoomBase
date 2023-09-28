@@ -1,0 +1,25 @@
+{
+  "name": "hunder",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "All-Out Attacker",
+      "abilities": ["Power Jaw"],
+      "items": ["Power Cuffs"],
+      "personalities": ["Brawny, Very Clumsy, Nimble"],
+      "tps": "48 HP, 52 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Thunder Chomp"],
+        ["Mega Chomp"],
+        ["Blaze Chomp"],
+        ["Chilly Chomp"]
+      ],
+      "detail": "200 Melee Attack with Brawny is to hit as hard as possible \n 200 Speed with Nimble is to be as fast as possible, speedtying Nimble Dorogo \n 52 Energy = 250 Energy at level 50 for (5 Mega Chomps) \n 48 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

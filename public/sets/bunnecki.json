@@ -1,0 +1,20 @@
+{
+  "name": "bunnecki",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Magnify",
+      "abilities": ["Noxious Weeds"],
+      "items": ["Plant Essence", "Blossom Shell"],
+      "personalities": ["Very Frail, Smart, Nimble"],
+      "tps": "96 HP, 4 En, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [["Nature's Force"], ["Landslide"], ["Magnify"], ["Poison"]],
+      "detail": "200 Ranged Attack with Smart is to hit as hard as possible \n 200 Speed with Nimble is to be as fast as possible, outspeeding Nimble Lyricat and below \n 4 Energy = 256 Energy at level 50 for (5 Nature's Forces / 5 Landslides) \n 96 HP is leftovers an improves overall bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

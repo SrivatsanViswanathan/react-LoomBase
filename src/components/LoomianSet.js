@@ -97,63 +97,103 @@ const LoomianSet = ({ data }) => {
                         <div className='left'>
                           <div>
                             Move 1 :{" "}
-                            {moves[0].map((move, index) => {
-                              return (
-                                <span key={index}>
-                                  <Link to={`/moves/${move.toLowerCase()}`}>
-                                    {move}
-                                  </Link>
-                                  <span>
-                                    {index !== moves[0].length - 1 ? " / " : ""}
+                            <span className='move-list'>
+                              {moves[0].map((move, index) => {
+                                return (
+                                  <span key={index}>
+                                    <Link
+                                      to={
+                                        move.toLowerCase() !== "no move"
+                                          ? `/moves/${move.toLowerCase()}`
+                                          : "#"
+                                      }
+                                    >
+                                      {move}
+                                    </Link>
+                                    <span>
+                                      {index !== moves[0].length - 1
+                                        ? " / "
+                                        : ""}
+                                    </span>
                                   </span>
-                                </span>
-                              );
-                            })}
+                                );
+                              })}
+                            </span>
                           </div>
                           <div>
                             Move 2 :{" "}
-                            {moves[1].map((move, index) => {
-                              return (
-                                <span key={index}>
-                                  <Link to={`/moves/${move.toLowerCase()}`}>
-                                    {move}
-                                  </Link>
-                                  <span>
-                                    {index !== moves[1].length - 1 ? " / " : ""}
+                            <span className='move-list'>
+                              {moves[1].map((move, index) => {
+                                return (
+                                  <span key={index}>
+                                    <Link
+                                      to={
+                                        move.toLowerCase() !== "no move"
+                                          ? `/moves/${move.toLowerCase()}`
+                                          : "#"
+                                      }
+                                    >
+                                      {move}
+                                    </Link>
+                                    <span>
+                                      {index !== moves[1].length - 1
+                                        ? " / "
+                                        : ""}
+                                    </span>
                                   </span>
-                                </span>
-                              );
-                            })}
+                                );
+                              })}
+                            </span>
                           </div>
                           <div>
                             Move 3 :{" "}
-                            {moves[2].map((move, index) => {
-                              return (
-                                <span key={index}>
-                                  <Link to={`/moves/${move.toLowerCase()}`}>
-                                    {move}
-                                  </Link>
-                                  <span>
-                                    {index !== moves[2].length - 1 ? " / " : ""}
+                            <span className='move-list'>
+                              {moves[2].map((move, index) => {
+                                return (
+                                  <span key={index}>
+                                    <Link
+                                      to={
+                                        move.toLowerCase() !== "no move"
+                                          ? `/moves/${move.toLowerCase()}`
+                                          : "#"
+                                      }
+                                    >
+                                      {move}
+                                    </Link>
+                                    <span>
+                                      {index !== moves[2].length - 1
+                                        ? " / "
+                                        : ""}
+                                    </span>
                                   </span>
-                                </span>
-                              );
-                            })}
+                                );
+                              })}
+                            </span>
                           </div>
                           <div>
                             Move 4 :{" "}
-                            {moves[3].map((move, index) => {
-                              return (
-                                <span key={index}>
-                                  <Link to={`/moves/${move.toLowerCase()}`}>
-                                    {move}
-                                  </Link>
-                                  <span>
-                                    {index !== moves[3].length - 1 ? " / " : ""}
+                            <span className='move-list'>
+                              {moves[3].map((move, index) => {
+                                return (
+                                  <span key={index}>
+                                    <Link
+                                      to={
+                                        move.toLowerCase() !== "no move"
+                                          ? `/moves/${move.toLowerCase()}`
+                                          : "#"
+                                      }
+                                    >
+                                      {move}
+                                    </Link>
+                                    <span>
+                                      {index !== moves[3].length - 1
+                                        ? " / "
+                                        : ""}
+                                    </span>
                                   </span>
-                                </span>
-                              );
-                            })}
+                                );
+                              })}
+                            </span>
                           </div>
                         </div>
                         <div className='right'>
@@ -167,7 +207,7 @@ const LoomianSet = ({ data }) => {
                                       {item}
                                     </Link>
                                     <span>
-                                      {index !== items.length - 1 ? ", " : ""}
+                                      {index !== items.length - 1 ? " / " : ""}
                                     </span>
                                   </div>
                                 );
@@ -356,6 +396,18 @@ const Wrapper = styled.div`
     flex-wrap: wrap;
     min-width: 43vw;
   }
+  .left > div {
+    gap: 0.25rem;
+    display: flex;
+    align-items: center;
+  }
+  .move-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 18rem;
+    gap: 0.2rem;
+  }
   .item,
   .ability,
   .personality,
@@ -377,11 +429,17 @@ const Wrapper = styled.div`
     max-width: 16rem;
     flex-direction: row;
     flex-wrap: wrap;
+    line-height: 1.2;
+    transform: translateY(-2px);
+  }
+  .tp-row {
+    line-height: 1.2;
+    transform: translateY(-2px);
   }
   .items-list {
     display: flex;
     flex-wrap: wrap;
-    max-width: 15rem;
+    max-width: 18rem;
     gap: 0.15rem;
   }
   .overview-desc {
@@ -487,6 +545,19 @@ const Wrapper = styled.div`
     .right {
       margin-right: 2rem;
       max-width: 35rem;
+    }
+    .tp-row,
+    .personality-row {
+      display: flex;
+      max-width: 16rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .items-list {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 15rem;
+      gap: 0.15rem;
     }
     .set-details {
       margin-top: 0rem;

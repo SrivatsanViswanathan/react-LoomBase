@@ -1,0 +1,61 @@
+{
+  "name": "charonyx",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Bane of Haste Sweeper",
+      "abilities": ["Reaper"],
+      "items": ["Health Amulet"],
+      "personalities": ["Smart, Hyper, Very Sluggish"],
+      "tps": "96 En, 200 R Atk, 4 M Def, 200 R Defense",
+      "ups": "0 M Atk, 0 Sp",
+      "moves": [
+        ["Nova blast"],
+        ["Magnify"],
+        ["Lightspeed Ray"],
+        ["Shadow Burst"]
+      ],
+      "detail": "A set up sweeper to be used in bane of haste teams \n With the energy it can use magnify twice before going on the attack with 2 shadow bursts or 1 nova ray before having to recover energy",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "mrvincent05"
+    },
+    {
+      "setName": "Offensive",
+      "abilities": ["Reaper"],
+      "items": ["Health Amulet", "Milkshake"],
+      "personalities": ["Frail, Very Smart, Sluggish"],
+      "tps": "200 HP, 200 R Atk, 64 R Def, 32 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Lightspeed Ray"],
+        ["Frost Beam"],
+        ["Spectral Burst", "Spite", "Nova Blast"],
+        ["Magnify"]
+      ],
+      "detail": "200 Ranged Attack and Smart are to hit as hard as possible \n 200 Health with 64 Ranged Defense makes Smart Falkyrie Metal Blast 2HKO \n 32 Speed with Sluggish outspeeds Sluggish Sedimars \n 0 Energy = 266 Energy at level 50 for (6 Spectral Bursts + 1 Magnify)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Mixed Defensive Pivot",
+      "abilities": ["Prismatic"],
+      "items": ["Health Amulet", "Milkshake"],
+      "personalities": ["Robust, Clever, Very Sluggish"],
+      "tps": "200 HP, 20 En, 128 M Def, 152 R Def",
+      "ups": "0 M Atk, 0 Sp",
+      "moves": [
+        ["Flash 'n Flee"],
+        ["Spite"],
+        ["Frost Beam"],
+        ["Spectral Burst", "Gust", "Tricky Tactics"]
+      ],
+      "detail": "200 HP with 128 Melee Defense and Robust makes Hasty 40 Melee Attack Sedimars Earthquake 4HKO after Health Amulet \n 200 HP with 152 Ranged Defense and Clever makes Dark Essence Tiklipse Dark Surge 4HKO after Health Amulet \n 20 Energy = 270 Energy at level 50 for (3 Flash 'n Flees + 3 Spites) \n 0 Speed UPs and Very Sluggish allow Charonyx to safely bring in teammates",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "harvesect",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Bulky Attacker",
+      "abilities": ["Life Force"],
+      "items": ["Power Cuffs"],
+      "personalities": ["Very Brawny, Clumsy, Sluggish"],
+      "tps": "200 HP, 200 M Atk, 96 R Def",
+      "ups": "",
+      "moves": [
+        ["Parasitize"],
+        ["Earthquake"],
+        ["Driving Force"],
+        ["Bulk Up", "Soul Storm"]
+      ],
+      "detail": "200 Melee Attack with Very Brawny is to hit as hard as possible \n 200 HP is to be as bulky as possible and be able to use as many moves as possible \n 48 Speed with Sluggish outspeeds Sluggish Venolen \n 0 Energy because Life Force makes all moves cost 10 HP \n 48 Ranged Defense is leftovers and improves bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

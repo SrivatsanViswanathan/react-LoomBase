@@ -1,0 +1,22 @@
+{
+  "name": "zepholen",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Peace of Mind",
+      "abilities": ["Turbulent"],
+      "items": ["Health Amulet", "Milkshake"],
+      "personalities": [
+        "Very Frail, Smart, Nimble / Frail, Very Smart, Foolish"
+      ],
+      "tps": "80 HP, 20 En, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [["Resonate"], ["Mudslide"], ["Peace of Mind"], ["Provoke"]],
+      "detail": "200 Ranged Attack with Smart is to hit as hard as possible \n 200 Speed is to be as fast as possible, with Nimble it outspeeds Nimble Halvantic, without Nimble, it outspeeds Nimble Tyrecks \n 20 Energy = 256 Energy at level 50 for (3 Resonates + 2 Mudslides + 1 Peace of Mind) \n 80 HP gives 10 HP from Health Amulet every turn",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

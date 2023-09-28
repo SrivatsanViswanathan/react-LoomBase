@@ -1,0 +1,37 @@
+{
+  "name": "deludrix",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Offensive Pivot",
+      "abilities": ["Aqua Body"],
+      "items": ["Clutch Plushie", "Water Essence"],
+      "personalities": [
+        "Very Frail, Smart, Nimble / Frail, Tender, Very Smart"
+      ],
+      "tps": "16 HP, 84 En, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [["Pheroblast"], ["Douse"], ["Zip-Zap "], ["Jet Stream"]],
+      "detail": "200 Ranged Attack with Smart / Very Smart is to hit as hard as possible \n 200 Speed is to be as fast as possible, without Nimble outspeeding Nimble Kanibo, with Nimble outspeeding Very Brawny Tahtab \n 84 Energy = 250 Energy at level 50 for (5 of any move) \n 16 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Boots Pivot",
+      "abilities": ["Aqua Body"],
+      "items": ["Specialty Boots"],
+      "personalities": [
+        "Very Frail, Smart, Nimble / Frail, Tender, Very Smart"
+      ],
+      "tps": "16 HP, 84 En, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [["Pheroblast"], ["Douse"], ["Zip-Zap "], ["Jet Stream"]],
+      "detail": "200 Ranged Attack with Smart / Very Smart is to hit as hard as possible \n 200 Speed with Boots and Nimble outspeeds Boots Very Brawny Tahtab, without Nimble, speedties Boots Smart Ikazune \n 84 Energy = 250 Energy at level 50 for (5 of any move) \n 16 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

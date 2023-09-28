@@ -87,7 +87,7 @@ const Wrapper = styled.nav`
     color: white;
 
     .nav-buttons {
-      gap: 2rem;
+      gap: 0.5rem;
       display: flex;
       align-items: center;
       justify-content: center;

@@ -1,0 +1,47 @@
+{
+  "name": "barbadger",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Specialty Boots",
+      "abilities": ["Dauntless"],
+      "items": ["Specialty Boots"],
+      "personalities": [
+        "Very Brawny, Clumsy, Foolish / Very Brawny, Tender, Clumsy"
+      ],
+      "tps": "64 HP, 36 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Ice Hammer"],
+        ["Rogue Assault"],
+        ["Clay Slap"],
+        ["Body Slam", "Ill Will"]
+      ],
+      "detail": "200 Melee Attack and Brawny / Very Brawny are to hit as hard as possible \n 200 Speed with Boots outspeeds Boots Kanibo \n 36 Energy = 260 Energy at level 50 for (4 Ice Hammers + 1 Rogue Assault) \n 64 HP is leftovers and increases bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Brawn Boost",
+      "abilities": ["Dauntless"],
+      "items": ["Brawler Essence", "Martial Shell"],
+      "personalities": [
+        "Brawny, Very Clumsy, Nimble / Very Brawny, Clumsy, Foolish"
+      ],
+      "tps": "64 HP, 36 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Ice Hammer"],
+        ["Rogue Assault"],
+        ["Clay Slap"],
+        ["Brawn Boost"]
+      ],
+      "detail": "200 Melee Attack and Brawny / Very Brawny are to hit as hard as possible \n 200 Speed with Nimble outspeeds non-Nimble Deludrix / Ikazune / Wintrix, without Nimble, outspeeds Very Brawny Kanibo \n 36 Energy = 260 Energy at level 50 for (3 Ice Hammers + 1 Rogue Assault + 2 Brawn Boost) \n 64 HP is leftovers and increases bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

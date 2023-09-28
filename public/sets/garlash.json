@@ -1,0 +1,25 @@
+{
+  "name": "garlash",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Specialty Boots",
+      "abilities": ["Power Jaw"],
+      "items": ["Specialty Boots"],
+      "personalities": ["Brawny, Very Clumsy, Nimble"],
+      "tps": "24 HP, 12 En, 200 M Atk, 64 R Def, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Vicious Snap", "Aqua Jaws"],
+        ["Mega Chomp"],
+        ["Chilly Chomp", "Venom Chomp"],
+        ["Barter"]
+      ],
+      "detail": "200 Melee Attack with Brawny is to hit as hard as possible \n 200 Speed with Nimble and Boots outspeeds Boots Tahtab, without Boots, outspeeds Nimble Vesperatu \n 12 Energy = 250 Energy at level 50 for (2 Vicious Snaps + 1 Mega Chomp + 1 Barter + 2 Chilly Chomps) \n 64 Ranged Defense gives Protogon a Melee Attack Boost \n 24 HP is leftovers and increases bulk a little",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

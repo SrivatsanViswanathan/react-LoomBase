@@ -1,0 +1,45 @@
+{
+  "name": "boarrok",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Specialty Boots",
+      "abilities": ["Boast"],
+      "items": ["Specialty Boots"],
+      "personalities": [
+        "Very Brawny, Tender, Clumsy / Very Brawny, Clumsy, Foolish"
+      ],
+      "tps": "88 HP, 12 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Earthquake"],
+        ["Mega Chomp"],
+        ["Raging Tackle"],
+        ["Quick Pounce"]
+      ],
+      "detail": "200 Melee Attack with Very Brawny is for Boast to raise Melee Attack against the most things and to hit as hard as possible \n 200 Melee Attack with Very Brawny is for Boast to raise Melee Attack against the most things and to hit as hard as possible \n 12 Energy = 250 Energy at level 50 for (3 Earthquakes + 2 Mega Chomps)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Bulk Up",
+      "abilities": ["Boast"],
+      "items": ["Health Amulet", "Earth Essence"],
+      "personalities": ["Very Brawny, Tender, Clumsy"],
+      "tps": "32 HP, 12 En, 200 M Atk, 152 R Def, 104 Sp",
+      "ups": "",
+      "moves": [
+        ["Earthquake"],
+        ["Mega Chomp"],
+        ["Raging Tackle", "Quick Pounce"],
+        ["Bulk Up"]
+      ],
+      "detail": "200 Melee Attack with Very Brawny is for Boast to raise Melee Attack against the most things and to hit as hard as possible \n 104 Speed outspeeds 32 Speed Cosmiore-Cracked \n 152 Ranged Defense with Tender gives Protogon a Melee Attack Boost \n 12 Energy = 230 Energy at level 50 for (3 Earthquakes + 2 Mega Chomps) \n 32 HP is to make Health Amulet give 11 HP every turn",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

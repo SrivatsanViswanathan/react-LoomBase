@@ -23,6 +23,42 @@ export const createSets = async (dispatch) => {
       wintrix,
       halvantic,
       fiscarna,
+      shawchi,
+      falkyrie,
+      meditoad,
+      sedimars,
+      ikazune,
+      gargolemDefense,
+      nymaurae,
+      pharoglyph,
+      barbadger,
+      colossotrops,
+      cosmioreCracked,
+      deludrix,
+      phagenaut,
+      charonyx,
+      kanibo,
+      nevermare,
+      garbantis,
+      gargolemAttack,
+      samarine,
+      infernix,
+      garlash,
+      ventacean,
+      zepholen,
+      icigool,
+      boarrok,
+      cosmioreUnleashed,
+      imperior,
+      venolen,
+      hunder,
+      snagoop,
+      volkaloa,
+      bunnecki,
+      harvesect,
+      snagulp,
+      eruptidon,
+      lampurge,
     ] = await Promise.all([
       axios.get("/sets/luminami.json"),
       axios.get("/sets/avitross.json"),
@@ -43,6 +79,42 @@ export const createSets = async (dispatch) => {
       axios.get("/sets/wintrix.json"),
       axios.get("/sets/halvantic.json"),
       axios.get("/sets/fiscarna.json"),
+      axios.get("/sets/shawchi.json"),
+      axios.get("/sets/falkyrie.json"),
+      axios.get("/sets/meditoad.json"),
+      axios.get("/sets/sedimars.json"),
+      axios.get("/sets/ikazune.json"),
+      axios.get("/sets/gargolem-defense.json"),
+      axios.get("/sets/nymaurae.json"),
+      axios.get("/sets/pharoglyph.json"),
+      axios.get("/sets/barbadger.json"),
+      axios.get("/sets/colossotrops.json"),
+      axios.get("/sets/cosmiore-cracked.json"),
+      axios.get("/sets/deludrix.json"),
+      axios.get("/sets/phagenaut.json"),
+      axios.get("/sets/charonyx.json"),
+      axios.get("/sets/kanibo.json"),
+      axios.get("/sets/nevermare.json"),
+      axios.get("/sets/garbantis.json"),
+      axios.get("/sets/gargolem-attack.json"),
+      axios.get("/sets/samarine.json"),
+      axios.get("/sets/infernix.json"),
+      axios.get("/sets/garlash.json"),
+      axios.get("/sets/ventacean.json"),
+      axios.get("/sets/zepholen.json"),
+      axios.get("/sets/icigool.json"),
+      axios.get("/sets/boarrok.json"),
+      axios.get("/sets/cosmiore-unleashed.json"),
+      axios.get("/sets/imperior.json"),
+      axios.get("/sets/venolen.json"),
+      axios.get("/sets/hunder.json"),
+      axios.get("/sets/snagoop.json"),
+      axios.get("/sets/volkaloa.json"),
+      axios.get("/sets/bunnecki.json"),
+      axios.get("/sets/harvesect.json"),
+      axios.get("/sets/snagulp.json"),
+      axios.get("/sets/eruptidon.json"),
+      axios.get("/sets/lampurge.json"),
     ]);
     dispatch(addSets(luminami.data));
     dispatch(addSets(avitross.data));
@@ -63,6 +135,42 @@ export const createSets = async (dispatch) => {
     dispatch(addSets(wintrix.data));
     dispatch(addSets(halvantic.data));
     dispatch(addSets(fiscarna.data));
+    dispatch(addSets(shawchi.data));
+    dispatch(addSets(falkyrie.data));
+    dispatch(addSets(meditoad.data));
+    dispatch(addSets(sedimars.data));
+    dispatch(addSets(ikazune.data));
+    dispatch(addSets(gargolemDefense.data));
+    dispatch(addSets(nymaurae.data));
+    dispatch(addSets(pharoglyph.data));
+    dispatch(addSets(barbadger.data));
+    dispatch(addSets(colossotrops.data));
+    dispatch(addSets(cosmioreCracked.data));
+    dispatch(addSets(deludrix.data));
+    dispatch(addSets(phagenaut.data));
+    dispatch(addSets(charonyx.data));
+    dispatch(addSets(kanibo.data));
+    dispatch(addSets(nevermare.data));
+    dispatch(addSets(garbantis.data));
+    dispatch(addSets(gargolemAttack.data));
+    dispatch(addSets(samarine.data));
+    dispatch(addSets(infernix.data));
+    dispatch(addSets(garlash.data));
+    dispatch(addSets(ventacean.data));
+    dispatch(addSets(zepholen.data));
+    dispatch(addSets(icigool.data));
+    dispatch(addSets(boarrok.data));
+    dispatch(addSets(cosmioreUnleashed.data));
+    dispatch(addSets(imperior.data));
+    dispatch(addSets(venolen.data));
+    dispatch(addSets(hunder.data));
+    dispatch(addSets(snagoop.data));
+    dispatch(addSets(volkaloa.data));
+    dispatch(addSets(bunnecki.data));
+    dispatch(addSets(harvesect.data));
+    dispatch(addSets(snagulp.data));
+    dispatch(addSets(eruptidon.data));
+    dispatch(addSets(lampurge.data));
 
     return { luminami };
   } catch (error) {

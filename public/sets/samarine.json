@@ -1,0 +1,25 @@
+{
+  "name": "samarine",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Set Up Sweeper",
+      "abilities": ["Rev Up"],
+      "items": ["Rageful Plushie", "Health Amulet", "Milkshake"],
+      "personalities": ["Very Brawny, Tender, Clumsy"],
+      "tps": "88 HP, 28 En, 200 M Atk, 32 R Def, 152 Sp",
+      "ups": "",
+      "moves": [
+        ["Wave Wrecker"],
+        ["Steel Crusher"],
+        ["Thunder Chomp"],
+        ["Sharpen"]
+      ],
+      "detail": "200 Melee Attack with Very Brawny is to hit as hard as possible \n 152 Speed outspeeds Nimble Zuelong at +1 \n 32 Ranged Defense with Tender gives Protogon a Melee Attack boost \n 28 Energy = 250 Energy at level 50 for (4 Wave Wreckers / 4 Steel Crushers + 2 Sharpens) \n 88 HP is leftovers and improves bulk a little",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

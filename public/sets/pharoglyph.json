@@ -1,0 +1,43 @@
+{
+  "name": "pharoglyph",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Temper",
+      "abilities": ["Temper"],
+      "items": ["Health Amulet", "Milkshake"],
+      "personalities": ["Frail, Nimble"],
+      "tps": "72 HP, 4 En, 24 M Def, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Psycho Blast"],
+        ["Boulder Blast", "Provoke"],
+        ["Dark Surge", "Provoke"],
+        ["Peace of Mind"]
+      ],
+      "detail": "200 Ranged Attack is to hit as hard as possible \n 200 Speed with Nimble outspeeds Nimble Gargolem-Attack \n 72 HP + 24 Melee Defense makes Power Cuffs Ursoul Shadow Sprint 2HKO \n 4 Energy = 257 Energy at level 50 for (3 Psycho Blasts + 2 Dark Surges + 1 Peace of Mind)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Idiosyncratic",
+      "abilities": ["Idiosyncratic"],
+      "items": ["Health Amulet", "Milkshake"],
+      "personalities": ["Nimble"],
+      "tps": " 80 HP, 20 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Earthquake"],
+        ["Rogue Assault"],
+        ["Primal Slash", "Provoke"],
+        ["Bulk Up"]
+      ],
+      "detail": "200 Melee Attack is to hit as hard as possible \n 200 Speed with Nimble outspeeds Nimble Gargolem-Attack \n 20 Energy = 260 Energy at level 50 for (3 Earthquakes + 1 Rogue Assault + 2 Bulk Ups) \n 80 HP gives 11 HP from Health Amulet every turn",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

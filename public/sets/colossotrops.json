@@ -1,0 +1,25 @@
+{
+  "name": "colossotrops",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Vigorous Wallbreaker",
+      "abilities": ["Vigorous"],
+      "items": ["Volcanic Ash"],
+      "personalities": ["Brawny"],
+      "tps": "64 HP, 12 En, 200 M Atk, 24 R Def, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Timber Thrash"],
+        ["Primal Slash"],
+        ["Earthquake", "Brawn Boost"],
+        ["Rogue Assault", "Brawn Boost"]
+      ],
+      "detail": "200 Melee Attack and Brawny are to hit as hard as possible \n 200 Speed is to be as fast as possible, letting it outspeed slower walls like Stratusoar and Obsidrugon \n 12 Energy = 260 Energy at level 50 for (2 Timber Thrashes + 2 Primal Slashes + 1 Earthquake) \n 64 HP is to be as bulky as possible with what's left while taking minimum Burn damage \n 24 Ranged Defense is leftovers and improves bulk a little",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

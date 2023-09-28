@@ -1,0 +1,38 @@
+{
+  "name": "cosmiore unleashed",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Bulk Up",
+      "abilities": ["Surrogate"],
+      "items": ["Health Amulet"],
+      "personalities": ["Brawny / Nimble"],
+      "tps": "104 HP, 4 En, 192 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Meteor Smash"],
+        ["Cerebral Slash"],
+        ["Bulk Up"],
+        ["Slumber", "Hypnotize"]
+      ],
+      "detail": "192 Melee Attack is to hit as hard as possible \n 200 Speed is to be as fast as possible, with Nimble it outspeeds Nimble Phagenaut, without Nimble, it outspeeds Nimble Barbadger \n 104 HP is to make Health Amulet give 12 HP every turn \n 4 Energy = 273 Energy at level 50 for (3 Meteor Smashes + 3 Cerebral Slashes)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Specmiore",
+      "abilities": ["Surrogate"],
+      "items": ["Specialty Boots"],
+      "personalities": ["Brawny"],
+      "tps": "80 HP, 20 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [["Meteor Smash"], ["No Move"], ["No Move"], ["No Move"]],
+      "detail": "200 Melee Attack with Brawny is to hit as hard as possible \n 200 Speed is to be as fast as possible, with Boots it outspeeds Boots Phagenaut and below \n 20 Energy = 276 Energy at level 50 for (5 Meteor Smashes) \n 80 HP is leftovers and improves overall bulk \n This set requires a teammate with the Ability Specialization (preferably Meditoad) to faint and for Cosmiore-U to copy it with Surrogate",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

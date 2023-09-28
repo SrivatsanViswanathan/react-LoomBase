@@ -1,0 +1,30 @@
+{
+  "name": "cosmiore cracked",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Peace of Mind",
+      "abilities": ["Enchanted Coat"],
+      "items": [
+        "Mysterious Dust",
+        "Rageful Plushie",
+        "Health Amulet",
+        "Shade Pearl"
+      ],
+      "personalities": ["Frail, Smart"],
+      "tps": "200 HP, 64 En, 200 R Atk, 32 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Meteor Crash"],
+        ["Psycho Blast"],
+        ["Peace of Mind"],
+        ["Slumber"]
+      ],
+      "detail": "200 Ranged Attack and Smart are to hit as hard as possible \n 200 HP is to be as bulky as possible \n 32 Speed outspeeds max Speed Colossotrops \n 64 Energy = 300 Energy at level 50 for (4 Meteor Crashes + 1 Peace of Mind + 1 Slumber)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

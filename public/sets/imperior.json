@@ -1,0 +1,52 @@
+{
+  "name": "imperior",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Resentful",
+      "abilities": ["Resentful"],
+      "items": [
+        "Milkshake",
+        "Health Amulet",
+        "Volcanic Ash",
+        "Specialty Boots"
+      ],
+      "personalities": ["Tender, Foolish, Very Nimble"],
+      "tps": "200 HP, 4 En, 96 R Atk, 200 Sp",
+      "ups": "0 M Def, 0 R Def",
+      "moves": [
+        ["Dark Surge"],
+        [
+          "Boom Bash",
+          "Shrewd Blast",
+          "Fade Away",
+          "Provoke",
+          "Scapegoat",
+          "Deja Vu",
+          "Barter"
+        ],
+        [
+          "Scapegoat",
+          "Provoke",
+          "Deja Vu",
+          "Mind's Eye",
+          "Fade Away",
+          "Barter"
+        ],
+        [
+          "Boom Bash",
+          "Shrewd Blast",
+          "Fade Away",
+          "Barter",
+          "Tribute",
+          "Health Gift"
+        ]
+      ],
+      "detail": "200 HP with minimal Defenses are to take as much damage in one hit as possible to do as much damage with Resentful as possible \n 4 Energy = 251 Energy at level 50 for (5 Dark Surges + 2 Provokes) \n 96 Ranged Attack is leftovers since it can't be put anywhere else and improves damage a bit",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

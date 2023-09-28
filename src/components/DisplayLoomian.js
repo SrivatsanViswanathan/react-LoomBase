@@ -24,6 +24,11 @@ const DisplayLoomian = ({ data }) => {
     filterCategory,
     filterTypeCategory,
     filterTypesBackup,
+    cachedLoomians,
+    cachedMoves,
+    cachedTypes,
+    sets,
+    types: all_types,
   } = useSelector((state) => state.global);
   const [index, setIndex] = useState(0);
   const [check, setChecked] = useState(false);
@@ -59,13 +64,6 @@ const DisplayLoomian = ({ data }) => {
     const string = "Soulburst ";
     name = name.replace(string, "");
   }
-  const {
-    cachedLoomians,
-    cachedTypes,
-    cachedMoves,
-    types: all_types,
-    sets,
-  } = useSelector((state) => state.global);
 
   const findIndexofLoom = sets.findIndex(
     (item) => item.name.toLowerCase() === name.toLowerCase()
@@ -975,9 +973,15 @@ const Wrapper = styled.div`
       min-width: 40rem;
       gap: 1.5rem;
     }
+    .evo-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
     .evo-name {
       display: flex;
-      max-width: 4.5rem;
+      max-width: 5.5rem;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;

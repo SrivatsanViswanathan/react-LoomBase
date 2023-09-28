@@ -48,6 +48,10 @@ const router = createBrowserRouter([
       { path: "moves/:id", element: <SingleMove></SingleMove> },
       { path: "types", element: <Types></Types> },
       { path: "types/:id", element: <SingleType></SingleType> },
+      {
+        path: "*",
+        element: <Error></Error>,
+      },
       // { path: "contact", element: <Contact></Contact> },
     ],
   },
@@ -78,46 +82,15 @@ function App() {
   const fetchData = async () => {
     if (genre === "veils of shadow") {
       try {
-        // const response = await axios.get("/.netlify/functions/getData");
-        // let { genres, loomians, moves, abilities, items, types } =
-        //   response.data;
-
-        // moves = [...moves].sort((a, b) => {
-        //   const nameA = a.name.toLowerCase();
-        //   const nameB = b.name.toLowerCase();
-        //   return nameA.localeCompare(nameB);
-        // }); loomians, abilities, moves, types, items, dispatch;
-
-        // dispatch(setGenres(genres));
-        // dispatch(setLoomians(loomians));
-        // dispatch(setBackupLoomians(loomians));
-        // dispatch(setMoves(moves));
-        // dispatch(setBackupMoves(moves));
-        // dispatch(setAbilities(abilities));
-        // dispatch(setItems(items));
-        // dispatch(setTypes(types));
-
-        // createHashmaps(loomians, abilities, moves, types, items, dispatch);
-
         const [genres, loomians, moves, abilities, items, types] =
           await Promise.all([
-            axios.get("https://loombase.netlify.app/genres.json"),
-            axios.get("https://loombase.netlify.app/loomians.json"),
-            axios.get("https://loombase.netlify.app/moves.json"),
-            axios.get("https://loombase.netlify.app/abilities.json"),
-            axios.get("https://loombase.netlify.app/items.json"),
-            axios.get("https://loombase.netlify.app/types.json"),
+            axios.get(process.env.REACT_APP_GENRES_API),
+            axios.get(process.env.REACT_APP_LOOMIANS_API),
+            axios.get(process.env.REACT_APP_MOVES_API),
+            axios.get(process.env.REACT_APP_ABILITIES_API),
+            axios.get(process.env.REACT_APP_ITEMS_API),
+            axios.get(process.env.REACT_APP_TYPES_API),
           ]);
-
-        // const [genres, loomians, moves, abilities, items, types] =
-        //   await Promise.all([
-        //     axios.get("http://localhost:8888/genres.json"),
-        //     axios.get("http://localhost:8888/loomians.json"),
-        //     axios.get("http://localhost:8888/moves.json"),
-        //     axios.get("http://localhost:8888/abilities.json"),
-        //     axios.get("http://localhost:8888/items.json"),
-        //     axios.get("http://localhost:8888/types.json"),
-        //   ]);
 
         moves.data = [...moves.data].sort((a, b) => {
           const nameA = a.name.toLowerCase();

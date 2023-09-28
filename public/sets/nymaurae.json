@@ -1,0 +1,56 @@
+{
+  "name": "nymaurae",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Peace of Mind",
+      "abilities": ["Incandescent"],
+      "items": ["Light Essence"],
+      "personalities": ["Frail, Nimble"],
+      "tps": "0 HP, 12 En, 8 M Def, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Gamma Pulse"],
+        ["Air Blade"],
+        ["Flash 'n Flee", "Gust", "Luster Loot", "Deja Vu"],
+        ["Peace of Mind"]
+      ],
+      "detail": "200 Ranged Attack is to hit as hard as possible \n 200 Speed with Nimble outspeeds Nimble Vesperatu and below \n 12 Energy = 290 Energy at level 50 for (4 Gamma Pulses + 1 Air Blade + 2 Peace of Minds) \n 80 HP and 8 Melee Defense are leftovers and the HP is odd for Icicle Traps",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Specialty Boots",
+      "abilities": ["Incandescent"],
+      "items": ["Specialty Boots"],
+      "personalities": ["Frail, Nimble / Frail, Smart"],
+      "tps": "80 HP, 12 En, 8 M Def, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [["Gamma Pulse"], ["Air Blade"], ["Flash 'n Flee"], ["Barter"]],
+      "detail": "200 Ranged Attack is to hit as hard as possible \n 200 Speed with Nimble and Specialty Boots outspeeds Nimble Boots Phagenaut, without Nimble, outspeeds Boots Smart Phagenaut \n 80 HP and 8 Melee Defense are leftovers and the HP is odd for Icicle Traps \n 12 Energy = 290 Energy at level 50 for (4 Gamma Pulses + 1 Air Blade + 1 Barter)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Fast Bulky Support",
+      "abilities": ["Quick Recovery"],
+      "items": ["Volcanic Ash", "Thunder Orb", "Shade Pearl", "Health Amulet"],
+      "personalities": ["Frail, Nimble"],
+      "tps": "192 HP, 12 En, 96 M Def, 200 Sp / 200 HP, 88 M Def",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Flash 'n Flee"],
+        ["Air Blade"],
+        ["Gust", "Barter"],
+        ["Perch"]
+      ],
+      "detail": "192 HP is to be as bulky as possible while having odd HP for Icicle Traps (Use if not Health Amulet) \n 200 HP is to be as bulky as possible and gain 11 HP from Health Amulet every turn (Use if Health Amulet) \n 96/88 Melee Defense adding to the overall bulk \n 200 Speed with Nimble outspeeds Nimble Vesperatu \n 12 Energy = 290 Energy at level 50 for (5 Flash ‘n Flees + 1 Air Blade)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

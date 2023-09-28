@@ -1,0 +1,43 @@
+{
+  "name": "ikazune",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Boots Pivot",
+      "abilities": ["Rechargeable", "Raging Fire"],
+      "items": ["Specialty Boots"],
+      "personalities": ["Frail, Smart"],
+      "tps": "104 En, 192 R Atk, 200 Speed",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Fire Breath"],
+        ["Thunderstrike"],
+        ["Zip-Zap"],
+        ["Flash 'n Flee"]
+      ],
+      "detail": "200 Speed with Specialty Boots is to be as fast as possible, speed tying Boots Deludrix and other max Speed Boots Ikazune \n 192 Ranged Attack with Smart is to hit as hard as possible \n 104 Energy = 300 Energy at level 50 for (6 of any move)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Magnify",
+      "abilities": ["Rechargeable", "Raging Fire"],
+      "items": ["Power Cuffs", "Fire Essence", "Electric Essence"],
+      "personalities": ["Frail, Nimble"],
+      "tps": "96 HP, 200 R Atk, 200 Sp / 104 En, 192 R Atk",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Fire Breath"],
+        ["Thunderstrike", "Zip-Zap"],
+        ["Flash 'n Flee", "Energy Surge"],
+        ["Magnify"]
+      ],
+      "detail": "200 / 192 Ranged attack is to hit as hard as possible \n 200 Speed with Nimble is to be as fast as possible and speedties Nimble Wintrix \n 104 Energy = 300 Energy at level 50 for (5 of any move + 2 Magnify) without Power Cuffs \n 0 Energy = 280 Energy at level 50 for (4 Fire Breaths + 1 Magnify) with Power Cuffs \n 96 HP is leftovers and increases overall bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

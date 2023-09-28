@@ -1170,7 +1170,7 @@
     "description": "Blast the foe with blinding light from your mouth that also prevents them from using Dark-type moves for two turns."
   },
   {
-    "name": "Luster Root",
+    "name": "Luster Loot",
     "strength": 50,
     "type": "Light",
     "category": "Ranged",
@@ -2090,7 +2090,7 @@
     "description": "Roll in mud, then run around in a rampage, crashing into all adjacent Loomians while also dealing a small amount of damage to yourself."
   },
   {
-    "name": "Mud Splatter",
+    "name": "Mud Spatter",
     "strength": 55,
     "type": "Earth",
     "category": "Ranged",
@@ -3130,7 +3130,7 @@
     "description": "Swat at the opponent from a distance, while using your mind to summon a larger, metaphysical copy of your hand to strike the opponent. This attack deals damage based on your Melee Attack, and the opponent's Ranged Defense."
   },
   {
-    "name": "Psychal Blast",
+    "name": "Psycho Blast",
     "strength": 90,
     "type": "Mind",
     "category": "Ranged",

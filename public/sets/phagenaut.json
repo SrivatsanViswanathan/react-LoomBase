@@ -1,0 +1,61 @@
+{
+  "name": "phagenaut",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Malware",
+      "abilities": ["Malware"],
+      "items": ["Heavy Armor", "Mysterious Dust", "Wave Pearl", "Energy Orb"],
+      "personalities": ["Frail, Robust"],
+      "tps": "200 HP, 4 En, 200 M Def, 8 R Def, 88 Sp / 44 En, 48 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Thunderstrike", "Zip-Zap"],
+        ["Flash 'n Flee"],
+        ["Tear Down"],
+        ["Rejuvenate", "Tase"]
+      ],
+      "detail": "200 HP with 200 Melee Defense and Robust are to be as Melee bulky as possible \n 200 HP and 8 Ranged Defense makes Very Smart Barblast Water Bomb 2HKO \n 4 Energy = 265 Energy at level 50 for (1 Thunderstrike + 4 Tear Downs) with Heavy Armor \n 44 Energy = 273 Energy at level 50 for (4 Thunderstrikes + 1 Rejuvenate) \n 88 Speed outspeeds Very Brawny Kanibo and below \n 48 Speed outspeeds Very Smart Falkyrie, 152 Speed Samarine, and below",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Magnify",
+      "abilities": ["Overcharged"],
+      "items": ["Electric Essence", "Wave Pearl"],
+      "personalities": ["Frail, Smart / Frail, Nimble"],
+      "tps": "40 HP, 60 En, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Thunderstrike", "Zip-Zap"],
+        ["Flash 'n Flee"],
+        ["Rant", "Rejuvenate"],
+        ["Magnify"]
+      ],
+      "detail": "200 Ranged Attack is to hit as hard as possible \n 200 Speed is to be as fast as possible, with Nimble outspeeds Nimble Wintrix, without Nimble, outspeeds Very Smart Deludrix \n 60 Energy = 275 Energy at level 50 for (5 Thunderstrikes + 1 Magnify) \n 40 HP is leftovers and improves overall bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Boots Pivot",
+      "abilities": ["Overcharged"],
+      "items": ["Specialty Boots"],
+      "personalities": ["Frail, Smart / Frail, Nimble"],
+      "tps": "40 HP, 60 En, 200 R Atk, 200 Sp / 96 HP, 4 En",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Thunderstrike", "Zip-Zap"],
+        ["Flash 'n Flee"],
+        ["Magnify", "Rant"],
+        ["Barter"]
+      ],
+      "detail": "200 Ranged Attack is to hit as hard as possible \n 200 Speed, Boots and Nimble lets Phagenaut outspeeds Nimble Boots Deludrix, without Nimble, outspeeds non-nimble Boots Deludrix \n 60 Energy = 275 Energy at level 50 for (5 Thunderstrikes + 1 Magnify) \n 4 Energy = 265 Energy at level 50 for (2 Rants + 4 of any other move) \n 40 / 96 HP is leftovers and improves overall bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

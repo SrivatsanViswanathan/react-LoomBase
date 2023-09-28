@@ -1,0 +1,22 @@
+{
+  "name": "falkyrie",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Magnify",
+      "abilities": ["Awakening"],
+      "items": ["Light Essence", "Plain Shell"],
+      "personalities": [
+        "Very Frail, Smart, Nimble / Frail, Tender, Very Smart"
+      ],
+      "tps": "48 HP, 52 En, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [["Nova Blast"], ["Metal Blast"], ["Raging Howl"], ["Magnify"]],
+      "detail": "200 Ranged Attack with Smart / V Smart is to hit as hard as possible \n 200 Speed is to be as fast as possible, with Nimble it outspeeds Nimble Tyrecks, without Nimble it outspeeds 184 Nimble Searknight \n 52 Energy = 256 Energy at level 50 for (2 Nova Blasts + 3 Metal Blasts + 1 Magnify) \n 48 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "shawchi",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Wallbreaker",
+      "abilities": ["Sharp Focus"],
+      "items": ["Mystic Wand"],
+      "personalities": [
+        "Very Frail, Smart, Nimble / Frail, Tender, Very Smart"
+      ],
+      "tps": "96 HP, 4 En, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Foul Chant"],
+        ["Elemental Burst"],
+        ["Thunderstrike", "Pyrokinesis"],
+        ["Peace of Mind", "Pyrokinesis"]
+      ],
+      "detail": "200 Ranged Attack with Smart / V Smart is to hit as hard as possible \n 200 Speed is to be as fast as possible, with Nimble it outspeeds Nimble Zepholen, without Nimble it outspeeds Nimble Falkyrie \n 4 Energy = 251 Energy at level 50 for (3 Foul Chants + 2 Pyrokinesis + 1 Peace of Mind) \n 96 HP is leftovers and makes Electric Essence Overcharged Phagenaut Thunderstrike 2HKO",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

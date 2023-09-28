@@ -1,0 +1,51 @@
+{
+  "name": "meditoad",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Ranged Spectoad",
+      "abilities": ["Specialization"],
+      "items": ["Mind Essence"],
+      "personalities": ["Frail, Very Smart, Sluggish"],
+      "tps": "200 HP, 36 En, 200 R Atk, 64 R Def",
+      "ups": "0 M Atk",
+      "moves": [
+        ["Psycho Blast"],
+        ["No Move", "Thunderstrike"],
+        ["No Move"],
+        ["No Move"]
+      ],
+      "detail": "200 Ranged Attack with Very Smart is to hit as hard as possible \n 200 HP with 64 Ranged Defense makes Ancient Essence Zuelong Elemental Burst 3HKO \n 36 Energy = 250 Energy at level 50 for (5 Psycho Blasts)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Melee Spectoad",
+      "abilities": ["Specialization"],
+      "items": ["Brawler Essence", "Mind Essence"],
+      "personalities": ["Very Brawny, Clumsy, Sluggish"],
+      "tps": "192 HP, 68 En, 200 M Atk, 40 M Def",
+      "ups": "",
+      "moves": [["Psychal Slap"], ["Mega Punch"], ["No Move"], ["No Move"]],
+      "detail": "200 Melee Attack with Very Brawny is to hit as hard as possible \n 192 HP with 40 Melee Defense makes Very Brawny Garlash Vicious Snap 2HKO \n 68 Energy = 256 Energy at level 50 for (3 Psychal Slaps + 3 Mega Punches)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Watchertoad",
+      "abilities": ["Watcher"],
+      "items": ["Health Amulet"],
+      "personalities": ["Clumsy, Very Clever, Sluggish"],
+      "tps": "200 HP, 36 En, 64 M Def, 200 R Def",
+      "ups": "",
+      "moves": [["Psychal Slap"], ["Mega Punch"], ["Tase"], ["Dodge"]],
+      "detail": "200 HP, 200 Ranged Defense and Very Clever are to be as Ranged bulky as possible \n 64 Melee Defense is leftovers and improves overall bulk \n 36 Energy = 250 Energy at level 50 for (4 Psychal Slaps + 2 Tases)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

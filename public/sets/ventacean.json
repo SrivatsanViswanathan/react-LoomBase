@@ -1,0 +1,25 @@
+{
+  "name": "ventacean",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Defensive",
+      "abilities": ["Protective Shell", "Sharp Edges"],
+      "items": ["Heavy Armor", "Mysterious Dust"],
+      "personalities": ["Frail, Very Robust, Sluggish"],
+      "tps": "200 HP, 60 En, 200 M Def, 40 R Def / 44 En, 56 R Def",
+      "ups": "",
+      "moves": [
+        ["Geyser"],
+        ["Battering Ram"],
+        ["Brace", "Burn Up"],
+        ["Slumber"]
+      ],
+      "detail": "200 Health and 200 Melee Defense with Very Robust are to be as Melee bulky as possible \n 60 Energy = 253 Energy at level 50 for (2 Battering Rams + 3 Geysers) with Heavy Armor \n 44 Energy = 250 Energy at level 50 for (2 Battering Rams + 3 Geysers and 2 Braces) without Heavy Armor \n 40/56 Ranged Defense are leftovers and improve overall bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

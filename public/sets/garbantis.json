@@ -1,0 +1,25 @@
+{
+  "name": "garbantis",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Burrow",
+      "abilities": ["Trash Armor"],
+      "items": ["Health Amulet", "Milkshake"],
+      "personalities": ["Robust, Very Clumsy, Nimble"],
+      "tps": "88 HP, 12 En, 200 M Def, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Battering Ram"],
+        ["Body Crash"],
+        ["Burrow"],
+        ["Poison", "Provoke"]
+      ],
+      "detail": "200 Melee Defense with Robust is to both hit as hard as possible and be as Melee bulky as possible \n 200 Speed with Nimble speedties Nimble Tahtab \n 88 HP makes Health Amulet give 9 HP every turn \n 12 Energy = 230 Energy at level 50 for (4 Battering Rams + 2 Burrows) or (3 Battering Rams + 2 Body Crashes)",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

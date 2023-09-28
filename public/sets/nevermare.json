@@ -1,0 +1,25 @@
+{
+  "name": "nevermare",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Nevercrit",
+      "abilities": ["Razor Sharp"],
+      "items": ["Power Cuffs", "Rageful Plushie"],
+      "personalities": ["Nimble"],
+      "tps": "48 HP, 52 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Thistle Slash"],
+        ["Phantom Slash"],
+        ["Primal Slash"],
+        ["Bulk Up"]
+      ],
+      "detail": "200 Melee Attack is to hit as hard as possible \n 200 Speed with Nimble outspeeds Very Nimble Revenine and below \n 52 Energy = 305 Energy at level 50 for (1 Bulk Up + 5 Primal Slashes) with Power Cuffs \n 52 Energy = 305 Energy at level 50 for (4 Thistle Slashes + 3 Primal Slashes + 1 Bulk Up) without Power Cuffs \n 48 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}
