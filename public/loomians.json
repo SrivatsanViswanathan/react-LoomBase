@@ -877,7 +877,7 @@
   },
   {
     "id": 22,
-    "name": "Twilight",
+    "name": "Twilat",
     "types": ["Typeless"],
     "abilities": ["Territorial", "Confidence"],
     "sAbility": ["Neutralize"],
@@ -893,7 +893,7 @@
       "speed": 40
     },
     "weight": 24,
-    "line": ["Twilight", "Umbrat", "Luxroar", "Tiklipse"],
+    "line": ["Twilat", "Umbrat", "Luxroar", "Tiklipse"],
     "moves": [
       "Gnaw",
       "Dawdle",
@@ -929,7 +929,7 @@
       "speed": 71
     },
     "weight": 84,
-    "line": ["Twilight", "Umbrat", "Luxroar", "Tiklipse"],
+    "line": ["Twilat", "Umbrat", "Luxroar", "Tiklipse"],
     "moves": [
       "Gnaw",
       "Dawdle",
@@ -971,7 +971,7 @@
       "speed": 91
     },
     "weight": 82,
-    "line": ["Twilight", "Umbrat", "Luxroar", "Tiklipse"],
+    "line": ["Twilat", "Umbrat", "Luxroar", "Tiklipse"],
     "moves": [
       "Gnaw",
       "Dawdle",
@@ -1013,7 +1013,7 @@
       "speed": 96
     },
     "weight": 94,
-    "line": ["Twilight", "Umbrat", "Luxroar", "Tiklipse"],
+    "line": ["Twilat", "Umbrat", "Luxroar", "Tiklipse"],
     "moves": [
       "Gnaw",
       "Dawdle",
