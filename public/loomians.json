@@ -9621,7 +9621,7 @@
     "name": "Akhalos",
     "types": ["Ice", "Water"],
     "abilities": ["Aqua Body"],
-    "sAbility": ["Frenzy"],
+    "sAbility": ["Aggressive"],
     "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/f/f8/Akhalos-menu.png/revision/latest?cb=20211218192647",
     "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/f/fb/Akhalos-model.png/revision/latest?cb=20220727054254",
     "stats": {
