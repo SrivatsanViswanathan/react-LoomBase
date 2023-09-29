@@ -16,10 +16,13 @@ const DisplayItem = ({ data }) => {
       item.sets.forEach((stuff) => {
         stuff.items.forEach((loomItem) => {
           if (loomItem.toLowerCase() === id.toLowerCase()) {
-            const loomName = cachedLoomians[item.name][0].name.toLowerCase();
-            if (!loomNames.has(loomName)) {
-              loomNames.add(loomName);
-              looms = looms.concat(cachedLoomians[item.name]);
+            const loomData = cachedLoomians[item.name];
+            if (loomData && loomData.length > 0) {
+              const loomName = loomData[0].name.toLowerCase();
+              if (!loomNames.has(loomName)) {
+                loomNames.add(loomName);
+                looms = looms.concat(loomData);
+              }
             }
           }
         });
