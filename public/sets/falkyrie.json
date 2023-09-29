@@ -17,6 +17,24 @@
       "otherOptions": "",
       "teamOptions": "",
       "author": "Epicly Epic Gamer"
+    },
+    {
+      "setName": "Offensive Support",
+      "abilities": ["Awakening"],
+      "items": ["Power Cuffs"],
+      "personalities": ["Frail, Very Smart, Sluggish"],
+      "tps": "200 HP, 20 Enl, 200 R Atk. 56 R Def, 24 Sp",
+      "ups": "",
+      "moves": [
+        ["Nova Blast"],
+        ["Magnify"],
+        ["Metal Blast"],
+        ["Flash 'n Flee", "Raging Howl", "Rejuvenate"]
+      ],
+      "detail": "20 En allows for 250 energy at level 50 \n 24 Speed + Sluggish allows to speed tie Swolder \n 200 HP to maximise general bulk \n 56 Ranged Defense leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "kanku"
     }
   ]
 }

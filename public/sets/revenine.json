@@ -1,0 +1,25 @@
+{
+  "name": "revenine",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Specialty Boots",
+      "abilities": ["Vengeance"],
+      "items": ["Specialty Boots"],
+      "personalities": ["Frail, Tender, Very Smart"],
+      "tps": " 88 HP, 12 En, 200 R Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Ghostly Howl"],
+        ["Fire Breath"],
+        ["Dark Surge"],
+        ["Shadow Sprint"]
+      ],
+      "detail": "200 Ranged Attack with Very Smart is to hit as hard as possible \n 200 Speed with Boots outspeeds Boots Cosmiore-U, Boots Phagenaut, Boots Ikazune, Boots Deludrix, and below \n 12 Energy = 250 Energy at level 50 for (5 Fire Breaths) \n 88 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

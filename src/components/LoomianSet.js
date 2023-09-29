@@ -521,7 +521,7 @@ const Wrapper = styled.div`
       margin-top: 1rem;
     }
     .list {
-      padding-left: 0rem;
+      padding-left: 1rem;
     }
 
     .box {
@@ -586,7 +586,7 @@ const Wrapper = styled.div`
       align-items: flex-start;
     }
     .credits-desc {
-      margin-left: 0rem;
+      margin-left: 1rem;
     }
   }
   @media (min-width: 1700px) {

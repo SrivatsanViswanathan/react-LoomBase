@@ -4,6 +4,24 @@
   "credit": "",
   "sets": [
     {
+      "setName": "Bulky Offensive Support",
+      "abilities": ["Expertise"],
+      "items": ["Heavy Shackles"],
+      "personalities": ["Brawny, Sluggish"],
+      "tps": "200 HP, 28 En, 200 M Atk, 72 R Def",
+      "ups": "",
+      "moves": [
+        ["Rejuvenate"],
+        ["Ice Hammer"],
+        ["Barter"],
+        ["Baffle", "Fade Away"]
+      ],
+      "detail": "28 Energy allows for 222 Energy at level 50, this allows you to use 2 Rejuvenates and 3 Baffles (note that Ice Hammer, Bafflem and Barter have the same Energy cost, same Energy investment applies for Fade Away) \n Fade Away > Baffle for faster teams, Baffle > Fade Away for slower teams \n 200 HP to maximise bulk, 72 Ranged Defense leftovers \n If looking for a more defensive version, Clever > Brawny switch Melee Attack investment and Ranged Defense investment",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "kanku"
+    },
+    {
       "setName": "Melee Defensive Pivot",
       "abilities": ["Expertise"],
       "items": ["Energy Orb"],

@@ -1,0 +1,20 @@
+{
+  "name": "lyricat",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Magnify",
+      "abilities": ["Tone Deaf"],
+      "items": ["Typeless Essence"],
+      "personalities": ["Very Frail, Smart, Nimble"],
+      "tps": "288 HP, 12 En, 200 R Atk, 200 Sp",
+      "ups": "0 M Atk",
+      "moves": [["Raging Howl"], ["Boom Bash"], ["Hypnotize"], ["Magnify"]],
+      "detail": "200 Ranged Attack with Smart is to hit as hard as possible \n 200 Speed with Nimble outspeeds Nimble Nymaurae and below \n 12 Energy = 256 Energy at level 50 for (3 Raging Howls + 1 Boom Bash + 1 Magnify) \n 88 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "joaquinoking"
+    }
+  ]
+}

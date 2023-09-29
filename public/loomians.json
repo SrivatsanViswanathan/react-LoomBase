@@ -5860,7 +5860,7 @@
       "Venolen",
       "Wresolen",
       "Buzzolen",
-      "Tunderolen",
+      "Tundrolen",
       "Pyrolen"
     ],
     "moves": [
@@ -5903,7 +5903,7 @@
       "Venolen",
       "Wresolen",
       "Buzzolen",
-      "Tunderolen",
+      "Tundrolen",
       "Pyrolen"
     ],
     "moves": [
@@ -5954,7 +5954,7 @@
       "Venolen",
       "Wresolen",
       "Buzzolen",
-      "Tunderolen",
+      "Tundrolen",
       "Pyrolen"
     ],
     "moves": [
@@ -6007,7 +6007,7 @@
       "Venolen",
       "Wresolen",
       "Buzzolen",
-      "Tunderolen",
+      "Tundrolen",
       "Pyrolen"
     ],
     "moves": [
@@ -6060,7 +6060,7 @@
       "Venolen",
       "Wresolen",
       "Buzzolen",
-      "Tunderolen",
+      "Tundrolen",
       "Pyrolen"
     ],
     "moves": [
@@ -6111,7 +6111,7 @@
       "Venolen",
       "Wresolen",
       "Buzzolen",
-      "Tunderolen",
+      "Tundrolen",
       "Pyrolen"
     ],
     "moves": [
@@ -6164,7 +6164,7 @@
       "Venolen",
       "Wresolen",
       "Buzzolen",
-      "Tunderolen",
+      "Tundrolen",
       "Pyrolen"
     ],
     "moves": [
@@ -6215,7 +6215,7 @@
       "Venolen",
       "Wresolen",
       "Buzzolen",
-      "Tunderolen",
+      "Tundrolen",
       "Pyrolen"
     ],
     "moves": [
@@ -6242,7 +6242,7 @@
   },
   {
     "id": 143,
-    "name": "Tunderolen",
+    "name": "Tundrolen",
     "types": ["Ice"],
     "abilities": ["Mysterious Cloak", "Insulated"],
     "sAbility": ["Resillience"],
@@ -6267,7 +6267,7 @@
       "Venolen",
       "Wresolen",
       "Buzzolen",
-      "Tunderolen",
+      "Tundrolen",
       "Pyrolen"
     ],
     "moves": [
@@ -6319,7 +6319,7 @@
       "Venolen",
       "Wresolen",
       "Buzzolen",
-      "Tunderolen",
+      "Tundrolen",
       "Pyrolen"
     ],
     "moves": [

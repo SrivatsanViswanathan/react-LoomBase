@@ -1,0 +1,20 @@
+{
+  "name": "tundrolen",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Melee Wall",
+      "abilities": ["Resilience"],
+      "items": ["Heavy Armor", "Mysterious Dust"],
+      "personalities": ["Very Robust, Clumsy, Sluggish"],
+      "tps": "200 HP, 52 En, 200 M Def, 48 R Def / 36 En, 64 R Def",
+      "ups": "",
+      "moves": [["Ice Hammer"], ["Body Crash"], ["Bulk Up"], ["Rejuvenate"]],
+      "detail": "200 HP and 200 Melee Defense are to be as Melee bulky as possible \n 52 Energy = 253 Energy at level 50 for (2 Body Crashes + 1 Ice Hammer + 2 Bulk Ups + 1 Rejuvenate) (use if not Heavy Armor) \n 36 Energy = 250 Energy at level 50 for (3 Body Crashes + 1 Bulk Up + 1 Rejuvenate) (use if Heavy Armor) \n 48 / 64 Ranged Defense is leftovers and improves overall bulk",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Epicly Epic Gamer"
+    }
+  ]
+}

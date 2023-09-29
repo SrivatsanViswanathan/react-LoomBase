@@ -59,6 +59,9 @@ export const createSets = async (dispatch) => {
       snagulp,
       eruptidon,
       lampurge,
+      lyricat,
+      revenine,
+      tundrolen,
     ] = await Promise.all([
       axios.get("/sets/luminami.json"),
       axios.get("/sets/avitross.json"),
@@ -115,6 +118,9 @@ export const createSets = async (dispatch) => {
       axios.get("/sets/snagulp.json"),
       axios.get("/sets/eruptidon.json"),
       axios.get("/sets/lampurge.json"),
+      axios.get("/sets/lyricat.json"),
+      axios.get("/sets/revenine.json"),
+      axios.get("/sets/tundrolen.json"),
     ]);
     dispatch(addSets(luminami.data));
     dispatch(addSets(avitross.data));
@@ -171,6 +177,9 @@ export const createSets = async (dispatch) => {
     dispatch(addSets(snagulp.data));
     dispatch(addSets(eruptidon.data));
     dispatch(addSets(lampurge.data));
+    dispatch(addSets(lyricat.data));
+    dispatch(addSets(revenine.data));
+    dispatch(addSets(tundrolen.data));
 
     return { luminami };
   } catch (error) {
