@@ -3,23 +3,16 @@ import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { styled } from "styled-components";
-import { useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { setFilterTypesLoomians } from "../features/globalSlice";
+
 const SingleType = () => {
   const navigate = useNavigate();
-  const dispatch = useDispatch();
-  let { cachedTypes, filterTypesLooms, genres, filterTypesLoomsBackup } =
-    useSelector((state) => state.global);
-
-  useEffect(() => {
-    dispatch(setFilterTypesLoomians(filterTypesLoomsBackup));
-  }, [dispatch, filterTypesLoomsBackup]);
+  let { cachedTypes, filterTypesLooms, genres } = useSelector(
+    (state) => state.global
+  );
 
   const { id } = useParams();
   const types = cachedTypes;
   const typesToLoomians = filterTypesLooms;
-
   const loomians = typesToLoomians[id.toLowerCase()];
 
   const data = types[id.toLowerCase()];
