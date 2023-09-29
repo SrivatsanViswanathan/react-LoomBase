@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className='nav'>
         <div className='nav-header'>
           <div className='nav-logo'>
-            <h2>LoomBase</h2>
+            <h2>LoomiBase</h2>
           </div>
           <div className='nav-buttons'>
             <ThemeToggle></ThemeToggle>
