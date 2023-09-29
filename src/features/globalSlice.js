@@ -285,6 +285,21 @@ const globalSlice = createSlice({
       if (category !== "all" && type !== "all") {
         filteredMoves =
           filterTypeCategory[type.toLowerCase() + "-" + category.toLowerCase()];
+        console.log(category);
+        console.log(filteredMoves);
+
+        if (filteredMoves === undefined) {
+          filteredMoves = [];
+        }
+
+        if (
+          filteredCategory["melee / ranged"] !== null &&
+          category.toLowerCase() !== "support"
+        ) {
+          filteredMoves = filteredMoves.concat(
+            filteredCategory["melee / ranged"]
+          );
+        }
       } else if (category !== "all") {
         filteredMoves = filteredCategory[category.toLowerCase()];
         if (
