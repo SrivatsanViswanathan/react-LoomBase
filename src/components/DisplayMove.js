@@ -51,7 +51,7 @@ const DisplayMove = ({ data, loomians }) => {
 
     dispatch(setFilterTypesLoomians(filteredTypesToLooms));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [dispatch]);
+  }, [dispatch, loomians]);
 
   return (
     <Wrapper>
