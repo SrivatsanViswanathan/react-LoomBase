@@ -15,9 +15,8 @@ const DisplayAbility = ({ data, loomians }) => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    if (loomians) {
-      dispatch(setLoomians(loomians));
-    }
+
+    dispatch(setLoomians(loomians));
 
     const filteredTypesToLooms = {};
 
@@ -29,7 +28,7 @@ const DisplayAbility = ({ data, loomians }) => {
 
     dispatch(setFilterTypesLoomians(filteredTypesToLooms));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [dispatch]);
+  }, [dispatch, loomians]);
 
   const { description } = data;
   return (
