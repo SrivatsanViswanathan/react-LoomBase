@@ -1,0 +1,44 @@
+{
+  "name": "searknight",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Drudge-Sweeper",
+      "abilities": ["Awakening"],
+      "items": [
+        "Metal Essence",
+        "Fire essence",
+        "Flame shell",
+        "Metallic shell",
+        "Rageful Plushie"
+      ],
+      "personalities": ["Brawny, Nimble, Very Clumsy"],
+      "tps": "56 HP, 44 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Searing Steel"],
+        ["Flaming Kick", "Slap Down"],
+        ["Barbs", "Slap Down"],
+        ["Drudge"]
+      ],
+      "detail": "200 Melee Attack maximizes damage output \n 200 Speed creeps Nimble Protogon after a Drudge \n 44 Energy allows for 2 Drudges + 3 Searing Steels + 3 Layers of Barbs / 1 Flaming Kick + 1 Layer of Barbs \n 56 HP is leftovers but makes Junglejutsu from Very Brawny, Awakening Tahtab a 2HKO, Thunder Crash from Very Brawny Power Cuffs Halvantic a 2HKO and makes Nova Blast from Hyper Hollibunch a 2HKO",
+      "otherOptions": "Health amulet with 64 HP, 44 Energy, 192 Melee Attack, 200 Speed",
+      "teamOptions": "",
+      "author": "Saurs"
+    },
+    {
+      "setName": "Defensive-Hazard setter",
+      "abilities": ["Awakening", "Terrifying"],
+      "items": ["Health amulet", "Milkshake"],
+      "personalities": ["Very Clever, Clumsy, Sluggish"],
+      "tps": "200 HP, 44 En, 40 M Atk, 200 R Def, 16 Sp",
+      "ups": "",
+      "moves": [["Flaming Kick"], ["Searing Steel"], ["Bulk Up"], ["Barbs"]],
+      "detail": "200 HP + 200 Ranged Defense maximizes Ranged bulk \n 44 Energy allows for 2 Bulk Ups + 3 Searing Steels + 3 layers of Barbs / 1 Flaming Kick + 1 layer of Barbs \n 16 Speed creeps Sluggish Obsidrugon and Pyrolen \n 40 Melee Attack is leftovers but with Awakening makes Searing Steel 2HKO Ranged Defensive Icigool, Flaming Kick 2HKO Stratusoar, and Flaming Kick 2HKO Ranged Defensive Wabalisc",
+      "otherOptions": "Slap Down \n Raging Flame \n 36 Energy for 3 Layers of barbs + 4 Searing Steels",
+      "teamOptions": "",
+      "author": "Saurs"
+    }
+  ]
+}
