@@ -40,7 +40,7 @@ const SingleAbility = () => {
 
 const Wrapper = styled.div`
   @media (min-width: 996px) {
-    width: calc(100vw - 11rem);
+    width: calc(100vw - 11.1rem);
     .title {
       display: flex;
       justify-content: center;

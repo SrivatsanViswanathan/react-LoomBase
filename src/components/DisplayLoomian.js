@@ -991,7 +991,7 @@ const Wrapper = styled.div`
   }
   @media (min-width: 1500px) {
     height: auto;
-    width: calc(100vw - 11rem);
+    width: auto;
     .basic-info > div {
       gap: 1rem;
     }

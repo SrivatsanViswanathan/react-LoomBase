@@ -76,7 +76,7 @@ const Wrapper = styled.div`
   }
   @media (min-width: 992px) {
     height: auto;
-    max-width: calc(100vw - 11rem);
+    width: auto;
     .manip {
       flex-direction: row;
       width: auto;

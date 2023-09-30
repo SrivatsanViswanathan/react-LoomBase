@@ -227,7 +227,7 @@ const Wrapper = styled.div`
   }
 
   @media (min-width: 992px) {
-    width: calc(100vw - 11rem);
+    width: auto;
     height: auto;
     justify-content: center;
     .items {

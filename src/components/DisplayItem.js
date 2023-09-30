@@ -65,7 +65,9 @@ const Wrapper = styled.div`
   }
   @media (min-width: 992px) {
     height: auto;
-    width: calc(100vw - 11rem);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
     .description {
       margin-top: 1rem;
       margin-right: auto;

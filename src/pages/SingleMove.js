@@ -51,7 +51,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   @media (min-width: 996px) {
-    width: calc(100vw - 11rem);
+    width: 100%;
     .title {
       display: flex;
       justify-content: center;
