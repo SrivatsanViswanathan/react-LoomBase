@@ -125,7 +125,7 @@ const Wrapper = styled.div`
     display: flex;
     gap: 1rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 20px;
     padding: 1rem 0;
     box-shadow: 2px 2px 10px 3px var(--abilityColor);
@@ -141,7 +141,7 @@ const Wrapper = styled.div`
     text-align: center;
     color: white;
     border-radius: 20px;
-    width: 5rem;
+    width: 5.3rem;
   }
   .type,
   .category,
@@ -155,7 +155,7 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     height: 3.25rem;
-    width: auto;
+    width: 6rem;
   }
 
   .type,
