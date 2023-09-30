@@ -21,7 +21,7 @@ import Search from "./Search";
 const DisplayLoomian = ({ data }) => {
   const {
     filtered_moves,
-    filterCategory,
+    filterCategoryBackup,
     filterTypeCategory,
     filterTypesBackup,
     cachedLoomians,
@@ -86,6 +86,7 @@ const DisplayLoomian = ({ data }) => {
 
   useEffect(() => {
     const filterTypes = filterTypesBackup;
+    const filterCategory = filterCategoryBackup;
     let allMoves = [];
     let sortedMoves = [...moves].sort((a, b) => a.localeCompare(b));
     sortedMoves.forEach((item) => {
@@ -130,6 +131,7 @@ const DisplayLoomian = ({ data }) => {
     dispatch(setFilterTypes(filteredTypesToMoves));
     dispatch(setFilterCategories(filteredCategoryToMoves));
     dispatch(setFilterTypeCategories(filteredTypeCategoryToMoves));
+    console.log(filteredCategoryToMoves);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id, dispatch]);
 
