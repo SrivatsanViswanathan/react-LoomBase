@@ -499,7 +499,7 @@ const Wrapper = styled.div`
     border-bottom: 1px solid var(--textColor);
   }
   @media (min-width: 992px) {
-    margin-left: 5rem;
+    margin-left: 5.85rem;
     .button-container {
       display: flex;
       width: 100%;
@@ -589,7 +589,7 @@ const Wrapper = styled.div`
       margin-left: 1rem;
     }
   }
-  @media (min-width: 1700px) {
+  @media (min-width: 1800px) {
     margin-left: 9rem;
   }
 `;
