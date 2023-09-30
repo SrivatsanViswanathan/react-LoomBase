@@ -265,7 +265,7 @@ const Wrapper = styled.div`
   .loomians .types {
     display: flex;
     gap: 0.3rem;
-    width: 9rem;
+    max-width: 9rem;
     justify-content: flex-start;
     align-items: center;
   }
@@ -325,6 +325,9 @@ const Wrapper = styled.div`
   @media (min-width: 760px) {
     height: auto;
     width: auto;
+    .loomians .types {
+      width: 9rem;
+    }
     table {
       margin: auto;
     }
