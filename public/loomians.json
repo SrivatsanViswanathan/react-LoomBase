@@ -1968,8 +1968,8 @@
     "types": ["Plant"],
     "abilities": ["Mystery Toxins", "Ungracious Host"],
     "sAbility": ["Slimy"],
-    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/b/b4/Escargrow-menu.png/revision/latest?cb=20191010140248",
-    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/3/35/Escargrow-model.png/revision/latest?cb=20220727002331",
+    "image": "https://static.wikia.nocookie.net/loomian-legacy/images/5/50/Gastroak-menu.png/revision/latest?cb=20191010163648",
+    "model": "https://static.wikia.nocookie.net/loomian-legacy/images/4/44/Gastroak-model.png/revision/latest?cb=20220727002604",
     "stats": {
       "hp": 110,
       "energy": 83,
