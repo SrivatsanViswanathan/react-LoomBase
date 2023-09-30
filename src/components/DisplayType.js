@@ -12,12 +12,11 @@ const DisplayType = ({ data, loomians }) => {
 
   const dispatch = useDispatch();
   useEffect(() => {
-    if (loomians) {
-      dispatch(setLoomians(loomians));
-    }
+    dispatch(setLoomians(loomians));
+
     dispatch(setLoomiansSort("none", "none", "none", "none"));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [dispatch]);
+  }, [dispatch, loomians]);
   return (
     <Wrapper>
       <div className='affects'>

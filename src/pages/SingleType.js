@@ -6,13 +6,13 @@ import { styled } from "styled-components";
 
 const SingleType = () => {
   const navigate = useNavigate();
-  let { cachedTypes, filterTypesLooms, genres } = useSelector(
+  let { cachedTypes, filterTypesLoomsBackup, genres } = useSelector(
     (state) => state.global
   );
 
   const { id } = useParams();
   const types = cachedTypes;
-  const typesToLoomians = filterTypesLooms;
+  const typesToLoomians = filterTypesLoomsBackup;
   const loomians = typesToLoomians[id.toLowerCase()];
 
   const data = types[id.toLowerCase()];
