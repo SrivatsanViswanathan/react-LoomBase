@@ -577,7 +577,7 @@ const Wrapper = styled.div`
     .name {
       display: flex;
       min-width: 6rem;
-      justify-content: flex-end;
+      justify-content: flex-start;
     }
     .set-info {
       display: flex;
