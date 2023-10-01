@@ -1,0 +1,20 @@
+{
+  "name": "celesting",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Offensive Pivot",
+      "abilities": ["Mystic Tone"],
+      "items": ["Specialty Boots"],
+      "personalities": ["Nimble, Frail / Robust Frail "],
+      "tps": "96 HP, 12 En, 200 M Def, 192 Sp",
+      "ups": "",
+      "moves": [["Metal Blast"], ["Flash 'n Flee"], ["Barbs"], ["Barter"]],
+      "detail": "12 Energy gives 305 Energy at Level 50 \n 200 Melee Defense maximizes melee bulk to use ability to the fullest \n 192 Speed + Speciality Boots allows you to out speed the majority of the meta game \n 96 HP left over",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Kanku"
+    }
+  ]
+}

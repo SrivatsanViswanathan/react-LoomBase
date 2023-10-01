@@ -63,6 +63,7 @@ export const createSets = async (dispatch) => {
       revenine,
       tundrolen,
       searknight,
+      celesting,
     ] = await Promise.all([
       axios.get("/sets/luminami.json"),
       axios.get("/sets/avitross.json"),
@@ -123,6 +124,7 @@ export const createSets = async (dispatch) => {
       axios.get("/sets/revenine.json"),
       axios.get("/sets/tundrolen.json"),
       axios.get("/sets/searknight.json"),
+      axios.get("/sets/celesting.json"),
     ]);
     dispatch(addSets(luminami.data));
     dispatch(addSets(avitross.data));
@@ -183,6 +185,7 @@ export const createSets = async (dispatch) => {
     dispatch(addSets(revenine.data));
     dispatch(addSets(tundrolen.data));
     dispatch(addSets(searknight.data));
+    dispatch(addSets(celesting.data));
 
     return { luminami };
   } catch (error) {
