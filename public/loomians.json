@@ -6294,7 +6294,7 @@
     "name": "Tundrolen",
     "types": ["Ice"],
     "abilities": ["Mysterious Cloak", "Insulated"],
-    "sAbility": ["Resillience"],
+    "sAbility": ["Resilience"],
     "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/6/6f/Tundrolen-menu.png/revision/latest?cb=20211229194050",
     "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/3/3a/Tundrolen-M-model.png/revision/latest?cb=20230503021909",
     "stats": {
