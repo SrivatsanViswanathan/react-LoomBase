@@ -230,7 +230,7 @@
     "description": "Charge into the opponent. May also lower their speed."
   },
   {
-    "name": "Hight-Pitch Screech",
+    "name": "High-Pitch Screech",
     "strength": 80,
     "type": "Typeless",
     "category": "Ranged",
