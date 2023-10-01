@@ -1,0 +1,47 @@
+{
+  "name": "luxoar",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Set-up Sweeper",
+      "abilities": ["Illuminate"],
+      "items": ["Health Amulet"],
+      "personalities": [
+        "Smart, Nimble, Very Frail / Very Nimble, Frail, Tender or Foolish"
+      ],
+      "tps": "48 HP, 52 En, 200 R Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Raging Howl"],
+        ["Fire Breath"],
+        ["Peace Of Mind"],
+        ["Scapegoat"]
+      ],
+      "detail": "200 Ranged Attack maximizes your damage output \n 200 Speed maximizes speed but with Nimble you can outspeed Nimble Ragoon and anything slower. With Very Nimble you can Speed tie Nimble Tahtab and Garbantis, you also outspeed Nimble Wendolen and anything slower \n 52 Energy allows for 1 Fire Breath / 2 Peace of Minds And 3 Raging Howls \n 48 HP is leftovers but also gives you 10 HP per health Amulet tick",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Saur"
+    },
+    {
+      "setName": "Pivot",
+      "abilities": ["Illuminate"],
+      "items": ["Light essence", "Shine shell"],
+      "personalities": [
+        "Smart, Nimble, Very Frail / Very Nimble, Frail, Tender or Foolish"
+      ],
+      "tps": "48 HP, 52 En, 200 R Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Raging Howl"],
+        ["Fire Breath"],
+        ["Flash 'n flee"],
+        ["Scapegoat"]
+      ],
+      "detail": "200 Ranged Attack maximizes your damage output \n 200 Speed maximizes speed but with Nimble you can outspeed Nimble Ragoon and anything slower. With Very Nimble you can Speed tie Nimble Tahtab and Garbantis, you also outspeed Nimble Wendolen and anything slower \n 52 Energy allows for 1 Flash 'n Flee / 1 Fire Breath / 2 Peace of Minds \n 48 HP is leftovers",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Saur"
+    }
+  ]
+}

@@ -893,7 +893,7 @@
       "speed": 40
     },
     "weight": 24,
-    "line": ["Twilat", "Umbrat", "Luxroar", "Tiklipse"],
+    "line": ["Twilat", "Umbrat", "Luxoar", "Tiklipse"],
     "moves": [
       "Gnaw",
       "Dawdle",
@@ -929,7 +929,7 @@
       "speed": 71
     },
     "weight": 84,
-    "line": ["Twilat", "Umbrat", "Luxroar", "Tiklipse"],
+    "line": ["Twilat", "Umbrat", "Luxoar", "Tiklipse"],
     "moves": [
       "Gnaw",
       "Dawdle",
@@ -955,7 +955,7 @@
   },
   {
     "id": 24,
-    "name": "Luxroar",
+    "name": "Luxoar",
     "types": ["Light"],
     "abilities": ["Dawn", "Confidence"],
     "sAbility": ["Illuminate"],
@@ -971,7 +971,7 @@
       "speed": 91
     },
     "weight": 82,
-    "line": ["Twilat", "Umbrat", "Luxroar", "Tiklipse"],
+    "line": ["Twilat", "Umbrat", "Luxoar", "Tiklipse"],
     "moves": [
       "Gnaw",
       "Dawdle",
@@ -1013,7 +1013,7 @@
       "speed": 96
     },
     "weight": 94,
-    "line": ["Twilat", "Umbrat", "Luxroar", "Tiklipse"],
+    "line": ["Twilat", "Umbrat", "Luxoar", "Tiklipse"],
     "moves": [
       "Gnaw",
       "Dawdle",
