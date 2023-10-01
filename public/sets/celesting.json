@@ -7,7 +7,7 @@
       "setName": "Fast Pivot Support",
       "abilities": ["Mystic Tone"],
       "items": ["Specialty Boots"],
-      "personalities": ["Nimble, Frail / Robust Frail "],
+      "personalities": ["Nimble, Frail / Robust, Frail "],
       "tps": "96 HP, 12 En, 200 M Def, 192 Sp",
       "ups": "",
       "moves": [["Metal Blast"], ["Flash 'n Flee"], ["Barbs"], ["Barter"]],
