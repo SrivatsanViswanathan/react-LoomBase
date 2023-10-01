@@ -9271,7 +9271,7 @@
     "name": "Elephage",
     "types": ["Electric"],
     "abilities": ["Malware"],
-    "sAbility": ["Replicate"],
+    "sAbility": ["Overcharged"],
     "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/a/af/Elephage-menu.png/revision/latest?cb=20220528010258",
     "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/a/ab/Elephage-model.png/revision/latest?cb=20220529065753",
     "stats": {
@@ -9325,7 +9325,7 @@
     "name": "Phagenaut",
     "types": ["Electric"],
     "abilities": ["Malware"],
-    "sAbility": ["Replicate"],
+    "sAbility": ["Overcharged"],
     "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/f/fc/Phagenaut-menu.png/revision/latest?cb=20220916020746",
     "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/c/c1/Phagenaut-model.png/revision/latest?cb=20220917171002",
     "stats": {
