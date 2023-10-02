@@ -1099,7 +1099,7 @@
   {
     "id": 28,
     "name": "Cynamoth",
-    "types": ["Bug"],
+    "types": ["Bug", "Air"],
     "abilities": ["Mystery Toxins"],
     "sAbility": ["Flutter"],
     "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/1/1d/Cynamoth-menu.png/revision/latest?cb=20190728090236",
@@ -6817,7 +6817,7 @@
   {
     "id": 163,
     "name": "Snagulp",
-    "types": ["Air"],
+    "types": ["Air", "Toxic"],
     "abilities": ["Immunized", "Clingy"],
     "sAbility": ["Marksman"],
     "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/b/bf/Snagulp-menu.png/revision/latest?cb=20220327183211",
@@ -6859,7 +6859,7 @@
   {
     "id": 164,
     "name": "Snagoop",
-    "types": ["Air"],
+    "types": ["Air", "Toxic"],
     "abilities": ["Immunized", "Clingy"],
     "sAbility": ["Marksman"],
     "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/2/2b/Snagoop-menu.png/revision/latest?cb=20220327183031",
