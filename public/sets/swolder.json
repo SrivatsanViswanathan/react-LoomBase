@@ -1,0 +1,61 @@
+{
+  "name": "swolder",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Offensive",
+      "abilities": ["Webbing"],
+      "items": ["Bug Essence", "Brawler Essence", "Web Shell", "Martial Shell"],
+      "personalities": ["Very Brawny, Clumsy, Sluggish"],
+      "tps": "192 HP, 20 En, 200 M Atk, 40 R Def, 48 Sp",
+      "ups": "",
+      "moves": [
+        ["Parasitize"],
+        ["Mega Punch"],
+        ["Brawn Boost"],
+        ["Rejuvenate"]
+      ],
+      "detail": "192 HP maximizes your HP whole keeping it odd so you take less from Icicle Trap and 2 layers of Barbs. It also makes Vicious Snap from Brawny Power Jaw Garlash a 3HKO \n 20 Energy without Energy Orb allows for 1 Rejuvenate, 2 Parasitizes and 1 Mega Punch \n 200 Melee Attack maximizes your damage output \n 192 HP with 40 Ranged Defense makes Gamma Pulse from Very Smart Tiklipse a 3HKO, Water Bomb from High Explosive Barblast a 4HKO \n 48 Speed with Sluggish Speed creeps 32 speed Sluggish Pyrolen and anything slower",
+      "otherOptions": "Baneful Bash \n Mega Chomp \n Coursing Venom (only if you're running Baneful Bash or if you really need the toxic immunity) \n Bulk Up",
+      "teamOptions": "",
+      "author": "Saur"
+    },
+    {
+      "setName": "Offensive Energy Orb",
+      "abilities": ["Webbing"],
+      "items": ["Energy Orb"],
+      "personalities": ["Very Brawny, Clumsy, Sluggish"],
+      "tps": "176 HP, 52 En, 200 M Atk, 24 R Def, 48 Sp",
+      "ups": "",
+      "moves": [
+        ["Parasitize"],
+        ["Mega Punch"],
+        ["Brawn Boost"],
+        ["Rejuvenate"]
+      ],
+      "detail": "176 HP allows your HP to be odd so you take less from Icicle Trap and 2 layers of Barbs. It also makes a Wave Wrecker or Steel Crusher from Very Brawny Samarine a 3HKO, Wave Wrecker from Brawny Luminami a 4KHO, Vicious Snap from Brawny Power Jaw Farlash a 3HKO \n 52 Energy allows for 2 Rejuvenate's, 2 Brawn Boosts and 2 Parasitizes \n 200 Melee Attack maximizes your damage output \n 176 HP with 24 Ranged Defense makes a Water Bomb from High Explosives Barblast a 4HKO, Thunderstrike from 56 Ranged Attack Eleguana a 4HKO, Strategem from Very Clever shield Gastroak a 2HKO, Psycho Blast from Temper Pharoglyph a 2HKO \n 48 Speed with Sluggish Speed creeps Sluggish 32 Speed Pyrolen",
+      "otherOptions": "Baneful Bash \n Mega Chomp \n Coursing Venom (only if you're running Baneful Bash or if you really need the toxic immunity) \n Bulk Up",
+      "teamOptions": "",
+      "author": "Saur"
+    },
+    {
+      "setName": "Defensive",
+      "abilities": ["Webbing"],
+      "items": ["Energy Orb"],
+      "personalities": ["Robust, Clever, Very Clumsy"],
+      "tps": "192 HP, 52 En, 200 M Def, 56 R Def",
+      "ups": "",
+      "moves": [
+        ["Parasitize"],
+        ["Poison", "Bulk Up", "Brawn Boost"],
+        ["Rejuvenate"],
+        ["Bulk Up", "Brawn Boost", "Baneful Bash", "Mega Punch"]
+      ],
+      "detail": "192 HP gives you odd HP which means you take less from Icicle Trap and 2 layers of Barbs \n 52 Energy with Energy Orb allows you to use 2 Parasitize's, 2 Poisons / Bulk Ups / Brawn Boosts, and 2 Rejuvenate's \n 192 HP with 200 Melee Defense and Robust maximizes your Melee Defense but also makes Phantom Slash from Brawny Vesperatu a 4HKO, Pep Jab from Power Cuffs Ursoul a 3HKO, Earthquake from offensive Tyrecks a 4HKO",
+      "otherOptions": "Baneful Bash \n 16 Speed to outspeed Hunder at -2 speed \n Coursing Venom",
+      "teamOptions": "",
+      "author": "Saur"
+    }
+  ]
+}
