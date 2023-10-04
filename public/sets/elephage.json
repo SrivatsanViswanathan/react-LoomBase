@@ -12,7 +12,7 @@
       "ups": "Can be 0 M Atk for Tricky Tactics",
       "moves": [
         ["Thunderstrike", "Zip-Zap"],
-        ["Landslide"],
+        ["Flash n Flee", "Deja Vu", "Tear Down", "Provoke"],
         ["Rant", "Energize"],
         ["Rejuvenate"]
       ],
