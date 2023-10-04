@@ -1,0 +1,25 @@
+{
+  "name": "elephage",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Ranged Defensive Utility",
+      "abilities": ["Replicate"],
+      "items": ["Drop of Youth"],
+      "personalities": ["Frail, Nimble"],
+      "tps": "176 HP, 4 En, 192 R Def, 128 Spe",
+      "ups": "Can be 0 M Atk for Tricky Tactics",
+      "moves": [
+        ["Thunderstrike", "Zip-Zap"],
+        ["Landslide"],
+        ["Rant", "Energize"],
+        ["Rejuvenate"]
+      ],
+      "detail": "176 HP maximizes bulk and odd HP for hazards, allows Elephage to live \n 4 Energy allows 5 Pivot Moves \n 192 Ranged Defense makes 200 Ranged Attack Very Smart Light Essence Awakening Falkyrie Nova Blast 3HKO \n 128 Speed outspeeds Nimble base 100s, such as Nimble 200 Speed Nymaurae and Nimble 200 Speed Garlash",
+      "otherOptions": "Malware is viable also to become a hard check to Melee Attackers that rely on their ability, such as Hunder, Garbantis, Halvantic, etc \n Higher Speed investment is also okay to outspeed more setup wallbreakers to stop them with Deja Vu / Provoke, in this case run 160 HP, 20 Energy, 128 Ranged Defense, 192 Speed, speed outspeeds Nimble Snagoop and Duskit, Ranged Defense makes Very Smart 200 Ranged Attack Eruptidon Landslide 3HKO, HP gives odd for hazards, and Energy allows for 1 Rejuvenate 1 Deja Vu and 3 pivot moves",
+      "teamOptions": "",
+      "author": "Mathwel17"
+    }
+  ]
+}

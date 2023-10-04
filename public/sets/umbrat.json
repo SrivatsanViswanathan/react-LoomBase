@@ -1,0 +1,43 @@
+{
+  "name": "umbrat",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Offensive Chase Down",
+      "abilities": ["Overshadow"],
+      "items": ["Dark essence", "Shade Shell"],
+      "personalities": ["Very Brawny, Clumsy, Tender"],
+      "tps": "100 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Raging Tackle"],
+        ["Bulk Up"],
+        ["Chase Down"],
+        ["Quick Pounce"]
+      ],
+      "detail": "200 Melee Attack maximizes damage output \n 100 Energy allows for 2 Bulk Ups / Quick Pounces + 2 Raging tackles + 2 Chase downs \n 200 Speed maximizes speed but it allows you to outspeed Joltooth speed creeps",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Saur"
+    },
+    {
+      "setName": "Speedy Chase Down",
+      "abilities": ["Overshadow"],
+      "items": ["Dark essence", "Shade Shell"],
+      "personalities": ["Brawny, Nimble, Very Clumsy"],
+      "tps": "100 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [
+        ["Raging Tackle"],
+        ["Bulk Up"],
+        ["Chase Down"],
+        ["Quick Pounce"]
+      ],
+      "detail": "200 Melee Attack maximizes damage output \n 100 Energy allows for 2 Raging Tackles, 2 Bulk Ups and 2 Chase Downs \n 200 Speed maximizes speed but it allows you to outspeed Joltooth speed creeps",
+      "otherOptions": "",
+      "teamOptions": "",
+      "author": "Saur"
+    }
+  ]
+}

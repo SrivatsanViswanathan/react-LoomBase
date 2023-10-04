@@ -1,0 +1,25 @@
+{
+  "name": "sumobito",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Priority Abuser",
+      "abilities": ["Double Strike"],
+      "items": ["Bug Essence", "Brawler Essence "],
+      "personalities": ["Very Brawny, Clumsy, Sluggish"],
+      "tps": "200 HP, 44 En, 200 M Atk, 56 Sp",
+      "ups": "",
+      "moves": [
+        ["Parasitize"],
+        ["Counter Stance"],
+        ["Fire Slam"],
+        ["Bulk up", "Poison"]
+      ],
+      "detail": "200 Melee Attack maximizes damage output \n 200 HP maximizes general bulk, but it also makes a Spectral Burst from Very Smart Revenine a 2HKO \n 44 Energy allows for 2 Counter Stances, 2 Parasitizes and either 2 Fire slams or 2 Bulk Ups \n 56 with Sluggish Speed creeps 32 Speed Sluggish Charonyx and anything slower",
+      "otherOptions": "Horn-Dashi \n Shell \n Guru",
+      "teamOptions": "",
+      "author": "Saur"
+    }
+  ]
+}

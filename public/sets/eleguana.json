@@ -1,0 +1,25 @@
+{
+  "name": "eleguana",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Ranged-Wall",
+      "abilities": ["Prismatic", "Lightning Rod "],
+      "items": ["Heavy Shield "],
+      "personalities": ["Very Clever, Frail, Sluggish"],
+      "tps": "200 HP, 20 En, 56 R Atk, 200 R Def, 24 Sp",
+      "ups": "",
+      "moves": [
+        ["Flash 'n Flee"],
+        ["Thunderstrike"],
+        ["Rejuvenate"],
+        ["Tase", "Mudslide"]
+      ],
+      "detail": "200 HP with 200 Ranged Defense maximizes ranged bulk \n 20 Energy with Heavy Shield allows for 1 Rejuvenate, 1 Tase and 2 Flash 'n Flee / Thunderstrike's \n 24 Speed creeps Sluggish Ursoul \n Rest thrown into Ranged attack",
+      "otherOptions": "Health Amulet \n Energy Orb \n Zip-Zap \n Magnify \n Energize",
+      "teamOptions": "",
+      "author": "Saur"
+    }
+  ]
+}

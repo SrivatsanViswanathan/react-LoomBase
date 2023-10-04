@@ -66,6 +66,11 @@ export const createSets = async (dispatch) => {
       celesting,
       luxoar,
       swolder,
+      elephage,
+      eleguana,
+      terrafly,
+      sumobito,
+      umbrat,
     ] = await Promise.all([
       axios.get("/sets/luminami.json"),
       axios.get("/sets/avitross.json"),
@@ -129,6 +134,11 @@ export const createSets = async (dispatch) => {
       axios.get("/sets/celesting.json"),
       axios.get("/sets/luxoar.json"),
       axios.get("/sets/swolder.json"),
+      axios.get("/sets/elephage.json"),
+      axios.get("/sets/eleguana.json"),
+      axios.get("/sets/terrafly.json"),
+      axios.get("/sets/sumobito.json"),
+      axios.get("/sets/umbrat.json"),
     ]);
     dispatch(addSets(luminami.data));
     dispatch(addSets(avitross.data));
@@ -192,6 +202,11 @@ export const createSets = async (dispatch) => {
     dispatch(addSets(celesting.data));
     dispatch(addSets(luxoar.data));
     dispatch(addSets(swolder.data));
+    dispatch(addSets(elephage.data));
+    dispatch(addSets(eleguana.data));
+    dispatch(addSets(terrafly.data));
+    dispatch(addSets(sumobito.data));
+    dispatch(addSets(umbrat.data));
 
     return { luminami };
   } catch (error) {

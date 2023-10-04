@@ -488,7 +488,8 @@ const Wrapper = styled.div`
     margin-left: 0.5rem;
   }
   .overview p,
-  .details {
+  .details,
+  .teamOptions {
     line-height: 1.75;
   }
   a {

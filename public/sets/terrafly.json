@@ -1,0 +1,22 @@
+{
+  "name": "terrafly",
+  "overview": "",
+  "credit": "",
+  "sets": [
+    {
+      "setName": "Ambush-Abuser",
+      "abilities": ["Ambush"],
+      "items": ["Toxic Essence", "Bug Essence", "Brawler Essence "],
+      "personalities": [
+        "Very Brawny, Clumsy, Tender or Foolish / Brawny, Nimble, Very Clumsy"
+      ],
+      "tps": "8 HP, 92 En, 200 M Atk, 200 Sp",
+      "ups": "",
+      "moves": [["Parasitize"], ["Baneful Bash"], ["Rough Up"], ["Provoke"]],
+      "detail": "200 M Attack maximizes your damage output \n 200 Speed maximizes your speed but with Very Brawny it also lets you speed creep Very Brawny Umbrat and anything thats slower and with Nimble you can speed creep Nimble Umbrat and anything slower \n 8 HP keeps your HP odd so you take less from Icicle Trap and 2 layers of Barbs \n 92 Energy gives you 235 energy at level 50 which allows for many combinations of your moves such as 3 Parasitizes, 1 Baneful Bash and 1 Provoke or 4 Baneful Bashes and 1 Parasitize \n 200 M Attack maximizes your damage output \n 200 Speed maximizes your speed but with Very Brawny it also lets you speed creep Very Brawny Umbrat and anything thats slower and with Nimble you can speed creep Nimble Umbrat and anything slower",
+      "otherOptions": "Poison Barbs",
+      "teamOptions": "",
+      "author": "Saur"
+    }
+  ]
+}
