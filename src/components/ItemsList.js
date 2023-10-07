@@ -2,8 +2,10 @@ import { styled } from "styled-components";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 const ItemsList = () => {
-  let { items } = useSelector((state) => state.global);
+  let { filtered_items } = useSelector((state) => state.global);
   const screenWidth = window.innerWidth;
+
+  let items = filtered_items;
 
   items = [...items].sort((a, b) => {
     const nameA = a.name.toLowerCase();

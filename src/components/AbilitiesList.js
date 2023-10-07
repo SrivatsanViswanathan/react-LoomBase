@@ -3,7 +3,8 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const AbilitiesList = () => {
-  let { abilities } = useSelector((state) => state.global);
+  let { filtered_abilities } = useSelector((state) => state.global);
+  let abilities = filtered_abilities;
   const screenWidth = window.innerWidth;
 
   abilities = [...abilities].sort((a, b) => {

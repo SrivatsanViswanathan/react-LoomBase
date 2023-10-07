@@ -7,6 +7,7 @@ import LoomiansSort from "./LoomiansSort";
 import Search from "./Search";
 import { useDispatch, useSelector } from "react-redux";
 import { setLoomians, setFilterTypesLoomians } from "../features/globalSlice";
+
 const DisplayAbility = ({ data, loomians }) => {
   const dispatch = useDispatch();
   const { filtered_loomians, filterTypesLooms } = useSelector(

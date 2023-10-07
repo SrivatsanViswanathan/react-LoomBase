@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { setLoomiansFilter, setMovesFilter } from "../features/globalSlice";
+import { setLoomiansFilter, setMovesFilter, setAbilitiesFilter, setItemsFilter } from "../features/globalSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
 
@@ -14,7 +14,6 @@ const Search = ({ searchType }) => {
     text,
     type,
   } = useSelector((state) => state.global);
-  const searchTerm = searchType;
 
   let orderedTypes = [...types];
 
@@ -62,6 +61,27 @@ const Search = ({ searchType }) => {
       })
     );
   };
+
+  const handleTextChangeAbilities = (e) => {
+    const newText = e.target.value;
+
+    dispatch(
+      setAbilitiesFilter({
+        text: newText,
+      })
+    );
+  };
+
+  const handleTextChangeItems = (e) => {
+    const newText = e.target.value;
+
+    dispatch(
+      setItemsFilter({
+        text: newText,
+      })
+    );
+  };
+
   return (
     <Wrapper>
       <div className='content'>
@@ -75,11 +95,15 @@ const Search = ({ searchType }) => {
               autoComplete='off'
               value={text}
               onChange={
-                searchTerm === "loom"
-                  ? handleTextChangeLooms
-                  : searchTerm === "moves"
-                  ? handleTextChangeMoves
-                  : ""
+                searchType === "loom" ? 
+                handleTextChangeLooms 
+                : searchType === "moves" 
+                ? handleTextChangeMoves 
+                : searchType === "abilities" 
+                ? handleTextChangeAbilities 
+                : searchType === "items"
+                ? handleTextChangeItems
+                : ""
               }
             />
           </div>

@@ -28,7 +28,9 @@ const initialState = {
   filterTypeCategoryBackup: {},
   sorted_moves: [],
   abilities: [],
+  filtered_abilities: [],
   items: [],
+  filtered_items: [],
   types: [],
   movesSort: "name (a-z)",
   category: "all",
@@ -86,9 +88,11 @@ const globalSlice = createSlice({
     },
     setAbilities: (state, action) => {
       state.abilities = action.payload;
+      state.filtered_abilities = action.payload;
     },
     setItems: (state, action) => {
       state.items = action.payload;
+      state.filtered_items = action.payload;
     },
     setTypes: (state, action) => {
       state.types = action.payload;
@@ -360,6 +364,46 @@ const globalSlice = createSlice({
       state.movesSort = movesSort;
       state.text = text;
     },
+    setAbilitiesFilter: (state, action) => {
+      let { text } = action.payload;
+      if (text === undefined) {
+        text = "";
+      }
+      console.log(text);
+      const {
+        abilities
+      } = state;
+      let filteredAbilities = [...abilities];
+
+      if (text) {
+        filteredAbilities = filteredAbilities.filter((item) => {
+          return item.name.toLowerCase().includes(text.toLowerCase());
+        });
+      }
+
+      state.filtered_abilities = filteredAbilities;
+      state.text = text;
+    },
+    setItemsFilter: (state, action) => {
+      let { text } = action.payload;
+      if (text === undefined) {
+        text = "";
+      }
+      console.log(text);
+      const {
+        items
+      } = state;
+      let filteredItems = [...items];
+
+      if (text) {
+        filteredItems = filteredItems.filter((item) => {
+          return item.name.toLowerCase().includes(text.toLowerCase());
+        });
+      }
+
+      state.filtered_items= filteredItems;
+      state.text = text;
+    },
     setCachedLoomians: (state, action) => {
       state.cachedLoomians = action.payload;
     },
@@ -411,6 +455,8 @@ export const {
   setLoomiansFilter,
   setMovesSort,
   setMovesFilter,
+  setAbilitiesFilter,
+  setItemsFilter,
   setCachedAbilities,
   setCachedLoomians,
   setCachedMoves,
