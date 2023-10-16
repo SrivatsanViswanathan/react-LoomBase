@@ -239,7 +239,8 @@ const DisplayLoomian = ({ data }) => {
     type1Hash.resists.forEach((item1) => {
       if (
         !type2Hash.weakTo.includes(item1) &&
-        !type2Hash.resists.includes(item1)
+        !type2Hash.resists.includes(item1) &&
+        !type2Hash.immuneTo.includes(item1)
       ) {
         combinedArray.push(item1);
       }
@@ -247,7 +248,8 @@ const DisplayLoomian = ({ data }) => {
     type2Hash.resists.forEach((item2) => {
       if (
         !type1Hash.weakTo.includes(item2) &&
-        !type1Hash.resists.includes(item2)
+        !type1Hash.resists.includes(item2) &&
+        !type1Hash.immuneTo.includes(item2)
       ) {
         combinedArray.push(item2);
       }
@@ -282,7 +284,8 @@ const DisplayLoomian = ({ data }) => {
     type1Hash.weakTo.forEach((item1) => {
       if (
         !type2Hash.resists.includes(item1) &&
-        !type2Hash.weakTo.includes(item1)
+        !type2Hash.weakTo.includes(item1) &&
+        !type2Hash.immuneTo.includes(item1)
       ) {
         combinedArray = combinedArray.filter((item) => item !== item1);
       }
@@ -290,7 +293,8 @@ const DisplayLoomian = ({ data }) => {
     type2Hash.weakTo.forEach((item2) => {
       if (
         !type1Hash.resists.includes(item2) &&
-        !type1Hash.weakTo.includes(item2)
+        !type1Hash.weakTo.includes(item2) &&
+        !type1Hash.immuneTo.includes(item2)
       ) {
         combinedArray = combinedArray.filter((item) => item !== item2);
       }
