@@ -238,7 +238,7 @@ const globalSlice = createSlice({
 
       if (sort === "none" && sort2 === "none") {
         filteredLoomians = filteredLoomians.sort(
-          (a, b) => b["id"] - a["id"]
+          (a, b) => a["id"] - b["id"]
         );
       }
 
