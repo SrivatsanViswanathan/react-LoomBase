@@ -500,6 +500,16 @@
     "description": "Slap the target with your tail."
   },
   {
+    "name": "Teamwork",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 20,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Prepare to work together with an ally and boost the power of the move they use the same turn."
+  },
+  {
     "name": "Tear Down",
     "strength": 0,
     "type": "Typeless",
@@ -1388,6 +1398,16 @@
     "accuracy": 0.95,
     "priority": 0,
     "description": "Shout in anger, damaging your opponents and reducing their Ranged Attack."
+  },
+  {
+    "name": "Shadow Lurk",
+    "strength": 100,
+    "type": "Dark",
+    "category": "Ranged",
+    "energyCost": 55,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Hide in the shadows to catch your opponent off guard. Always hits."
   },
   {
     "name": "Sharpen",

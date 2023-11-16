@@ -292,6 +292,10 @@
     "description": "Ice and Fire-Type moves deal half as much damage to you."
   },
   {
+    "name": "Intern",
+    "description": "Your allies depend on you to do most of their work. If you have the energy to cover the cost of their moves, your Energy will be used instead of theirs."
+  },
+  {
     "name": "Lazy",
     "description": "This Loomian tends to move last in battle."
   },
@@ -356,6 +360,10 @@
     "description": "This Loomian is protected against the secondary effects of moves that hit it."
   },
   {
+    "name": "One of Many",
+    "description": "At the end of each turn, clear any status ailments, stat drops, or Support move effects that may be affecting you."
+  },
+  {
     "name": "Overcharged",
     "description": "The Strength of all Loomians' Electric-type moves are boosted 30% while this Loomian is on the battlefield."
   },
@@ -370,6 +378,10 @@
   {
     "name": "Parting Gift",
     "description": "When this Loomian is knocked out, it leaves behind a gift that explodes on the Loomian across from it, which deals a random amount of damage."
+  },
+  {
+    "name": "Partnership",
+    "description": "You have entered an arrangement with your allies. If you have the Energy to cover the cost of their moves, your Energy will be used instead of theirs."
   },
   {
     "name": "Pincer Trap",
@@ -464,8 +476,16 @@
     "description": "While you are in battle, Loomians cannot fall asleep."
   },
   {
+    "name": "Rush Hour",
+    "description": "Your Speed is boosted by 50% for the first move that you use after entering battle."
+  },
+  {
     "name": "Salvage",
     "description": "If not holding an item of its own, this Loomian may recycle an item that was used or dropped."
+  },
+  {
+    "name": "Safety Pot",
+    "description": "Your Melee and Ranged Defense are boosted to 1.5x, but your speed is reduced to 0.67x"
   },
   {
     "name": "Scorching Skin",
@@ -570,6 +590,10 @@
   {
     "name": "Trash Armor",
     "description": "This Loomian's Melee Defense is boosted 50%."
+  },
+  {
+    "name": "Trader",
+    "description": "Trade items with the opponent across from you when you enter the battle."
   },
   {
     "name": "Turbulent",
