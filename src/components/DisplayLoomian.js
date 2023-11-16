@@ -56,6 +56,7 @@ const DisplayLoomian = ({ data }) => {
     sAbility,
     moves,
     soulBurst,
+    sName
   } = data[index];
 
   let oldName = name;
@@ -63,6 +64,7 @@ const DisplayLoomian = ({ data }) => {
   if (soulBurst) {
     const string = "Soulburst ";
     name = name.replace(string, "");
+    oldName = sName;
   }
 
   const findIndexofLoom = sets.findIndex(

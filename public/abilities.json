@@ -84,6 +84,10 @@
     "description": "When making contact with the foe, you will swipe their item. If you already have an item, their item will be discarded."
   },
   {
+    "name": "Burning Rage",
+    "description": "The Strength of your Fire-type moves is boosted 50%."
+  },
+  {
     "name": "Bursting Seams",
     "description": "After consuming an item, there is a chance you will get it back at the end of the turn."
   },
@@ -102,6 +106,10 @@
   {
     "name": "Chill",
     "description": "Your Typeless moves become Ice-type. The Strength of these moves is boosted a little."
+  },
+  {
+    "name": "Chilling Passion",
+    "description": "The Strength of your Ice-type moves is boosted by 50%."
   },
   {
     "name": "Circadian",
@@ -220,6 +228,10 @@
     "description": "After knocking out another Loomian in battle, you gain as much Energy as they had remaining."
   },
   {
+    "name": "Frostbite",
+    "description": "Your opponent's shivers cause them to lose double the Energy while you are on the battlefield. All of your attacks also have a 10% chance of causing the target to begin shivering."
+  },
+  {
     "name": "Glide",
     "description": "When an Air-type attack is used by any Loomian in battle, you gain a boost in speed."
   },
@@ -266,6 +278,10 @@
   {
     "name": "High Explosive",
     "description": "Bomb-like attacks deal 50% more damage, but have no secondary effects."
+  },
+  {
+    "name": "Hydrate",
+    "description": "When struck by a Water-type attack, absorb it to recover some Energy."
   },
   {
     "name": "Idiosyncratic",
@@ -332,6 +348,10 @@
     "description": "Attack 20% stronger when the target is afflicted with a status ailment."
   },
   {
+    "name": "Mesmerizing",
+    "description": "Your captivating appearance prevents the foe from acting fast enough to use moves that tend to go first."
+  },
+  {
     "name": "Mysterious Cloak",
     "description": "This Loomian is protected from all damage that doesn't come directly from a Loomian's move."
   },
@@ -354,6 +374,10 @@
   {
     "name": "Noxious Weeds",
     "description": "When a Plant-type attack attempts to strike this Loomian the move is choked out by weeds, boosting the Strength of this Loomian's own Plant-type moves."
+  },
+  {
+    "name": "Obsidian Heart",
+    "description": "The Strength of your Ancient-type moves is boosted by 50%."
   },
   {
     "name": "Odd Husk",
@@ -420,6 +444,10 @@
     "description": "This Loomian's Fire-type moves have 50% more Strength and cost 25% more Energy."
   },
   {
+    "name": "Pyro Pro",
+    "description": "This Loomian's Fire-type moves have 50% more Strength and cost 10% more Energy."
+  },
+  {
     "name": "Quick Recovery",
     "description": "When leaving battle, this Loomian instantly recovers from status ailments."
   },
@@ -430,6 +458,10 @@
   {
     "name": "Raging Fire",
     "description": "When struck by a Fire-type attack, this Loomian absorbs it to recover Energy."
+  },
+  {
+    "name": "Railgun",
+    "description": "Boosts the strength of your Electric-type attacks."
   },
   {
     "name": "Razor Sharp",
@@ -524,6 +556,14 @@
     "description": "The fewer moves this Loomian knows, the more power it can put into them."
   },
   {
+    "name": "Spine Break",
+    "description": "When an opponent's attack causes contact with this Loomian, toxic spines break off, leaving poisonous barbs on the opponent's side of the battlefield."
+  },
+  {
+    "name": "Sponge",
+    "description": "When struck by a Water-type attack, absorb it to restore some of your Health."
+  },
+  {
     "name": "Staunch",
     "description": "Your stats are not lowered by others' moves or abilities."
   },
@@ -562,6 +602,10 @@
   {
     "name": "Territorial",
     "description": "Threatened by Loomians of the same gender, you attack harder. However, you tend to strike the opposite gender weaker."
+  },
+  {
+    "name": "Third-Degree Burn",
+    "description": "Your opponent's burns cause them double damage while you are on the battlefield. All of your attacks also have a 10% chance of causing a burn."
   },
   {
     "name": "Thriving Pace",

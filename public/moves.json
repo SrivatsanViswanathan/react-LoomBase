@@ -790,6 +790,26 @@
     "description": "Dive deep below the surface and hide for a turn. Strike the target on the second turn."
   },
   {
+    "name": "Shell Bash",
+    "strength": 0,
+    "type": "Water",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": "Sure Hit",
+    "priority": 6,
+    "description": "Take a defensive stance. When struck by an opponent's attack, only take half the damage, then strike back to inflict them with the full damage you would have taken. Fails if used consecutively."
+  },
+  {
+    "name": "Shell Shrapnel",
+    "strength": 110,
+    "type": "Water",
+    "category": "Ranged",
+    "energyCost": 56,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Launch shards of broken shell at the target. This lowers your Melee and Ranged Defense."
+  },
+  {
     "name": "Soft Water",
     "strength": 0,
     "type": "Water",
@@ -1148,6 +1168,16 @@
     "accuracy": 1,
     "priority": 0,
     "description": "Emit a pulse of harsh light rays from beyond the visible spectrum that damage your opponents."
+  },
+  {
+    "name": "Hyper Sting",
+    "strength": 90,
+    "type": "Light",
+    "category": "Melee",
+    "energyCost": 55,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Fiercely attack the opponent with a sharp stinger. Breaks down Scapegoats."
   },
   {
     "name": "Light Dash",
@@ -2440,6 +2470,16 @@
     "description": "Swipe at the foe with metal claws. Hits twice."
   },
   {
+    "name": "Razor Slash",
+    "strength": 90,
+    "type": "Metal",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Slash the opponent with a metal blade. Lands critical hits more often."
+  },
+  {
     "name": "Reflection Burst",
     "strength": 60,
     "type": "Metal",
@@ -2570,6 +2610,16 @@
     "description": "Blast the foe with the basic elements. They may become burned, paralyzed, or begin freezing."
   },
   {
+    "name": "Far Enchantment",
+    "strength": 0,
+    "type": "Ancient",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Enchant the battlefield with a barrier that reduces the power of Ranged attacks which target your team."
+  },
+  {
     "name": "Meteor Crash",
     "strength": 90,
     "type": "Ancient",
@@ -2588,6 +2638,16 @@
     "accuracy": 1,
     "priority": 0,
     "description": "Strike down on your opponents with meteors."
+  },
+  {
+    "name": "Near Enchantment",
+    "strength": 0,
+    "type": "Ancient",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Enchant the battlefield with a barrier that reduces the power of Melee attacks which target your team."
   },
   {
     "name": "Outburst",
