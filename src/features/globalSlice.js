@@ -163,6 +163,12 @@ const globalSlice = createSlice({
         );
       }
 
+      if (sort === "none" && sort2 === "none") {
+        sortedLoomians = sortedLoomians.sort(
+          (a, b) => a["id"] - b["id"]
+        );
+      }
+
       state.filtered_loomians = sortedLoomians;
       state.loomiansSort = sort;
       state.loomiansSort2 = sort2;
@@ -229,6 +235,12 @@ const globalSlice = createSlice({
         );
       }
 
+      if (sort === "none" && sort2 === "none") {
+        filteredLoomians = filteredLoomians.sort(
+          (a, b) => b["id"] - a["id"]
+        );
+      }
+
       state.filtered_loomians = filteredLoomians;
       state.loomiansType = type;
       state.loomiansType2 = type2;
@@ -289,8 +301,6 @@ const globalSlice = createSlice({
       if (category !== "all" && type !== "all") {
         filteredMoves =
           filterTypeCategory[type.toLowerCase() + "-" + category.toLowerCase()];
-        console.log(category);
-        console.log(filteredMoves);
 
         if (filteredMoves === undefined) {
           filteredMoves = [];
@@ -369,7 +379,6 @@ const globalSlice = createSlice({
       if (text === undefined) {
         text = "";
       }
-      console.log(text);
       const {
         abilities
       } = state;
@@ -389,7 +398,6 @@ const globalSlice = createSlice({
       if (text === undefined) {
         text = "";
       }
-      console.log(text);
       const {
         items
       } = state;
