@@ -211,7 +211,8 @@ const globalSlice = createSlice({
 
       if (text) {
         filteredLoomians = filteredLoomians.filter((item) => {
-          return item.name.toLowerCase().includes(text.toLowerCase());
+          return (item.sName && item.sName.toLowerCase().includes(text.toLowerCase())) ||
+          (item.name && item.name.toLowerCase().includes(text.toLowerCase()))
         });
       }
 

@@ -46,6 +46,7 @@ const LoomiansList = ({ filtered_loomians }) => {
                   types,
                   stats,
                   soulBurst,
+                  sName,
                 } = item;
                 let newName = name;
                 if (soulBurst) {
@@ -69,7 +70,7 @@ const LoomiansList = ({ filtered_loomians }) => {
                               : `/loomians/${name.toLowerCase()}`
                           }
                         >
-                          {name}
+                          {soulBurst ? sName : name}
                         </Link>
                       </p>
                     </td>
