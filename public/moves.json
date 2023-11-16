@@ -840,6 +840,16 @@
     "description": "Dive below the surface and hide there for a turn. Strike the target on the second turn, bypassing their fortifications."
   },
   {
+    "name": "Torrential Slash",
+    "strength": 95,
+    "type": "Water",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Lunge at your opponent, driven by a swift stream, and attack them with large claws. May cause the target to flinch."
+  },
+  {
     "name": "Tsunami",
     "strength": 90,
     "type": "Water",
