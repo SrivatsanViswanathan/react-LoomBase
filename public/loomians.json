@@ -10060,7 +10060,7 @@
     "name": "Elephage",
     "types": ["Electric"],
     "abilities": ["Malware"],
-    "sAbility": ["Overcharged"],
+    "sAbility": ["Replicate"],
     "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/a/af/Elephage-menu.png/revision/latest?cb=20220528010258",
     "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/a/ab/Elephage-model.png/revision/latest?cb=20220529065753",
     "stats": {
