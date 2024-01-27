@@ -40,6 +40,16 @@
     "description": "Convince the target to trade items with you."
   },
   {
+    "name": "Battle Chime",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Sacrifice one half of your Max Health to fully boost your Melee Attack."
+  },
+  {
     "name": "Battle Horn",
     "strength": 0,
     "type": "Typeless",
@@ -168,6 +178,16 @@
     "accuracy": 1,
     "priority": 0,
     "description": "Spook the foe with a stare that lowers their Melee Defense and Speed."
+  },
+  {
+    "name": "Enamor",
+    "strength": 0,
+    "type": "Typeless",
+    "category": "Support",
+    "energyCost": 25,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Flaunt your beauty to catch the opponent off guard, harshly lowering their Melee Attack."
   },
   {
     "name": "Examine",
@@ -1260,6 +1280,16 @@
     "description": "Foresee bright, intense sunlight that showers the opponent two turns later."
   },
   {
+    "name": "Radiant Rush",
+    "strength": 100,
+    "type": "Light",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Rush head-on into the opponent."
+  },
+  {
     "name": "Shine",
     "strength": 40,
     "type": "Light",
@@ -1268,6 +1298,16 @@
     "accuracy": 1,
     "priority": 0,
     "description": "Damage the foe with bright light."
+  },
+  {
+    "name": "Solar Punch",
+    "strength": 100,
+    "type": "Light",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "On the first turn, begin absorbing light. This boosts your Melee Attack. Attack on the second turn."
   },
   {
     "name": "Baffle",
@@ -2540,6 +2580,16 @@
     "description": "Recalibrate your sensors to increase your Ranged Defense."
   },
   {
+    "name": "Vice Jaws",
+    "strength": 80,
+    "type": "Metal",
+    "category": "Melee",
+    "energyCost": 40,
+    "accuracy": 1,
+    "priority": 0,
+    "description": "Once hit, the target will be unable to use the same move in a row for two more turns."
+  },
+  {
     "name": "Ancient Instinct",
     "strength": 0,
     "type": "Ancient",
@@ -2770,6 +2820,16 @@
     "description": "Engulf the battlefield in a thick fog for a few turns."
   },
   {
+    "name": "Harrow",
+    "strength": 90,
+    "type": "Spirit",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": "",
+    "priority": 0,
+    "description": "Torment the foe with haunting terror. This may also poison them."
+  },
+  {
     "name": "Impersonate",
     "strength": 0,
     "type": "Spirit",
@@ -2818,6 +2878,16 @@
     "accuracy": 1,
     "priority": 1,
     "description": "Dart at the target through the shadows and attack unexpectedly. This move goes first."
+  },
+  {
+    "name": "Shatter",
+    "strength": 70,
+    "type": "Spirit",
+    "category": "Melee",
+    "energyCost": 50,
+    "accuracy": 0.9,
+    "priority": 0,
+    "description": "Slam into the foe with enough force to leave behind splinters from your own body. Barbs are left on the opponent's side of the battlefield."
   },
   {
     "name": "Soul Harvest",
@@ -3118,6 +3188,16 @@
     "accuracy": "",
     "priority": 0,
     "description": "Force the target into a mental loop, repeating the last move they used several times."
+  },
+  {
+    "name": "Dissipate",
+    "strength": 0,
+    "type": "Mind",
+    "category": "Support",
+    "energyCost": 30,
+    "accuracy": "",
+    "priority": -6,
+    "description": "Disappear from battle, allowing an ally to take your place. Tends to go last."
   },
   {
     "name": "Empathize",

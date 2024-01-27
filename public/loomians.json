@@ -168,7 +168,8 @@
       "Dodge",
       "Frost Beam",
       "Rejuvenate",
-      "Tsunami"
+      "Tsunami",
+      "Radiant Rush"
     ]
   },
   {
@@ -213,7 +214,8 @@
       "Dodge",
       "Frost Beam",
       "Rejuvenate",
-      "Tsunami"
+      "Tsunami",
+      "Radiant Rush"
     ]
   },
   {
@@ -260,7 +262,8 @@
       "Flash 'n Flee",
       "Frost Beam",
       "Rejuvenate",
-      "Tsunami"
+      "Tsunami",
+      "Radiant Rush"
     ]
   },
   {
@@ -435,7 +438,8 @@
       "Nova Blast",
       "Raging Howl",
       "Dodge",
-      "Flash 'n Flee"
+      "Flash 'n Flee",
+      "Radiant Rush"
     ]
   },
   {
@@ -475,7 +479,8 @@
       "Raging Howl",
       "Dodge",
       "Flash 'n Flee",
-      "Radiant Forecast"
+      "Radiant Forecast",
+      "Radiant Rush"
     ]
   },
   {
@@ -518,7 +523,8 @@
       "Radiant Forecast",
       "Holy Slash",
       "Armor Down",
-      "Rejuvenate"
+      "Rejuvenate",
+      "Radiant Rush"
     ]
   },
   {
@@ -556,7 +562,8 @@
       "Slap Down",
       "Slash",
       "Spectral Burst",
-      "Dodge"
+      "Dodge",
+      "Harrow"
     ]
   },
   {
@@ -595,7 +602,8 @@
       "Slash",
       "Spectral Burst",
       "Dodge",
-      "Blood Drain"
+      "Blood Drain",
+      "Harrow"
     ]
   },
   {
@@ -635,7 +643,8 @@
       "Spectral Burst",
       "Dodge",
       "Blood Drain",
-      "Revival"
+      "Revival",
+      "Harrow"
     ]
   },
   {
@@ -2114,7 +2123,7 @@
       "speed": 86
     },
     "weight": 53,
-    "line": ["Kabunga", "Wiki-Wiki", "Chartiki", "Waka-Laka"],
+    "line": ["Kabunga", "Wiki-Wiki", "Chartiki"],
     "moves": [
       "Strike",
       "Brace",
@@ -2138,6 +2147,54 @@
     ]
   },
   {
+    "id": 50,
+    "name": "Halloween Kabunga",
+    "types": ["Plant", "Mind"],
+    "abilities": ["Communication", "Expertise"],
+    "sAbility": ["Noxious Weeds"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/f/f1/Kabunga-Halloween-menu.png/revision/latest?cb=20201018200022",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/4/4a/Kabunga-Halloween-model.png/revision/latest?cb=20220727004324",
+    "stats": {
+      "hp": 65,
+      "energy": 68,
+      "meleeAttack": 23,
+      "meleeDefense": 58,
+      "rangedAttack": 99,
+      "rangedDefense": 74,
+      "speed": 5
+    },
+    "weight": 53,
+    "line": ["Halloween Kabunga", "Waka-Laka", "Thawmin"],
+    "moves": [
+      "Strike",
+      "Brace",
+      "Petal Pummel",
+      "Brainwash",
+      "Pine Shot",
+      "Bane of Haste",
+      "Life Drain",
+      "Flabbergast",
+      "Photosynthesis",
+      "Nature's Force",
+      "Peace of Mind",
+      "Bag of Tricks",
+      "Gamma Pulse",
+      "Luster Loot",
+      "Muck Blast",
+      "Provoke",
+      "Psycho Blast",
+      "Scapegoat",
+      "Tear Down",
+      "Toxic Spores",
+      "Barter",
+      "Dodge",
+      "Fade Away",
+      "Ill Will",
+      "Rejuvenate",
+      "Thunderstrike"
+    ]
+  },
+  {
     "id": 51,
     "name": "Wiki-Wiki",
     "types": ["Plant"],
@@ -2155,7 +2212,7 @@
       "speed": 47
     },
     "weight": 260,
-    "line": ["Kabunga", "Wiki-Wiki", "Chartiki", "Waka-Laka"],
+    "line": ["Kabunga", "Wiki-Wiki", "Chartiki"],
     "moves": [
       "Strike",
       "Brace",
@@ -2204,7 +2261,7 @@
       "speed": 62
     },
     "weight": 260,
-    "line": ["Kabunga", "Wiki-Wiki", "Chartiki", "Waka-Laka"],
+    "line": ["Kabunga", "Wiki-Wiki", "Chartiki"],
     "moves": [
       "Strike",
       "Brace",
@@ -2248,7 +2305,7 @@
       "speed": 41
     },
     "weight": 245,
-    "line": ["Kabunga", "Wiki-Wiki", "Chartiki", "Waka-Laka"],
+    "line": ["Halloween Kabunga", "Waka-Laka", "Thawmin"],
     "moves": [
       "Strike",
       "Brace",
@@ -2669,7 +2726,8 @@
       "Phantom Slash",
       "Power Focus",
       "Soul Storm",
-      "Dodge"
+      "Dodge",
+      "Harrow"
     ]
   },
   {
@@ -2709,7 +2767,8 @@
       "Power Focus",
       "Soul Storm",
       "Dodge",
-      "Ghostly Howl"
+      "Ghostly Howl",
+      "Harrow"
     ]
   },
   {
@@ -2958,7 +3017,7 @@
       "speed": 62
     },
     "weight": 26,
-    "line": ["Holiday Craytal", "Festifir"],
+    "line": ["Holiday Craytal", "Festifir", "Leshent"],
     "moves": [
       "Flurry",
       "Brace",
@@ -2971,7 +3030,7 @@
       "Briar Block",
       "Ice Hammer",
       "Thistle Slash",
-      "Erthquake",
+      "Earthquake",
       "Raging Tackle",
       "Timber Thrash",
       "Petal Pummel",
@@ -3134,7 +3193,7 @@
       "speed": 22
     },
     "weight": 149,
-    "line": ["Holiday Craytal", "Festifir"],
+    "line": ["Holiday Craytal", "Festifir", "Leshent"],
     "moves": [
       "Petal Pummel",
       "Flurry",
@@ -3858,7 +3917,7 @@
       "Poison",
       "Square One",
       "Steel Crusher",
-      "Ticky Tactics",
+      "Tricky Tactics",
       "Barter",
       "Dodge",
       "Hypnotize"
@@ -3902,7 +3961,7 @@
       "Poison",
       "Square One",
       "Steel Crusher",
-      "Ticky Tactics",
+      "Tricky Tactics",
       "Graffiti",
       "Barter",
       "Dodge",
@@ -3944,7 +4003,8 @@
       "Sharpen",
       "Steel Crusher",
       "Dodge",
-      "Mud Spatter"
+      "Mud Spatter",
+      "Vice Jaws"
     ]
   },
   {
@@ -3983,7 +4043,8 @@
       "Steel Crusher",
       "Dodge",
       "Mud Spatter",
-      "Clay Slap"
+      "Clay Slap",
+      "Vice Jaws"
     ]
   },
   {
@@ -4023,7 +4084,8 @@
       "Dodge",
       "Mud Spatter",
       "Clay Slap",
-      "Complete Demolition"
+      "Complete Demolition",
+      "Vice Jaws"
     ]
   },
   {
@@ -4062,7 +4124,8 @@
       "Recycle",
       "Steel Crusher",
       "Thunder Chomp",
-      "Dodge"
+      "Dodge",
+      "Vice Jaws"
     ]
   },
   {
@@ -4102,7 +4165,8 @@
       "Steel Crusher",
       "Thunder Chomp",
       "Dodge",
-      "Heavy Bash"
+      "Heavy Bash",
+      "Vice Jaws"
     ]
   },
   {
@@ -4255,7 +4319,8 @@
       "Thunder Chomp",
       "Dodge",
       "Mud Spatter",
-      "Thunderstrike"
+      "Thunderstrike",
+      "Vice Jaws"
     ]
   },
   {
@@ -4295,7 +4360,8 @@
       "Dodge",
       "Mud Spatter",
       "Thunderstrike",
-      "Rough Up"
+      "Rough Up",
+      "Vice Jaws"
     ]
   },
   {
@@ -5553,7 +5619,8 @@
       "Bulk Up",
       "Dodge",
       "Ill Will",
-      "Rejuvenate"
+      "Rejuvenate",
+      "Battle Chime"
     ]
   },
   {
@@ -5596,7 +5663,8 @@
       "Dodge",
       "Ill Will",
       "Rejuvenate",
-      "Fiery Fondant"
+      "Fiery Fondant",
+      "Battle Chime"
     ]
   },
   {
@@ -6049,7 +6117,8 @@
       "Wresolen",
       "Buzzolen",
       "Tundrolen",
-      "Pyrolen"
+      "Pyrolen",
+      "Hydrolen"
     ],
     "moves": [
       "Dawdle",
@@ -6092,7 +6161,8 @@
       "Wresolen",
       "Buzzolen",
       "Tundrolen",
-      "Pyrolen"
+      "Pyrolen",
+      "Hydrolen"
     ],
     "moves": [
       "Dawdle",
@@ -6143,7 +6213,8 @@
       "Wresolen",
       "Buzzolen",
       "Tundrolen",
-      "Pyrolen"
+      "Pyrolen",
+      "Hydrolen"
     ],
     "moves": [
       "Dawdle",
@@ -6196,7 +6267,8 @@
       "Wresolen",
       "Buzzolen",
       "Tundrolen",
-      "Pyrolen"
+      "Pyrolen",
+      "Hydrolen"
     ],
     "moves": [
       "Dawdle",
@@ -6249,7 +6321,8 @@
       "Wresolen",
       "Buzzolen",
       "Tundrolen",
-      "Pyrolen"
+      "Pyrolen",
+      "Hydrolen"
     ],
     "moves": [
       "Dawdle",
@@ -6300,7 +6373,8 @@
       "Wresolen",
       "Buzzolen",
       "Tundrolen",
-      "Pyrolen"
+      "Pyrolen",
+      "Hydrolen"
     ],
     "moves": [
       "Dawdle",
@@ -6353,7 +6427,8 @@
       "Wresolen",
       "Buzzolen",
       "Tundrolen",
-      "Pyrolen"
+      "Pyrolen",
+      "Hydrolen"
     ],
     "moves": [
       "Dawdle",
@@ -6404,7 +6479,8 @@
       "Wresolen",
       "Buzzolen",
       "Tundrolen",
-      "Pyrolen"
+      "Pyrolen",
+      "Hydrolen"
     ],
     "moves": [
       "Dawdle",
@@ -6456,7 +6532,8 @@
       "Wresolen",
       "Buzzolen",
       "Tundrolen",
-      "Pyrolen"
+      "Pyrolen",
+      "Hydrolen"
     ],
     "moves": [
       "Dawdle",
@@ -6508,7 +6585,8 @@
       "Wresolen",
       "Buzzolen",
       "Tundrolen",
-      "Pyrolen"
+      "Pyrolen",
+      "Hydrolen"
     ],
     "moves": [
       "Dawdle",
@@ -6532,6 +6610,62 @@
       "Mud Spatter",
       "Peace of Mind",
       "Rejuvenate"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Hydrolen",
+    "types": ["Water"],
+    "abilities": ["Vigilant", "Hydrate"],
+    "sAbility": ["Luck of the Sea"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/6/64/Hydrolen-menu.png/revision/latest?cb=20231229025656",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/f/fe/Hydrolen-M-model.png/revision/latest?cb=20231104223004",
+    "stats": {
+      "hp": 80,
+      "energy": 85,
+      "meleeAttack": 97,
+      "meleeDefense": 49,
+      "rangedAttack": 97,
+      "rangedDefense": 60,
+      "speed": 107
+    },
+    "weight": 155,
+    "line": [
+      "Vari",
+      "Cervolen",
+      "Wendolen",
+      "Kirolen",
+      "Zepholen",
+      "Venolen",
+      "Wresolen",
+      "Buzzolen",
+      "Tundrolen",
+      "Pyrolen",
+      "Hydrolen"
+    ],
+    "moves": [
+      "Dawdle",
+      "Strike",
+      "Quick Pounce",
+      "Stretch",
+      "Spare",
+      "Headbutt",
+      "Power Focus",
+      "Body Slam",
+      "Water Bomb",
+      "Tribute",
+      "Air Blade",
+      "Hydro Slash",
+      "Thistle Slash",
+      "Tsunami",
+      "Adaptive Assault",
+      "Bait",
+      "Bulk Up",
+      "Dodge",
+      "Ill Will",
+      "Maroon",
+      "Peace of Mind",
+      "Plunge"
     ]
   },
   {
@@ -6573,7 +6707,8 @@
       "Tease",
       "Dodge",
       "Rejuvenate",
-      "Ill Will"
+      "Ill Will",
+      "Vice Jaws"
     ]
   },
   {
@@ -6617,7 +6752,8 @@
       "Rejuvenate",
       "Ill Will",
       "Heavy Bash",
-      "Driving Force"
+      "Driving Force",
+      "Vice Jaws"
     ]
   },
   {
@@ -6662,7 +6798,8 @@
       "Ill Will",
       "Heavy Bash",
       "Driving Force",
-      "Outburst"
+      "Outburst",
+      "Vice Jaws"
     ]
   },
   {
@@ -6705,7 +6842,8 @@
       "Dodge",
       "Ill Will",
       "Mud Spatter",
-      "Spectral Burst"
+      "Spectral Burst",
+      "Harrow"
     ]
   },
   {
@@ -6749,7 +6887,8 @@
       "Ill Will",
       "Mud Spatter",
       "Spectral Burst",
-      "Brace"
+      "Brace",
+      "Harrow"
     ]
   },
   {
@@ -6795,7 +6934,8 @@
       "Spectral Burst",
       "Brace",
       "Soul Harvest",
-      "Soul Storm"
+      "Soul Storm",
+      "Harrow"
     ]
   },
   {
@@ -7374,7 +7514,8 @@
       "Dodge",
       "Ill Will",
       "Mud Spatter",
-      "Tsunami"
+      "Tsunami",
+      "Vice Jaws"
     ]
   },
   {
@@ -7415,7 +7556,8 @@
       "Ill Will",
       "Mud Spatter",
       "Tsunami",
-      "Plunge"
+      "Plunge",
+      "Vice Jaws"
     ]
   },
   {
@@ -7497,6 +7639,141 @@
       "Dodge",
       "Hypnotize",
       "Baneful Bash"
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Polypi",
+    "types": ["Water", "Light"],
+    "abilities": ["Temper", "Enchanted Coat"],
+    "sAbility": ["Incandescent"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/7/78/Polypi-menu.png/revision/latest?cb=20220326203337",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/3/38/Polypi-model.png/revision/latest?cb=20231104224520",
+    "stats": {
+      "hp": 42,
+      "energy": 77,
+      "meleeAttack": 10,
+      "meleeDefense": 24,
+      "rangedAttack": 54,
+      "rangedDefense": 54,
+      "speed": 39
+    },
+    "weight": 3,
+    "line": ["Polypi", "Laphyra", "Jellusa"],
+    "moves": [
+      "Spray",
+      "Dawdle",
+      "Shine",
+      "Disperse",
+      "Luster Loot",
+      "Water Bomb",
+      "Soft Water",
+      "Energy Surge",
+      "Maroon",
+      "Magnify",
+      "Provoke",
+      "Gamma Pulse",
+      "Deep Freeze",
+      "Deja Vu",
+      "Resonate",
+      "Tease",
+      "Dodge",
+      "Flash 'n Flee",
+      "Frost Beam",
+      "Gamma Pulse",
+      "Maroon",
+      "Tsunami"
+    ]
+  },
+  {
+    "id": 177,
+    "name": "Laphyra",
+    "types": ["Water", "Light"],
+    "abilities": ["Temper", "Enchanted Coat"],
+    "sAbility": ["Incandescent"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/7/71/Laphyra-menu.png/revision/latest?cb=20231103010738",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/7/73/Laphyra-model.png/revision/latest?cb=20231110231415",
+    "stats": {
+      "hp": 75,
+      "energy": 88,
+      "meleeAttack": 15,
+      "meleeDefense": 44,
+      "rangedAttack": 72,
+      "rangedDefense": 85,
+      "speed": 71
+    },
+    "weight": 12,
+    "line": ["Polypi", "Laphyra", "Jellusa"],
+    "moves": [
+      "Spray",
+      "Dawdle",
+      "Shine",
+      "Disperse",
+      "Luster Loot",
+      "Water Bomb",
+      "Soft Water",
+      "Energy Surge",
+      "Maroon",
+      "Magnify",
+      "Peace of Mind",
+      "Provoke",
+      "Gamma Pulse",
+      "Deep Freeze",
+      "Deja Vu",
+      "Resonate",
+      "Tease",
+      "Dodge",
+      "Flash 'n Flee",
+      "Frost Beam",
+      "Gamma Pulse",
+      "Maroon",
+      "Tsunami"
+    ]
+  },
+  {
+    "id": 178,
+    "name": "Jellusa",
+    "types": ["Water", "Light"],
+    "abilities": ["Temper", "Enchanted Coat"],
+    "sAbility": ["Incandescent"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/b/b7/Jellusa-menu.png/revision/latest?cb=20220521014835",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/5/59/Jellusa-model.png/revision/latest?cb=20231110231951",
+    "stats": {
+      "hp": 100,
+      "energy": 99,
+      "meleeAttack": 18,
+      "meleeDefense": 66,
+      "rangedAttack": 95,
+      "rangedDefense": 110,
+      "speed": 92
+    },
+    "weight": 66,
+    "line": ["Polypi", "Laphyra", "Jellusa"],
+    "moves": [
+      "Spray",
+      "Dawdle",
+      "Shine",
+      "Disperse",
+      "Luster Loot",
+      "Water Bomb",
+      "Soft Water",
+      "Energy Surge",
+      "Maroon",
+      "Magnify",
+      "Peace of Mind",
+      "Enamor",
+      "Provoke",
+      "Gamma Pulse",
+      "Deep Freeze",
+      "Deja Vu",
+      "Resonate",
+      "Tease",
+      "Dodge",
+      "Flash 'n Flee",
+      "Frost Beam",
+      "Gamma Pulse",
+      "Maroon",
+      "Tsunami"
     ]
   },
   {
@@ -7697,6 +7974,92 @@
     "weight": 1,
     "line": ["Boonary"],
     "moves": ["Emulate", "Startle", "Stupefy"]
+  },
+  {
+    "id": 184,
+    "name": "Somata",
+    "types": ["Water", "Mind"],
+    "abilities": ["Repugnant", "Guardian"],
+    "sAbility": ["Adorable"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/6/61/Somata-menu.png/revision/latest?cb=20220521014908",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/9/90/Somata-model.png/revision/latest?cb=20231104223536",
+    "stats": {
+      "hp": 65,
+      "energy": 70,
+      "meleeAttack": 8,
+      "meleeDefense": 44,
+      "rangedAttack": 57,
+      "rangedDefense": 93,
+      "speed": 22
+    },
+    "weight": 9,
+    "line": ["Somata", "Clionae"],
+    "moves": [
+      "Spray",
+      "Brainwash",
+      "Dawdle",
+      "Mind's Eye",
+      "Spare",
+      "Water Bomb",
+      "Bait",
+      "Flabbergast",
+      "Peace of Mind",
+      "Dissipate",
+      "Maroon",
+      "Rant",
+      "Deja Vu",
+      "Stratagem",
+      "Energy Gift",
+      "Gust",
+      "Health Gift",
+      "Dodge",
+      "Rejuvenate",
+      "Tsunami"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "Clionae",
+    "types": ["Water", "Mind"],
+    "abilities": ["Repugnant", "Guardian"],
+    "sAbility": ["Adorable"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/7/7b/Clionae-menu.png/revision/latest?cb=20220521014823",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/0/02/Clionae-model.png/revision/latest?cb=20231104223425",
+    "stats": {
+      "hp": 97,
+      "energy": 91,
+      "meleeAttack": 14,
+      "meleeDefense": 66,
+      "rangedAttack": 95,
+      "rangedDefense": 127,
+      "speed": 70
+    },
+    "weight": 73,
+    "line": ["Somata", "Clionae"],
+    "moves": [
+      "Spray",
+      "Brainwash",
+      "Dawdle",
+      "Mind's Eye",
+      "Spare",
+      "Water Bomb",
+      "Bait",
+      "Flabbergast",
+      "Peace of Mind",
+      "Far Enchantment",
+      "Near Enchantment",
+      "Dissipate",
+      "Maroon",
+      "Rant",
+      "Deja Vu",
+      "Stratagem",
+      "Energy Gift",
+      "Gust",
+      "Health Gift",
+      "Dodge",
+      "Rejuvenate",
+      "Tsunami"
+    ]
   },
   {
     "id": 186,
@@ -9408,23 +9771,23 @@
     "weight": 8,
     "line": ["Crabushi", "Crabtana"],
     "moves": [
-     "Metal Swipes",
-     "Strike",
-     "Chop",
-     "Swipe",
-     "Sharpen",
-     "Hydro Slash",
-     "Heavy Bash",
-     "Slash",
-     "Barbs",
-     "Bulk Up",
-     "Steel Crusher",
-     "Drudge",
-     "Rogue Assault",
-     "Tribute",
-     "Wave Wrecker",
-     "Dodge",
-     "Plunge"
+      "Metal Swipes",
+      "Strike",
+      "Chop",
+      "Swipe",
+      "Sharpen",
+      "Hydro Slash",
+      "Heavy Bash",
+      "Slash",
+      "Barbs",
+      "Bulk Up",
+      "Steel Crusher",
+      "Drudge",
+      "Rogue Assault",
+      "Tribute",
+      "Wave Wrecker",
+      "Dodge",
+      "Plunge"
     ]
   },
   {
@@ -9447,25 +9810,25 @@
     "weight": 43,
     "line": ["Crabushi", "Crabtana"],
     "moves": [
-     "Metal Swipes",
-     "Strike",
-     "Chop",
-     "Swipe",
-     "Sharpen",
-     "Hydro Slash",
-     "Rogue Assault",
-     "Heavy Bash",
-     "Slash",
-     "Barbs",
-     "Bulk Up",
-     "Steel Crusher",
-     "Drudge",
-     "Rogue Assault",
-     "Tribute",
-     "Wave Wrecker",
-     "Dodge",
-     "Plunge",
-     "Razor Slash"
+      "Metal Swipes",
+      "Strike",
+      "Chop",
+      "Swipe",
+      "Sharpen",
+      "Hydro Slash",
+      "Rogue Assault",
+      "Heavy Bash",
+      "Slash",
+      "Barbs",
+      "Bulk Up",
+      "Steel Crusher",
+      "Drudge",
+      "Rogue Assault",
+      "Tribute",
+      "Wave Wrecker",
+      "Dodge",
+      "Plunge",
+      "Razor Slash"
     ]
   },
   {
@@ -9575,19 +9938,19 @@
     "weight": 3,
     "line": ["Skampi", "Prawnsu", "Shrimposte"],
     "moves": [
-     "Brace",
-     "Pounce",
-     "Spray",
-     "Stare",
-     "Quick Pounce",
-     "Stretch",
-     "Spare",
-     "Eerie Stare",
-     "Accelerate",
-     "Tamp",
-     "Recycle",
-     "Tribute",
-     "Dodge"
+      "Brace",
+      "Pounce",
+      "Spray",
+      "Stare",
+      "Quick Pounce",
+      "Stretch",
+      "Spare",
+      "Eerie Stare",
+      "Accelerate",
+      "Tamp",
+      "Recycle",
+      "Tribute",
+      "Dodge"
     ]
   },
   {
@@ -9610,26 +9973,26 @@
     "weight": 21,
     "line": ["Skampi", "Prawnsu", "Shrimposte"],
     "moves": [
-     "Brace",
-     "Pounce",
-     "Spray",
-     "Stare",
-     "Quick Pounce",
-     "Stretch",
-     "Spare",
-     "Eerie Stare",
-     "Accelerate",
-     "Tamp",
-     "Recycle",
-     "Tribute",
-     "Dodge",
-     "Shell Shrapnel",
-     "Pheroblast",
-     "Boom Bash",
-     "Maroon",
-     "Peace of Mind",
-     "Plunge",
-     "Tsunami"
+      "Brace",
+      "Pounce",
+      "Spray",
+      "Stare",
+      "Quick Pounce",
+      "Stretch",
+      "Spare",
+      "Eerie Stare",
+      "Accelerate",
+      "Tamp",
+      "Recycle",
+      "Tribute",
+      "Dodge",
+      "Shell Shrapnel",
+      "Pheroblast",
+      "Boom Bash",
+      "Maroon",
+      "Peace of Mind",
+      "Plunge",
+      "Tsunami"
     ]
   },
   {
@@ -9652,27 +10015,27 @@
     "weight": 28,
     "line": ["Skampi", "Prawnsu", "Shrimposte"],
     "moves": [
-     "Brace",
-     "Pounce",
-     "Spray",
-     "Stare",
-     "Quick Pounce",
-     "Stretch",
-     "Spare",
-     "Eerie Stare",
-     "Accelerate",
-     "Tamp",
-     "Recycle",
-     "Tribute",
-     "Dodge",
-     "Shell Bash",
-     "Parasitize",
-     "Hydro Slash",
-     "Mega Punch",
-     "Bulk Up",
-     "Maroon",
-     "Plunge",
-     "Tsunami"
+      "Brace",
+      "Pounce",
+      "Spray",
+      "Stare",
+      "Quick Pounce",
+      "Stretch",
+      "Spare",
+      "Eerie Stare",
+      "Accelerate",
+      "Tamp",
+      "Recycle",
+      "Tribute",
+      "Dodge",
+      "Shell Bash",
+      "Parasitize",
+      "Hydro Slash",
+      "Mega Punch",
+      "Bulk Up",
+      "Maroon",
+      "Plunge",
+      "Tsunami"
     ]
   },
   {
@@ -9695,27 +10058,27 @@
     "weight": 28,
     "line": ["Dokan", "Dokumori"],
     "moves": [
-     "Stare",
-     "Sting",
-     "Burrow",
-     "Toxic Tail",
-     "Clay Slap",
-     "Headbutt",
-     "Baffle",
-     "Aqua Jaws",
-     "Quicksand",
-     "Venom Chomp",
-     "Tamp",
-     "Earthquake",
-     "Baneful Bash",
-     "Landslide",
-     "Muck Blast",
-     "Bulk Up",
-     "Dodge",
-     "Ill Will",
-     "Maroon",
-     "Mud Spatter",
-     "Plunge"
+      "Stare",
+      "Sting",
+      "Burrow",
+      "Toxic Tail",
+      "Clay Slap",
+      "Headbutt",
+      "Baffle",
+      "Aqua Jaws",
+      "Quicksand",
+      "Venom Chomp",
+      "Tamp",
+      "Earthquake",
+      "Baneful Bash",
+      "Landslide",
+      "Muck Blast",
+      "Bulk Up",
+      "Dodge",
+      "Ill Will",
+      "Maroon",
+      "Mud Spatter",
+      "Plunge"
     ]
   },
   {
@@ -9738,28 +10101,472 @@
     "weight": 65,
     "line": ["Dokan", "Dokumori"],
     "moves": [
-     "Stare",
-     "Sting",
-     "Burrow",
-     "Toxic Tail",
-     "Clay Slap",
-     "Headbutt",
-     "Baffle",
-     "Aqua Jaws",
-     "Quicksand",
-     "Venom Chomp",
-     "Tamp",
-     "Earthquake",
-     "Baneful Bash",
-     "Landslide",
-     "Muck Blast",
-     "Bulk Up",
-     "Dodge",
-     "Ill Will",
-     "Maroon",
-     "Mud Spatter",
-     "Plunge",
-     "Icicle Trap"
+      "Stare",
+      "Sting",
+      "Burrow",
+      "Toxic Tail",
+      "Clay Slap",
+      "Headbutt",
+      "Baffle",
+      "Aqua Jaws",
+      "Quicksand",
+      "Venom Chomp",
+      "Tamp",
+      "Earthquake",
+      "Baneful Bash",
+      "Landslide",
+      "Muck Blast",
+      "Bulk Up",
+      "Dodge",
+      "Ill Will",
+      "Maroon",
+      "Mud Spatter",
+      "Plunge",
+      "Icicle Trap"
+    ]
+  },
+  {
+    "id": 231,
+    "name": "Mirrami",
+    "types": ["Spirit", "Metal"],
+    "abilities": ["Reflective", "Mimic"],
+    "sAbility": ["Analyze"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/e/e4/Mirrami-menu.png/revision/latest?cb=20231122214705",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/7/79/Mirrami-model.png/revision/latest?cb=20231122233726",
+    "stats": {
+      "hp": 10,
+      "energy": 56,
+      "meleeAttack": 85,
+      "meleeDefense": 31,
+      "rangedAttack": 85,
+      "rangedDefense": 56,
+      "speed": 24
+    },
+    "weight": 3,
+    "line": ["Mirrami", "Mirraith"],
+    "moves": [
+      "Metal Swipes",
+      "Stupefy",
+      "Power Focus",
+      "Bamboozle",
+      "Reflection Burst",
+      "Phantom Slash",
+      "Dark Surge",
+      "Chase Down",
+      "Double Whack",
+      "Spectral Burst",
+      "Final Ruse",
+      "Metal Shriek",
+      "Metal Blast",
+      "Soul Storm",
+      "Baffle",
+      "Bag of Tricks",
+      "Deja Vu",
+      "Far Enchantment",
+      "Near Enchantment",
+      "Shadow Sprint",
+      "Square One",
+      "Steel Crusher",
+      "Tricky Tactics",
+      "Bulk Up",
+      "Dodge",
+      "Fade Away",
+      "Ill Will",
+      "Peace of Mind",
+      "Bu"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Mirraith",
+    "types": ["Spirit", "Metal"],
+    "abilities": ["Reflective", "Mimic"],
+    "sAbility": ["Analyze"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/9/9a/Mirraith-menu.png/revision/latest?cb=20231122232529",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/2/20/Mirraith-model.png/revision/latest?cb=20231122233746",
+    "stats": {
+      "hp": 50,
+      "energy": 84,
+      "meleeAttack": 125,
+      "meleeDefense": 62,
+      "rangedAttack": 125,
+      "rangedDefense": 105,
+      "speed": 44
+    },
+    "weight": 54,
+    "line": ["Mirrami", "Mirraith"],
+    "moves": [
+      "Metal Swipes",
+      "Stupefy",
+      "Power Focus",
+      "Bamboozle",
+      "Reflection Burst",
+      "Phantom Slash",
+      "Dark Surge",
+      "Chase Down",
+      "Double Whack",
+      "Spectral Burst",
+      "Final Ruse",
+      "Shatter",
+      "Metal Shriek",
+      "Metal Blast",
+      "Soul Storm",
+      "Baffle",
+      "Bag of Tricks",
+      "Deja Vu",
+      "Far Enchantment",
+      "Near Enchantment",
+      "Shadow Sprint",
+      "Square One",
+      "Steel Crusher",
+      "Tricky Tactics",
+      "Bulk Up",
+      "Dodge",
+      "Fade Away",
+      "Ill Will",
+      "Peace of Mind",
+      "Bu"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Thawmin",
+    "types": ["Ice", "Mind"],
+    "abilities": ["Communication", "Expertise"],
+    "sAbility": ["Foresight"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/4/42/Thawmin-menu.png/revision/latest?cb=20231122213035",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/0/09/Thawmin-model.png/revision/latest?cb=20231123025605",
+    "stats": {
+      "hp": 77,
+      "energy": 85,
+      "meleeAttack": 23,
+      "meleeDefense": 53,
+      "rangedAttack": 108,
+      "rangedDefense": 87,
+      "speed": 99
+    },
+    "weight": 74,
+    "line": ["Halloween Kabunga", "Waka-Laka", "Thawmin"],
+    "moves": [
+      "Strike",
+      "Brace",
+      "Petal Pummel",
+      "Brainwash",
+      "Pine Shot",
+      "Bane of Haste",
+      "Life Drain",
+      "Flabbergast",
+      "Frost Beam",
+      "Sleet Shot",
+      "Bane of Haste",
+      "Deep Freeze",
+      "Icicle Trap",
+      "Ice Hammer",
+      "Photosynthesis",
+      "Nature's Force",
+      "Peace of Mind",
+      "Bag of Tricks",
+      "Gamma Pulse",
+      "Luster Loot",
+      "Muck Blast",
+      "Provoke",
+      "Psycho Blast",
+      "Scapegoat",
+      "Tear Down",
+      "Toxic Spores",
+      "Barter",
+      "Dodge",
+      "Fade Away",
+      "Ill Will",
+      "Rejuvenate",
+      "Thunderstrike"
+    ]
+  },
+  {
+    "id": 234,
+    "name": "Leshent",
+    "types": ["Plant", "Dark"],
+    "abilities": ["Gloomy", "Watcher"],
+    "sAbility": ["Ambush"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/4/45/Leshent-menu.png/revision/latest?cb=20231122214457",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/d/d3/Leshent-model.png/revision/latest?cb=20231123025617",
+    "stats": {
+      "hp": 96,
+      "energy": 82,
+      "meleeAttack": 103,
+      "meleeDefense": 88,
+      "rangedAttack": 25,
+      "rangedDefense": 74,
+      "speed": 64
+    },
+    "weight": 233,
+    "line": ["Holiday Craytal", "Festifir", "Leshent"],
+    "moves": [
+      "Flurry",
+      "Brace",
+      "Spare",
+      "Leaf Barrage",
+      "Snowdozer",
+      "Sap Plant",
+      "Icicle Trap",
+      "Bush Whack",
+      "Briar Block",
+      "Ice Hammer",
+      "Thistle Slash",
+      "Gnarly Gash",
+      "Bamboozle",
+      "Provoke",
+      "Slap Down",
+      "Brawn Boost",
+      "Earthquake",
+      "Raging Tackle",
+      "Timber Thrash",
+      "Petal Pummel",
+      "Tricky Tactics",
+      "Snowdozer",
+      "Icicle Trap",
+      "Ice Hammer",
+      "Petal Pummel",
+      "Chomp",
+      "Bait",
+      "Dodge",
+      "Fade Away",
+      "Frost Beam",
+      "Hypnotize",
+      "Ill Will",
+      "Rejuvenate"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Kayute",
+    "types": ["Ice", "Dark"],
+    "abilities": ["Ravenous", "Playful"],
+    "sAbility": ["Designated Chompers"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/9/90/Kayute-menu.png/revision/latest?cb=20231230225934",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/a/a9/Kayute-model.png/revision/latest?cb=20231231050509",
+    "stats": {
+      "hp": 40,
+      "energy": 61,
+      "meleeAttack": 58,
+      "meleeDefense": 54,
+      "rangedAttack": 29,
+      "rangedDefense": 49,
+      "speed": 69
+    },
+    "weight": 66,
+    "line": ["Kayute", "Kayappa", "Kramboss"],
+    "moves": [
+      "Flurry",
+      "Gnaw",
+      "Chomp",
+      "Stretch",
+      "Sleet Shot",
+      "Wonder Herb",
+      "Bamboozle",
+      "Square One",
+      "Chilly Chomp",
+      "Metal Shriek",
+      "Slap Down",
+      "Frost Beam",
+      "Mega Chomp",
+      "Vice Jaws",
+      "Baffle",
+      "Barbs",
+      "Body Slam",
+      "Gnarly Gash",
+      "Ice Hammer",
+      "Primal Slash",
+      "Bulk Up",
+      "Dark Surge",
+      "Dodge",
+      "Frost Beam"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Kayappa",
+    "types": ["Ice", "Dark"],
+    "abilities": ["Ravenous", "Playful"],
+    "sAbility": ["Designated Chompers"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/0/0c/Kayappa-menu.png/revision/latest?cb=20231230235409",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/a/a3/Kayappa-model.png/revision/latest?cb=20231231050519",
+    "stats": {
+      "hp": 52,
+      "energy": 78,
+      "meleeAttack": 79,
+      "meleeDefense": 75,
+      "rangedAttack": 39,
+      "rangedDefense": 70,
+      "speed": 81
+    },
+    "weight": 188,
+    "line": ["Kayute", "Kayappa", "Kramboss"],
+    "moves": [
+      "Flurry",
+      "Gnaw",
+      "Chomp",
+      "Stretch",
+      "Sleet Shot",
+      "Wonder Herb",
+      "Bamboozle",
+      "Square One",
+      "Icicle Trap",
+      "Chilly Chomp",
+      "Metal Shriek",
+      "Slap Down",
+      "Frost Beam",
+      "Mega Chomp",
+      "Vice Jaws",
+      "Baffle",
+      "Barbs",
+      "Body Slam",
+      "Gnarly Gash",
+      "Ice Hammer",
+      "Primal Slash",
+      "Bulk Up",
+      "Dark Surge",
+      "Dodge",
+      "Frost Beam"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "Kramboss",
+    "types": ["Ice", "Dark"],
+    "abilities": ["Ravenous", "Battle Armor"],
+    "sAbility": ["Designated Chompers"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/f/f6/Kramboss-menu.png/revision/latest?cb=20231230235414",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/0/05/Kramboss-model.png/revision/latest?cb=20231231050530",
+    "stats": {
+      "hp": 79,
+      "energy": 98,
+      "meleeAttack": 110,
+      "meleeDefense": 91,
+      "rangedAttack": 51,
+      "rangedDefense": 86,
+      "speed": 95
+    },
+    "weight": 286,
+    "line": ["Kayute", "Kayappa", "Kramboss"],
+    "moves": [
+      "Flurry",
+      "Gnaw",
+      "Chomp",
+      "Stretch",
+      "Sleet Shot",
+      "Wonder Herb",
+      "Bamboozle",
+      "Square One",
+      "Icicle Trap",
+      "Chilly Chomp",
+      "Metal Shriek",
+      "Slap Down",
+      "Battle Chime",
+      "Frost Beam",
+      "Mega Chomp",
+      "Vice Jaws",
+      "Baffle",
+      "Barbs",
+      "Body Slam",
+      "Gnarly Gash",
+      "Ice Hammer",
+      "Primal Slash",
+      "Bulk Up",
+      "Dark Surge",
+      "Dodge",
+      "Frost Beam"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "Leopaw",
+    "types": ["Light", "Ice"],
+    "abilities": ["Sharp Claws", "Mesmerizing"],
+    "sAbility": ["Prismatic"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/a/a3/Leopaw-menu.png/revision/latest?cb=20231230224252",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/b/b4/Leopaw-model.png/revision/latest?cb=20231231050607",
+    "stats": {
+      "hp": 56,
+      "energy": 78,
+      "meleeAttack": 54,
+      "meleeDefense": 48,
+      "rangedAttack": 28,
+      "rangedDefense": 39,
+      "speed": 21
+    },
+    "weight": 11,
+    "line": ["Leopaw", "Chienta"],
+    "moves": [
+      "Light Dash",
+      "Pounce",
+      "Snowdozer",
+      "Flash",
+      "Quick Pounce",
+      "Swat",
+      "Energy Surge",
+      "Frost Punch",
+      "Slash",
+      "Blindspot Batter",
+      "Icicle Trap",
+      "Radiant Rush",
+      "Body Slam",
+      "Brawn Boost",
+      "Dazzling Barrage",
+      "Ice Hammer",
+      "Primal Slash",
+      "Bulk Up",
+      "Dodge",
+      "Flash 'n Flee",
+      "Frost Beam",
+      "Gamma Pulse"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "Chienta",
+    "types": ["Light", "Ice"],
+    "abilities": ["Sharp Claws", "Mesmerizing"],
+    "sAbility": ["Prismatic"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/1/1d/Chienta-menu.png/revision/latest?cb=20231230224257",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/c/ce/Chienta-model.png/revision/latest?cb=20231231050628",
+    "stats": {
+      "hp": 98,
+      "energy": 97,
+      "meleeAttack": 95,
+      "meleeDefense": 73,
+      "rangedAttack": 38,
+      "rangedDefense": 57,
+      "speed": 115
+    },
+    "weight": 196,
+    "line": ["Leopaw", "Chienta"],
+    "moves": [
+      "Light Dash",
+      "Pounce",
+      "Snowdozer",
+      "Flash",
+      "Quick Pounce",
+      "Swat",
+      "Energy Surge",
+      "Frost Punch",
+      "Slash",
+      "Blindspot Batter",
+      "Solar Punch",
+      "Icicle Trap",
+      "Mega Punch",
+      "Radiant Rush",
+      "Body Slam",
+      "Brawn Boost",
+      "Dazzling Barrage",
+      "Ice Hammer",
+      "Primal Slash",
+      "Bulk Up",
+      "Dodge",
+      "Flash 'n Flee",
+      "Frost Beam",
+      "Gamma Pulse",
+      "Ill Will"
     ]
   },
   {
@@ -9803,7 +10610,8 @@
       "Shadow Sprint",
       "Spare",
       "Dodge",
-      "Hypnotize"
+      "Hypnotize",
+      "Harrow"
     ]
   },
   {
@@ -10224,28 +11032,28 @@
     "weight": 521,
     "line": ["Glacadia"],
     "moves": [
-     "Deep Freeze",
-     "Slash",
-     "Icicle Trap",
-     "Shrewd Blast",
-     "Frost Beam",
-     "Slumber",
-     "Chilly Chomp",
-     "Draco Beam",
-     "Far Enchantment",
-     "High-Pitch Screech",
-     "Ice Hammer",
-     "Outburst",
-     "Primal Slash",
-     "Raging Howl",
-     "Raging Tackle",
-     "Flurry",
-     "Confound",
-     "Gnaw",
-     "Disperse",
-     "Dodge",
-     "Ill Will",
-     "Peace of Mind"
+      "Deep Freeze",
+      "Slash",
+      "Icicle Trap",
+      "Shrewd Blast",
+      "Frost Beam",
+      "Slumber",
+      "Chilly Chomp",
+      "Draco Beam",
+      "Far Enchantment",
+      "High-Pitch Screech",
+      "Ice Hammer",
+      "Outburst",
+      "Primal Slash",
+      "Raging Howl",
+      "Raging Tackle",
+      "Flurry",
+      "Confound",
+      "Gnaw",
+      "Disperse",
+      "Dodge",
+      "Ill Will",
+      "Peace of Mind"
     ]
   },
   {
@@ -10268,35 +11076,35 @@
     "weight": 946,
     "line": ["Novadeaus"],
     "moves": [
-    "Blaze Chomp",
-    "Deep Freeze",
-    "Slash",
-    "Burn Up",
-    "Icicle Trap",
-    "Primal Slash",
-    "Shrewd Blast",
-    "Flaming Kick",
-    "Frost Beam",
-    "Slumber",
-    "Chilly Chomp",
-    "Draco Beam",
-    "Far Enchantment",
-    "High-Pitch Screech",
-    "Ice Hammer",
-    "Near Enchantment",
-    "Outburst",
-    "Primal Slash",
-    "Pyrokinesis",
-    "Raging Howl",
-    "Raging Tackle",
-    "Shrewd Blast",
-    "Singe",
-    "Flurry",
-    "Dino Claws",
-    "Confound",
-    "Gnaw",
-    "Sharpen",
-    "Disperse"
+      "Blaze Chomp",
+      "Deep Freeze",
+      "Slash",
+      "Burn Up",
+      "Icicle Trap",
+      "Primal Slash",
+      "Shrewd Blast",
+      "Flaming Kick",
+      "Frost Beam",
+      "Slumber",
+      "Chilly Chomp",
+      "Draco Beam",
+      "Far Enchantment",
+      "High-Pitch Screech",
+      "Ice Hammer",
+      "Near Enchantment",
+      "Outburst",
+      "Primal Slash",
+      "Pyrokinesis",
+      "Raging Howl",
+      "Raging Tackle",
+      "Shrewd Blast",
+      "Singe",
+      "Flurry",
+      "Dino Claws",
+      "Confound",
+      "Gnaw",
+      "Sharpen",
+      "Disperse"
     ]
   },
   {
@@ -10920,6 +11728,116 @@
       "Dodge",
       "Flash 'n Flee",
       "Peace of Mind"
+    ]
+  },
+  {
+    "id": 266,
+    "name": "Odoyoaga",
+    "types": ["Mind", "Air"],
+    "abilities": ["Hag"],
+    "sAbility": ["Frenzy"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/c/cb/Odoyaga-menu.png/revision/latest?cb=20231122214549",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/4/47/Odoyaga-model.png/revision/latest?cb=20231124182930",
+    "stats": {
+      "hp": 83,
+      "energy": 90,
+      "meleeAttack": 93,
+      "meleeDefense": 109,
+      "rangedAttack": 131,
+      "rangedDefense": 73,
+      "speed": 71
+    },
+    "weight": 422,
+    "line": ["Odoyoaga"],
+    "moves": [
+      "Flabbergast",
+      "Scapegoat",
+      "Phantom Slash",
+      "Peace of Mind",
+      "Shrewd Blast",
+      "Air Blade",
+      "Splitting Headache",
+      "Blaze Punch",
+      "Cerebral Slash",
+      "Electro Punch",
+      "Frost Beam",
+      "Gnarly Gash",
+      "High-Pitch Screech",
+      "Jet Stream",
+      "Nosedive",
+      "Outburst",
+      "Primal Slash",
+      "Provoke",
+      "Psycho Blast",
+      "Summon",
+      "Tear Down",
+      "Gust",
+      "Brainwash",
+      "Mind's Eye",
+      "Cyclone Slam",
+      "Bulk Up",
+      "Dark Surge",
+      "Dodge",
+      "Fire Breath",
+      "Ill Will",
+      "Spectral Burst",
+      "Thunderstrike"
+    ]
+  },
+  {
+    "id": 266,
+    "name": "Mimask",
+    "types": ["Dark"],
+    "abilities": ["Mask Swap"],
+    "sAbility": ["Facade"],
+    "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/f/f7/Mimask-menu.png/revision/latest?cb=20231230224302",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/5/58/Mimask-model.png/revision/latest?cb=20231231080712",
+    "stats": {
+      "hp": 90,
+      "energy": 113,
+      "meleeAttack": 117,
+      "meleeDefense": 55,
+      "rangedAttack": 107,
+      "rangedDefense": 55,
+      "speed": 113
+    },
+    "weight": 76,
+    "line": ["Mimask"],
+    "moves": [
+      "Slash",
+      "Sharpen",
+      "Pilfer",
+      "Phantom Slash",
+      "Body Slam",
+      "Slap Down",
+      "Harrow",
+      "Bag of Tricks",
+      "Baneful Bash",
+      "Barbs",
+      "Chase Down",
+      "Gnarly Gash",
+      "Muck Blast",
+      "Poison Barbs",
+      "Power Focus",
+      "Primal Slash",
+      "Shadow Sprint",
+      "Shrewd Blast",
+      "Soul Storm",
+      "Tear Down",
+      "Tricky Tactics",
+      "Quick Pounce",
+      "Chomp",
+      "Provoke",
+      "Bamboozle",
+      "Barter",
+      "Bulk Up",
+      "Dark Surge",
+      "Dodge",
+      "Fade Away",
+      "Ill Will",
+      "Mud Spatter",
+      "Peace of Mind",
+      "Spectral Burst"
     ]
   }
 ]
