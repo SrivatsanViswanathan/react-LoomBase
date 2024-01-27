@@ -2281,7 +2281,7 @@
   },
   {
     "name": "Tamp",
-    "strength": 60,
+    "strength": 0,
     "type": "Earth",
     "category": "Support",
     "energyCost": 25,
