@@ -2953,8 +2953,7 @@
       "Mud Spatter",
       "Fire Slam",
       "Lava Slash",
-      "Hellstorm",
-      "Eruption"
+      "Hellstorm"
     ],
     "soulBurst": true
   },
@@ -3124,7 +3123,8 @@
       "Magma Burst",
       "Scapegoat",
       "Magma Block",
-      "Eerie Stare"
+      "Eerie Stare",
+      "Eruption"
     ],
     "soulBurst": true
   },
