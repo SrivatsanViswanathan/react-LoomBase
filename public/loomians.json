@@ -10752,7 +10752,7 @@
     "abilities": ["Brute Force"],
     "sAbility": ["Hydrate"],
     "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/1/13/Dakuda-menu.png/revision/latest?cb=20231105042235",
-    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/9/9e/Dakuda-Model-.png/revision/latest?cb=20231107144730",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/4/47/Dakuda-model.png/revision/latest?cb=20231126062434",
     "stats": {
       "hp": 94,
       "energy": 99,
@@ -10796,7 +10796,7 @@
     "abilities": ["Railgun"],
     "sAbility": [],
     "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/c/c3/Dakuda-Overcharged-menu.png/revision/latest?cb=20231105000201",
-    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/9/9e/Dakuda-Model-.png/revision/latest?cb=20231107144730",
+    "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/9/95/Dakuda-Overcharged-model.png/revision/latest?cb=20231120003304",
     "stats": {
       "hp": 114,
       "energy": 99,
