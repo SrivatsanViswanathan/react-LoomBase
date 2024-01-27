@@ -444,6 +444,10 @@
     "description": "You have entered an arrangement with your allies. If you have the Energy to cover the cost of their moves, your Energy will be used instead of theirs."
   },
   {
+    "name": "Party Trick",
+    "description": "Cast Bane of Haste upon entering the battle."
+  },
+  {
     "name": "Pincer Trap",
     "description": "Attacks that involve biting will trap the target in the battle until the end of the next turn."
   },
