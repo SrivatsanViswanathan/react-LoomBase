@@ -168,6 +168,10 @@
     "description": "Upon entering battle, harshly reduce your Speed to boost your Melee Defense and Ranged Defense."
   },
   {
+    "name": "Demanding",
+    "description": "Take 25% of all damage you deal with attacks to restore your Health."
+  },
+  {
     "name": "Designated Chompers",
     "description": "Your biting attacks do not make contact with the target."
   },
