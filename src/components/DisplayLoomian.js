@@ -1,13 +1,13 @@
-import { styled } from "styled-components";
-import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import LoomianSet from "./LoomianSet";
-import { useDispatch } from "react-redux";
-import { useState, useEffect } from "react";
-import Title from "./Title";
-import MovesList from "./MovesList";
-import MovesFilter from "./MovesFilter";
-import MovesSort from "./MovesSort";
+import { styled } from 'styled-components';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import LoomianSet from './LoomianSet';
+import { useDispatch } from 'react-redux';
+import { useState, useEffect } from 'react';
+import Title from './Title';
+import MovesList from './MovesList';
+import MovesFilter from './MovesFilter';
+import MovesSort from './MovesSort';
 import {
   setMoves,
   setMovesFilter,
@@ -15,8 +15,8 @@ import {
   setFilterCategories,
   setFilterTypes,
   setFilterTypeCategories,
-} from "../features/globalSlice";
-import Search from "./Search";
+} from '../features/globalSlice';
+import Search from './Search';
 
 const DisplayLoomian = ({ data }) => {
   const {
@@ -30,12 +30,14 @@ const DisplayLoomian = ({ data }) => {
     sets,
     types: all_types,
   } = useSelector((state) => state.global);
+  console.log(data);
   const [index, setIndex] = useState(0);
   const [check, setChecked] = useState(false);
   const dispatch = useDispatch();
 
   useEffect(() => {
     window.scrollTo(0, 0);
+
     if (data.length > 1) {
       if (!check) {
         setIndex(0);
@@ -56,16 +58,10 @@ const DisplayLoomian = ({ data }) => {
     sAbility,
     moves,
     soulBurst,
-    sName
+    sName,
   } = data[index];
 
   let oldName = name;
-
-  if (soulBurst) {
-    const string = "Soulburst ";
-    name = name.replace(string, "");
-    oldName = sName;
-  }
 
   const findIndexofLoom = sets.findIndex(
     (item) => item.name.toLowerCase() === name.toLowerCase()
@@ -84,7 +80,13 @@ const DisplayLoomian = ({ data }) => {
     type2Hash = cachedTypes[type2.toLowerCase()];
   }
 
-  let allMoves = [];
+  //let allMoves = [];
+
+  if (soulBurst) {
+    const string = 'Soulburst ';
+    name = name.replace(string, '');
+    oldName = sName;
+  }
 
   useEffect(() => {
     const filterTypes = filterTypesBackup;
@@ -120,21 +122,23 @@ const DisplayLoomian = ({ data }) => {
 
     dispatch(
       setMovesFilter({
-        category: "all",
-        type: "all",
+        category: 'all',
+        type: 'all',
       })
     );
     dispatch(
       setMovesSort({
-        select: "name-a",
+        select: 'name-a',
       })
     );
+
+    console.log(allMoves);
     dispatch(setMoves(allMoves));
     dispatch(setFilterTypes(filteredTypesToMoves));
     dispatch(setFilterCategories(filteredCategoryToMoves));
     dispatch(setFilterTypeCategories(filteredTypeCategoryToMoves));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [id, dispatch]);
+  }, [id, index, dispatch]);
 
   // const fetchData = async () => {
   //   try {
@@ -171,7 +175,7 @@ const DisplayLoomian = ({ data }) => {
     if (hasMatch) {
       return result;
     } else {
-      return "---";
+      return '---';
     }
   };
 
@@ -196,7 +200,7 @@ const DisplayLoomian = ({ data }) => {
     if (hasMatch) {
       return result;
     } else {
-      return "---";
+      return '---';
     }
   };
 
@@ -225,13 +229,13 @@ const DisplayLoomian = ({ data }) => {
       return combinedArray.map((item, index) => (
         <div key={item}>
           <p className={item}>
-            {" "}
+            {' '}
             <Link to={`/types/${item.toLowerCase()}`}>{item}</Link>
           </p>
         </div>
       ));
     } else {
-      return "";
+      return '';
     }
   };
 
@@ -260,13 +264,13 @@ const DisplayLoomian = ({ data }) => {
       return combinedArray.map((item, index) => (
         <div key={item}>
           <p className={item}>
-            {" "}
+            {' '}
             <Link to={`/types/${item.toLowerCase()}`}>{item}</Link>
           </p>
         </div>
       ));
     } else {
-      return "";
+      return '';
     }
   };
 
@@ -285,7 +289,7 @@ const DisplayLoomian = ({ data }) => {
     type1Hash.weakTo.forEach((item1) => {
       if (
         !type2Hash.resists.includes(item1) &&
-        !type2Hash.weakTo.includes(item1) 
+        !type2Hash.weakTo.includes(item1)
       ) {
         combinedArray = combinedArray.filter((item) => item !== item1);
       }
@@ -316,19 +320,14 @@ const DisplayLoomian = ({ data }) => {
       }
     });
 
-
     type1Hash.immuneTo.forEach((item3) => {
-      if (
-        combinedArray.includes(item3)
-      ) {
+      if (combinedArray.includes(item3)) {
         combinedArray = combinedArray.filter((item) => item !== item3);
       }
     });
 
     type2Hash.immuneTo.forEach((item3) => {
-      if (
-        combinedArray.includes(item3)
-      ) {
+      if (combinedArray.includes(item3)) {
         combinedArray = combinedArray.filter((item) => item !== item3);
       }
     });
@@ -337,13 +336,13 @@ const DisplayLoomian = ({ data }) => {
       return combinedArray.map((item, index) => (
         <div key={item}>
           <p className={item}>
-            {" "}
+            {' '}
             <Link to={`/types/${item.toLowerCase()}`}>{item}</Link>
           </p>
         </div>
       ));
     } else {
-      return "";
+      return '';
     }
   };
 
@@ -392,23 +391,23 @@ const DisplayLoomian = ({ data }) => {
         </div>
       ));
     } else {
-      return "";
+      return '';
     }
   };
 
   const statColor = (stat) => {
     if (stat < 50) {
-      return "#dc2626";
+      return '#dc2626';
     } else if (stat < 80) {
-      return "#fb923c";
+      return '#fb923c';
     } else if (stat < 100) {
-      return "#facc15";
+      return '#facc15';
     } else if (stat < 120) {
-      return "#22c55e";
+      return '#22c55e';
     } else if (stat < 150) {
-      return "#0ea5e9";
+      return '#0ea5e9';
     } else {
-      return "#d946ef";
+      return '#d946ef';
     }
   };
 
@@ -644,7 +643,7 @@ const DisplayLoomian = ({ data }) => {
               <div className='type-box'>
                 <div className='name'>Very weak to : </div>
                 <div className='types-list'>
-                  {length > 1 ? stronglyWeakTo() : "---"}
+                  {length > 1 ? stronglyWeakTo() : '---'}
                 </div>
               </div>
               <div className='type-box'>
@@ -668,7 +667,7 @@ const DisplayLoomian = ({ data }) => {
               <div className='type-box'>
                 <div className='name'>Strongly resists : </div>
                 <div className='types-list'>
-                  {length > 1 ? stronglyResistTo() : "---"}
+                  {length > 1 ? stronglyResistTo() : '---'}
                 </div>
               </div>
               <div className='type-box'>
@@ -699,8 +698,8 @@ const DisplayLoomian = ({ data }) => {
                             </div>
                           )),
                         ]
-                      : "---"
-                    : "---"}
+                      : '---'
+                    : '---'}
                 </div>
               </div>
             </div>
@@ -711,7 +710,7 @@ const DisplayLoomian = ({ data }) => {
         <LoomianSet data={sets[findIndexofLoom]}></LoomianSet>
       </div>
       <div className='loom-moves'>
-        <Title title={"moves"}></Title>
+        <Title title={'moves'}></Title>
         <div className='manip'>
           <div></div>
           <div className='sort'>
@@ -719,14 +718,11 @@ const DisplayLoomian = ({ data }) => {
             <MovesFilter></MovesFilter>
           </div>
           <div>
-            <Search searchType={"moves"}></Search>
+            <Search searchType={'moves'}></Search>
           </div>
         </div>
         <div className='moves-list'>
-          <MovesList
-            filtered_moves={filtered_moves}
-            loomMoves={allMoves}
-          ></MovesList>
+          <MovesList filtered_moves={filtered_moves}></MovesList>
         </div>
       </div>
     </Wrapper>

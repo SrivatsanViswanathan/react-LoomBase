@@ -1478,8 +1478,7 @@
       "Bait",
       "Dodge",
       "Sap Plant",
-      "Bush Whack",
-      "Nature's Force"
+      "Bush Whack"
     ]
   },
   {
@@ -1526,7 +1525,7 @@
       "Dodge",
       "Sap Plant",
       "Bush Whack",
-      "Nature's Force"
+      "Carnivorous Snap"
     ],
     "soulBurst": true
   },
@@ -2101,7 +2100,8 @@
       "Tamp",
       "Peace of Mind",
       "Trip Root",
-      "Briar Block"
+      "Briar Block",
+      "Flora Blast"
     ],
     "soulBurst": true
   },
@@ -2905,8 +2905,6 @@
       "Slash",
       "Mud Spatter",
       "Fire Slam",
-      "Burn Up",
-      "Dark Surge",
       "Lava Slash"
     ]
   },
@@ -2954,9 +2952,9 @@
       "Slash",
       "Mud Spatter",
       "Fire Slam",
-      "Burn Up",
-      "Dark Surge",
-      "Lava Slash"
+      "Lava Slash",
+      "Hellstorm",
+      "Eruption"
     ],
     "soulBurst": true
   },
@@ -3628,7 +3626,8 @@
       "Hypnotize",
       "Ill Will",
       "Rejuvenate",
-      "Spectral Burst"
+      "Spectral Burst",
+      "Frightful Surprise"
     ],
     "soulBurst": true
   },
@@ -3927,7 +3926,8 @@
       "Tase",
       "Dodge",
       "Second Wind",
-      "Magnify"
+      "Magnify",
+      "Air Strike"
     ],
     "soulBurst": true
   },
@@ -10829,7 +10829,8 @@
       "Maroon",
       "Plunge",
       "Thunderstrike",
-      "Tsunami"
+      "Tsunami",
+      "Electro Blast"
     ],
     "soulBurst": true
   },
@@ -11242,7 +11243,8 @@
       "Dodge",
       "Hypnotize",
       "Ill Will",
-      "Mud Spatter"
+      "Mud Spatter",
+      "Sinister Shackles"
     ],
     "soulBurst": true
   },

@@ -590,6 +590,16 @@
     "description": "Kindle your flames to raise your Ranged Attack and burn traps placed on your side of the field."
   },
   {
+    "name": "Eruption",
+    "strength": 125,
+    "type": "Fire",
+    "category": "Ranged",
+    "energyCost": 0,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Bury your foes in a stream of magma."
+  },
+  {
     "name": "Fiery Fondant",
     "strength": 90,
     "type": "Fire",
@@ -638,6 +648,16 @@
     "accuracy": "",
     "priority": 0,
     "description": "Summon a smoldering heat wave that lasts a few turns."
+  },
+  {
+    "name": "Hellstorm",
+    "strength": 100,
+    "type": "Fire",
+    "category": "Ranged",
+    "energyCost": 0,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Engulf your foes in a storm of raging flames. This will also do significant residual damage to them for three turns."
   },
   {
     "name": "Kindled Rage",
@@ -930,6 +950,16 @@
     "description": "Surprise the opponent by ambushing them with uprooted shrubbery. This may cause them to flinch."
   },
   {
+    "name": "Carnivorous Snap",
+    "strength": 100,
+    "type": "Plant",
+    "category": "Melee",
+    "energyCost": 0,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Bite down on the foe and drain their health. Your health is restored by half the damage dealt."
+  },
+  {
     "name": "Coconut Bomb",
     "strength": 90,
     "type": "Plant",
@@ -938,6 +968,16 @@
     "accuracy": 1,
     "priority": 0,
     "description": "Recklessly dunk on the opponent with an explosive coconut, damaging yourself some in the process. This may leave the opponent with a burn."
+  },
+  {
+    "name": "Flora Blast",
+    "strength": 100,
+    "type": "Plant",
+    "category": "Ranged",
+    "energyCost": 0,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Absorb energy from the surrounding plant life to charge up a huge blast of energy. Super effective on Plant-type Loomians."
   },
   {
     "name": "Fungus Curse",
@@ -1500,6 +1540,16 @@
     "description": "Sharpen your claws to boost your Melee Attack and Accuracy."
   },
   {
+    "name": "Sinister Shackles",
+    "strength": 100,
+    "type": "Dark",
+    "category": "Ranged",
+    "energyCost": 0,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Bind your foes and torment them as you play puppeteer. Bypasses fortifications."
+  },
+  {
     "name": "Slap Down",
     "strength": 65,
     "type": "Dark",
@@ -1708,6 +1758,16 @@
     "accuracy": 1,
     "priority": 0,
     "description": "Unleash two to three punches on the foe. A small amount of the damage you deal is returned to you as Energy."
+  },
+  {
+    "name": "Electro Blast",
+    "strength": 125,
+    "type": "Electric",
+    "category": "Ranged",
+    "energyCost": 0,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Zap the foe with a powerful, focused beam of electricity. Bypasses fortifications."
   },
   {
     "name": "Electroburst",
@@ -2400,6 +2460,16 @@
     "description": "Bite the foe with venomous fangs. May cause them to flinch or infect them with a toxicant that gets more potent with time."
   },
   {
+    "name": "Air Strike",
+    "strength": 125,
+    "type": "Metal",
+    "category": "Ranged",
+    "energyCost": 0,
+    "accuracy": "Sure Hit",
+    "priority": 0,
+    "description": "Fire half a dozen target-locked missiles at your opponents."
+  },
+  {
     "name": "Armor Down",
     "strength": 0,
     "type": "Metal",
@@ -2780,14 +2850,14 @@
     "description": "Strike the opponent and then disappear, allowing an ally to take your place."
   },
   {
-    "name": "Fade Away",
-    "strength": 70,
+    "name": "Frightful Surprise",
+    "strength": 100,
     "type": "Spirit",
-    "category": "Ranged",
-    "energyCost": 50,
+    "category": "Melee",
+    "energyCost": 0,
     "accuracy": 1,
     "priority": 0,
-    "description": "Strike the opponent and then disappear, allowing an ally to take your place."
+    "description": "Fill your foe with dread and attack them unexpectedly. This also casts or breaks the Bane of Haste curse."
   },
   {
     "name": "Final Ruse",

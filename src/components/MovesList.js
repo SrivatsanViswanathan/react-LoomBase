@@ -1,6 +1,6 @@
-import { styled } from "styled-components";
-import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { styled } from 'styled-components';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const MovesList = ({ filtered_moves }) => {
   const { movesSort } = useSelector((state) => state.global);
@@ -43,9 +43,9 @@ const MovesList = ({ filtered_moves }) => {
                       <p className={type.toLowerCase()}>
                         <Link
                           to={
-                            type.toLowerCase() !== "various"
+                            type.toLowerCase() !== 'various'
                               ? `/types/${type.toLowerCase()}`
-                              : "/types"
+                              : '/types'
                           }
                         >
                           {type}
@@ -61,50 +61,50 @@ const MovesList = ({ filtered_moves }) => {
                           className='power stats'
                           style={{
                             background:
-                              movesSort === "strength"
-                                ? "var(--statHighlight)"
-                                : "",
+                              movesSort === 'strength'
+                                ? 'var(--statHighlight)'
+                                : '',
                           }}
                         >
                           <p>Strength</p>
-                          <p>{strength ? strength : "---"}</p>
+                          <p>{strength ? strength : '---'}</p>
                         </td>
                         <td
                           className='accuracy stats'
                           style={{
                             background:
-                              movesSort === "accuracy"
-                                ? "var(--statHighlight)"
-                                : "",
+                              movesSort === 'accuracy'
+                                ? 'var(--statHighlight)'
+                                : '',
                           }}
                         >
                           <p>Accuracy</p>
                           <p>
-                            {accuracy && typeof accuracy === "number"
+                            {accuracy && typeof accuracy === 'number'
                               ? accuracy * 100
                               : accuracy.length > 0
                               ? accuracy
-                              : "---"}
+                              : '---'}
                           </p>
                         </td>
                         <td
                           className='energy-cost stats'
                           style={{
                             background:
-                              movesSort === "energy"
-                                ? "var(--statHighlight)"
-                                : "",
+                              movesSort === 'energy'
+                                ? 'var(--statHighlight)'
+                                : '',
                           }}
                         >
                           <p>Energy Cost</p>
-                          <p>{energyCost ? energyCost : "---"}</p>
+                          <p>{energyCost ? energyCost : '---'}</p>
                         </td>
                         <td className='description'>
                           <p>{description}</p>
                         </td>
                       </>
                     ) : (
-                      ""
+                      ''
                     )}
                   </tr>
                 );

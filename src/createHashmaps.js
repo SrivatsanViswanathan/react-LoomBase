@@ -14,7 +14,7 @@ import {
   setFilterCategoriesBackup,
   setFilterTypeCategoriesBackup,
   setFilterTypesLoomiansBackup,
-} from "./features/globalSlice";
+} from './features/globalSlice';
 
 export const createHashmaps = (
   loomians,
@@ -51,7 +51,7 @@ export const createHashmaps = (
     const combinedKey = types
       .map((type) => type.toLowerCase())
       .sort()
-      .join("-");
+      .join('-');
 
     if (!typesToLoomiansMap[combinedKey]) {
       typesToLoomiansMap[combinedKey] = [];
@@ -82,9 +82,9 @@ export const createHashmaps = (
 
   loomians.forEach((loomian) => {
     let lowercaseName = loomian.name.toLowerCase();
-    const soulburst = "soulburst ";
+    const soulburst = 'soulburst ';
 
-    lowercaseName = lowercaseName.replace(soulburst, "");
+    lowercaseName = lowercaseName.replace(soulburst, '');
 
     if (lowercaseName)
       if (!loomiansHashmap[lowercaseName]) {

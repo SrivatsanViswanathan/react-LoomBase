@@ -1,22 +1,22 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   isOpen: false,
   isDarkTheme: false,
   isLoading: true,
   genres: [],
-  genre: "veils of shadow",
+  genre: 'veils of shadow',
   loomians: [],
   backup_loomains: [],
-  loomiansSort: "none",
-  loomiansSort2: "none",
-  loomiansCategory: "all",
-  loomiansType: "all",
-  loomiansType2: "all",
+  loomiansSort: 'none',
+  loomiansSort2: 'none',
+  loomiansCategory: 'all',
+  loomiansType: 'all',
+  loomiansType2: 'all',
   filtered_loomians: [],
   filterTypesLooms: {},
   filterTypesLoomsBackup: {},
-  text: "",
+  text: '',
   moves: [],
   backup_moves: [],
   filtered_moves: [],
@@ -32,9 +32,9 @@ const initialState = {
   items: [],
   filtered_items: [],
   types: [],
-  movesSort: "name (a-z)",
-  category: "all",
-  type: "all",
+  movesSort: 'name (a-z)',
+  category: 'all',
+  type: 'all',
   cachedLoomians: {},
   cachedMoves: {},
   cachedAbilities: {},
@@ -47,7 +47,7 @@ const initialState = {
 };
 
 const globalSlice = createSlice({
-  name: "global",
+  name: 'global',
   initialState,
   reducers: {
     openLinks: (state, action) => {
@@ -129,7 +129,7 @@ const globalSlice = createSlice({
       const { loomians, filtered_loomians, text } = state;
       let sortedLoomians = [...filtered_loomians];
 
-      if (loomiansType === "all" && loomiansType2 === "all") {
+      if (loomiansType === 'all' && loomiansType2 === 'all') {
         sortedLoomians = [...loomians];
       }
 
@@ -144,8 +144,8 @@ const globalSlice = createSlice({
       }
 
       if (
-        sort !== "none" &&
-        sort2 !== "none" &&
+        sort !== 'none' &&
+        sort2 !== 'none' &&
         sort !== undefined &&
         sort2 !== undefined
       ) {
@@ -153,20 +153,18 @@ const globalSlice = createSlice({
           (a, b) =>
             b.stats[sort] + b.stats[sort2] - (a.stats[sort] + a.stats[sort2])
         );
-      } else if (sort !== "none" && sort !== undefined) {
+      } else if (sort !== 'none' && sort !== undefined) {
         sortedLoomians = sortedLoomians.sort(
           (a, b) => b.stats[sort] - a.stats[sort]
         );
-      } else if (sort2 !== "none" && sort2 !== undefined) {
+      } else if (sort2 !== 'none' && sort2 !== undefined) {
         sortedLoomians = sortedLoomians.sort(
           (a, b) => b.stats[sort2] - a.stats[sort2]
         );
       }
 
-      if (sort === "none" && sort2 === "none") {
-        sortedLoomians = sortedLoomians.sort(
-          (a, b) => a["id"] - b["id"]
-        );
+      if (sort === 'none' && sort2 === 'none') {
+        sortedLoomians = sortedLoomians.sort((a, b) => a['id'] - b['id']);
       }
 
       state.filtered_loomians = sortedLoomians;
@@ -179,11 +177,11 @@ const globalSlice = createSlice({
       let filteredLoomians = [...loomians];
       let filteredType = { ...filterTypesLooms };
 
-      if (type === "all" && type2 === "all") {
+      if (type === 'all' && type2 === 'all') {
         filteredLoomians = [...loomians];
       }
 
-      if (type !== "all" && type2 !== "all") {
+      if (type !== 'all' && type2 !== 'all') {
         if (type === type2) {
           filteredLoomians = filteredType[type.toLowerCase()];
         } else {
@@ -199,9 +197,9 @@ const globalSlice = createSlice({
           }
           filteredLoomians = [...filteredLoomians1, ...filteredLoomians2];
         }
-      } else if (type !== "all") {
+      } else if (type !== 'all') {
         filteredLoomians = filteredType[type.toLowerCase()];
-      } else if (type2 !== "all") {
+      } else if (type2 !== 'all') {
         filteredLoomians = filteredType[type2.toLowerCase()];
       }
 
@@ -211,14 +209,17 @@ const globalSlice = createSlice({
 
       if (text) {
         filteredLoomians = filteredLoomians.filter((item) => {
-          return (item.sName && item.sName.toLowerCase().includes(text.toLowerCase())) ||
-          (item.name && item.name.toLowerCase().includes(text.toLowerCase()))
+          return (
+            (item.sName &&
+              item.sName.toLowerCase().includes(text.toLowerCase())) ||
+            (item.name && item.name.toLowerCase().includes(text.toLowerCase()))
+          );
         });
       }
 
       if (
-        sort !== "none" &&
-        sort2 !== "none" &&
+        sort !== 'none' &&
+        sort2 !== 'none' &&
         sort !== undefined &&
         sort2 !== undefined
       ) {
@@ -226,20 +227,18 @@ const globalSlice = createSlice({
           (a, b) =>
             b.stats[sort] + b.stats[sort2] - (a.stats[sort] + a.stats[sort2])
         );
-      } else if (sort !== "none") {
+      } else if (sort !== 'none') {
         filteredLoomians = filteredLoomians.sort(
           (a, b) => b.stats[sort] - a.stats[sort]
         );
-      } else if (sort2 !== "none") {
+      } else if (sort2 !== 'none') {
         filteredLoomians = filteredLoomians.sort(
           (a, b) => b.stats[sort2] - a.stats[sort2]
         );
       }
 
-      if (sort === "none" && sort2 === "none") {
-        filteredLoomians = filteredLoomians.sort(
-          (a, b) => a["id"] - b["id"]
-        );
+      if (sort === 'none' && sort2 === 'none') {
+        filteredLoomians = filteredLoomians.sort((a, b) => a['id'] - b['id']);
       }
 
       state.filtered_loomians = filteredLoomians;
@@ -255,23 +254,23 @@ const globalSlice = createSlice({
 
       let sortedMoves = [...filtered_moves];
 
-      if (select === "strength") {
+      if (select === 'strength') {
         sortedMoves = sortedMoves.sort((a, b) => b.strength - a.strength);
-      } else if (select === "name-a") {
+      } else if (select === 'name-a') {
         sortedMoves = sortedMoves.sort((a, b) => a.name.localeCompare(b.name));
-      } else if (select === "name-z") {
+      } else if (select === 'name-z') {
         sortedMoves = sortedMoves.sort((a, b) => b.name.localeCompare(a.name));
-      } else if (select === "accuracy") {
+      } else if (select === 'accuracy') {
         sortedMoves = sortedMoves.sort((a, b) => {
-          if (a.accuracy === "Sure Hit" && b.accuracy !== "Sure Hit") {
+          if (a.accuracy === 'Sure Hit' && b.accuracy !== 'Sure Hit') {
             return -1;
-          } else if (a.accuracy !== "Sure Hit" && b.accuracy === "Sure Hit") {
+          } else if (a.accuracy !== 'Sure Hit' && b.accuracy === 'Sure Hit') {
             return 1;
           } else {
             return b.accuracy - a.accuracy;
           }
         });
-      } else if (select === "energy") {
+      } else if (select === 'energy') {
         sortedMoves = sortedMoves.sort((a, b) => b.energyCost - a.energyCost);
       }
 
@@ -285,7 +284,7 @@ const globalSlice = createSlice({
     setMovesFilter: (state, action) => {
       let { category, type, text } = action.payload;
       if (text === undefined) {
-        text = "";
+        text = '';
       }
       const {
         movesSort,
@@ -299,37 +298,37 @@ const globalSlice = createSlice({
       let filteredType = { ...filterTypes };
       // Create a new array to avoid mutating the original
 
-      if (category !== "all" && type !== "all") {
+      if (category !== 'all' && type !== 'all') {
         filteredMoves =
-          filterTypeCategory[type.toLowerCase() + "-" + category.toLowerCase()];
+          filterTypeCategory[type.toLowerCase() + '-' + category.toLowerCase()];
 
         if (filteredMoves === undefined) {
           filteredMoves = [];
         }
 
         if (
-          filteredCategory["melee / ranged"] !== null &&
-          category.toLowerCase() !== "support"
+          filteredCategory['melee / ranged'] !== null &&
+          category.toLowerCase() !== 'support'
         ) {
           filteredMoves = filteredMoves.concat(
-            filteredCategory["melee / ranged"]
+            filteredCategory['melee / ranged']
           );
         }
-      } else if (category !== "all") {
+      } else if (category !== 'all') {
         filteredMoves = filteredCategory[category.toLowerCase()];
         if (
-          filteredCategory["melee / ranged"] !== null &&
-          category.toLowerCase() !== "support"
+          filteredCategory['melee / ranged'] !== null &&
+          category.toLowerCase() !== 'support'
         ) {
           filteredMoves = filteredMoves.concat(
-            filteredCategory["melee / ranged"]
+            filteredCategory['melee / ranged']
           );
         }
-      } else if (type !== "all") {
+      } else if (type !== 'all') {
         filteredMoves = filteredType[type.toLowerCase()];
       }
 
-      if (category === "all" && type === "all") {
+      if (category === 'all' && type === 'all') {
         filteredMoves = [...state.moves];
       }
 
@@ -343,27 +342,27 @@ const globalSlice = createSlice({
         });
       }
 
-      if (movesSort === "strength") {
+      if (movesSort === 'strength') {
         filteredMoves = filteredMoves.sort((a, b) => b.strength - a.strength);
-      } else if (movesSort === "name-a") {
+      } else if (movesSort === 'name-a') {
         filteredMoves = filteredMoves.sort((a, b) =>
           a.name.localeCompare(b.name)
         );
-      } else if (movesSort === "name-z") {
+      } else if (movesSort === 'name-z') {
         filteredMoves = filteredMoves.sort((a, b) =>
           b.name.localeCompare(a.name)
         );
-      } else if (movesSort === "accuracy") {
+      } else if (movesSort === 'accuracy') {
         filteredMoves = filteredMoves.sort((a, b) => {
-          if (a.accuracy === "Sure Hit" && b.accuracy !== "Sure Hit") {
+          if (a.accuracy === 'Sure Hit' && b.accuracy !== 'Sure Hit') {
             return -1;
-          } else if (a.accuracy !== "Sure Hit" && b.accuracy === "Sure Hit") {
+          } else if (a.accuracy !== 'Sure Hit' && b.accuracy === 'Sure Hit') {
             return 1;
           } else {
             return b.accuracy - a.accuracy;
           }
         });
-      } else if (movesSort === "energy") {
+      } else if (movesSort === 'energy') {
         filteredMoves = filteredMoves.sort(
           (a, b) => b.energyCost - a.energyCost
         );
@@ -378,11 +377,9 @@ const globalSlice = createSlice({
     setAbilitiesFilter: (state, action) => {
       let { text } = action.payload;
       if (text === undefined) {
-        text = "";
+        text = '';
       }
-      const {
-        abilities
-      } = state;
+      const { abilities } = state;
       let filteredAbilities = [...abilities];
 
       if (text) {
@@ -397,11 +394,9 @@ const globalSlice = createSlice({
     setItemsFilter: (state, action) => {
       let { text } = action.payload;
       if (text === undefined) {
-        text = "";
+        text = '';
       }
-      const {
-        items
-      } = state;
+      const { items } = state;
       let filteredItems = [...items];
 
       if (text) {
@@ -410,7 +405,7 @@ const globalSlice = createSlice({
         });
       }
 
-      state.filtered_items= filteredItems;
+      state.filtered_items = filteredItems;
       state.text = text;
     },
     setCachedLoomians: (state, action) => {
