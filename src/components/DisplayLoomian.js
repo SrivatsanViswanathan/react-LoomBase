@@ -30,7 +30,6 @@ const DisplayLoomian = ({ data }) => {
     sets,
     types: all_types,
   } = useSelector((state) => state.global);
-  console.log(data);
   const [index, setIndex] = useState(0);
   const [check, setChecked] = useState(false);
   const dispatch = useDispatch();
@@ -132,7 +131,6 @@ const DisplayLoomian = ({ data }) => {
       })
     );
 
-    console.log(allMoves);
     dispatch(setMoves(allMoves));
     dispatch(setFilterTypes(filteredTypesToMoves));
     dispatch(setFilterCategories(filteredCategoryToMoves));
