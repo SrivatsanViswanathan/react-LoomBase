@@ -11783,7 +11783,7 @@
     "id": 266,
     "name": "Celesting",
     "types": ["Metal", "Light"],
-    "abilities": ["Reverbrate"],
+    "abilities": ["Reverberate"],
     "sAbility": ["Mystic Tone"],
     "image": "https://vignette.wikia.nocookie.net/loomian-legacy/images/6/6d/Celesting-menu.png/revision/latest?cb=20221218013608",
     "model": "https://vignette.wikia.nocookie.net/loomian-legacy/images/4/4f/Celesting-model.png/revision/latest?cb=20230104052810",
